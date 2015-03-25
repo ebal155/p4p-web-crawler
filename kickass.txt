@@ -1,0 +1,1711 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Style-Type" content="text/css"/>
+    <meta name="description" content="Search and discuss new and favorite TV shows & TV series, movies, music and games."/>
+    <title>Download Torrents. Fast and Free Torrent Downloads - KickassTorrents</title>
+    <link rel="stylesheet" type="text/css" href="//kastatic.com/all-5facf2d.css" charset="utf-8" />
+    <link rel="shortcut icon" href="//kastatic.com/images/favicon.ico" />
+    
+
+    <link rel="apple-touch-icon" href="//kastatic.com/images/apple-touch-icon.png" />
+
+    <!--[if IE 7]>
+    <link href="//kastatic.com/css/ie7-5facf2d.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+
+    <!--[if IE 8]>
+    <link href="//kastatic.com/css/ie8.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+    <script src="//kastatic.com/js/html5.min-5facf2d.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <!--[if gte IE 9]>
+    <link href="//kastatic.com/css/ie9-5facf2d.css" rel="stylesheet" type="text/css"/>
+    <![endif]-->
+    <script>
+        var kat = {
+            release_id: '5facf2d',
+            detect_lang: 0,
+            spare_click: 1        };
+    </script>
+    <script src="//kastatic.com/js/all-5facf2d.js" type="text/javascript"></script>
+    <link rel="alternate" type="application/rss+xml" title="Subscribe to RSS feed" href="/?rss=1"/>
+        <meta name="verify-v1" content="YccN/iP28SifHNEFY6u92i0ou3tAegQAIk2OyOJLp1s="/>
+    <meta name="y_key" content="f0b40c3f5fee758f"/>
+    <meta name="google-site-verification" content="C1rNEC4fJIvFoyyccMV2PbuqX3P-SFtlD2MNZ9D2uy0" />
+    <link rel="search" type="application/opensearchdescription+xml" title="KickassTorrents Torrent Search" href="/opensearch.xml"/>
+    <meta property="fb:app_id" content="123694587642603"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <script type="text/javascript">var _scq = _scq || [];</script></head>
+<body>
+<div id="wrapper">
+    <div id="wrapperInner">
+<div id="_60318cd4e8d28f6fb76fe34e9bd9c498"></div>
+<div id="_39ecb76dd457e5ac33776fdf11500d56"></div>
+    <div id="logindiv"></div>
+    <header>
+	<nav id="menu">
+		<a href="/" id="logo"></a>
+		<i id="showHideSearch" class="ka ka-zoom" style="color: #ffeeb4; font-size: 34px; float:left; height: 50px; line-height: 50px;"></i>
+		<div id="torrentSearch">
+			<form action="/usearch/" method="get" id="searchform" accept-charset="utf-8" onsubmit="return doSearch(this.q.value);">
+				<input id="contentSearch" class="input-big" type="text" name="q" value="" autocomplete="off" placeholder="Search query" /><div id="searchTool"><a title="Advanced search" href="/advanced/" class="ajaxLink"><i class="ka">e</i></a><button title="search" type="submit" value="" onfocus="this.blur();" onclick="this.blur();"><i class="ka">g</i></button></div>
+			</form>
+		</div>
+		<ul id="navigation">
+			
+			<li> <a href="/browse/"> <i class="ka ka-torrent"></i><span class="menuItem">browse</span></a>
+				<ul class="dropdown dp-middle dropdown-msg upper">
+										
+						<li class="topMsg"><a href="/new/"><i class="ka ka16 ka-torrent"></i>latest</a></li>
+										<li class="topMsg"><a href="/movies/"><i class="ka ka16 ka-movie lower"></i>Movies</a></li>
+					<li class="topMsg"><a href="/tv/"><i class="ka ka16 ka-movie lower"></i>TV</a></li>
+					<li class="topMsg"><a href="/music/"><i class="ka ka16 ka-music-note lower"></i>Music</a></li>
+					<li class="topMsg"><a href="/games/"><i class="ka ka16 ka-settings lower"></i>Games</a></li>
+					<li class="topMsg"><a href="/books/"><i class="ka ka16 ka-bookmark"></i>Books</a></li>
+					<li class="topMsg"><a href="/applications/"><i class="ka ka16 ka-settings lower"></i>Apps</a></li>
+					<li class="topMsg"><a href="/anime/"><i class="ka ka16 ka-movie lower"></i>Anime</a></li>
+					<li class="topMsg"><a href="/other/"><i class="ka ka16 ka-torrent"></i>Other</a></li>
+											<li class="topMsg"><a href="/xxx/"><i class="ka ka16 ka-delete"></i>XXX</a></li>
+									</ul>
+			</li>
+			</li>
+			<li> <a href="/community/"> <i class="ka ka-community"></i><span class="menuItem">community</span></a>
+			<li><a href="/blog/"><i class="ka ka-rss lower"></i><span class="menuItem">Blog</span></a></li>
+			<li><a href="/faq/"><i class="ka ka-faq lower"></i><span class="menuItem">FAQ</span></a></li>
+			</li>
+			
+			<li> <a href="/auth/login/" class="ajaxLink"><i class="ka ka-user"></i><span class="menuItem">Register / Sign In</span></a></li>
+		</ul>
+	</nav>
+</header>
+
+<div class="pusher"></div>
+<div id="tagcloud" class="tagcloud">
+	<a href="/search/1080p/" class="tag4">1080p</a>
+	<a href="/search/2014/" class="tag4">2014</a>
+	<a href="/search/2015/" class="tag10">2015</a>
+	<a href="/search/3d/" class="tag3">3d</a>
+	<a href="/search/50%20shades%20of%20grey/" class="tag2">50 shades of grey</a>
+	<a href="/search/american%20sniper/" class="tag2">american sniper</a>
+	<a href="/search/android/" class="tag2">android</a>
+	<a href="/search/arrow/" class="tag2">arrow</a>
+	<a href="/search/better%20call%20saul/" class="tag3">better call saul</a>
+	<a href="/search/discography/" class="tag3">discography</a>
+	<a href="/search/family%20guy/" class="tag2">family guy</a>
+	<a href="/search/fifty%20shades%20of%20grey/" class="tag3">fifty shades of grey</a>
+	<a href="/search/flac/" class="tag2">flac</a>
+	<a href="/search/focus/" class="tag2">focus</a>
+	<a href="/search/french/" class="tag3">french</a>
+	<a href="/search/game%20of%20thrones/" class="tag2">game of thrones</a>
+	<a href="/search/gotham/" class="tag2">gotham</a>
+	<a href="/search/hindi/" class="tag6">hindi</a>
+	<a href="/search/house%20of%20cards/" class="tag2">house of cards</a>
+	<a href="/search/interstellar/" class="tag5">interstellar</a>
+	<a href="/search/ita/" class="tag3">ita</a>
+	<a href="/search/jupiter%20ascending/" class="tag2">jupiter ascending</a>
+	<a href="/search/kendrick%20lamar/" class="tag2">kendrick lamar</a>
+	<a href="/search/kingsman/" class="tag2">kingsman</a>
+	<a href="/search/loose%20change%20911%20an%20american%20coup/" class="tag7">loose change 911 an american coup</a>
+	<a href="/search/lost%20and%20love/" class="tag9">lost and love</a>
+	<a href="/search/lynda/" class="tag2">lynda</a>
+	<a href="/search/movies/" class="tag2">movies</a>
+	<a href="/search/nezu/" class="tag5">nezu</a>
+	<a href="/search/nl/" class="tag2">nl</a>
+	<a href="/search/once%20upon%20a%20time/" class="tag2">once upon a time</a>
+	<a href="/search/tamil/" class="tag2">tamil</a>
+	<a href="/search/telugu/" class="tag2">telugu</a>
+	<a href="/search/tg/" class="tag3">tg</a>
+	<a href="/search/the%20big%20bang%20theory/" class="tag5">the big bang theory</a>
+	<a href="/search/the%20blacklist/" class="tag2">the blacklist</a>
+	<a href="/search/the%20flash/" class="tag2">the flash</a>
+	<a href="/search/the%20jinx/" class="tag2">the jinx</a>
+	<a href="/search/the%20last%20man%20on%20earth/" class="tag2">the last man on earth</a>
+	<a href="/search/the%20walking%20dead/" class="tag7">the walking dead</a>
+	<a href="/search/the%20walking%20dead%20s05/" class="tag2">the walking dead s05</a>
+	<a href="/search/the%20walking%20dead%20s05e14/" class="tag5">the walking dead s05e14</a>
+	<a href="/search/top%20gear/" class="tag3">top gear</a>
+	<a href="/search/walking%20dead/" class="tag4">walking dead</a>
+	<a href="/search/windows%207%20untouched/" class="tag9">windows 7 untouched</a>
+	<a href="/search/yify/" class="tag10">yify</a>
+	<a href="/search/yify%201080p/" class="tag4">yify 1080p</a>
+	<a href="/search/yify%20720p/" class="tag4">yify 720p</a>
+</div>
+<a class="line50perc showmore botmarg0" onClick="toggleTags(this);" title="hide tagcloud"><span class="font80perc">&#x25B2;</span></a>
+<div class="mainpart">
+    
+<table width="100%" cellspacing="0" cellpadding="0" class="doublecelltable">
+	<tr>
+		<td width="100%">
+			<h2><a class="plain" href="/movies/">Movies Torrents</a> <a class="rsssign" target="_blank" href="/movies/?rss=1" title="category feed"></a></h2>
+<div>
+	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
+		<tr class="firstr">
+			<th class="width100perc nopad">torrent name</th>
+			<th class="center">size</th>
+			<th class="center">files</th>
+			<th class="center">age</th>
+			<th class="center">seed</th>
+			<th class="lasttd nobr center">leech</th>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10390759,0" class="icomment icommentjs icon16" href="/cinderella-2015-72op-hdtc-h264-ac3-murd3r-t10390759.html#comment"> <em class="iconvalue">205</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/cinderella-2015-72op-hdtc-h264-ac3-murd3r-t10390759.html" class="cellMainLink">Cinderella 2015 72OP HDTC H264 AC3 MURD3R</a></div>
+			</td>
+			<td class="nobr center">2.05 <span>GB</span></td>
+			<td class="center">13</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">9796</td>
+			<td class="red lasttd center">13384</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10396600,0" class="icomment icommentjs icon16" href="/stretch-2014-720p-brrip-x264-yify-t10396600.html#comment"> <em class="iconvalue">69</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/stretch-2014-720p-brrip-x264-yify-t10396600.html" class="cellMainLink">Stretch (2014) 720p BrRip x264 - YIFY</a></div>
+			</td>
+			<td class="nobr center">752.05 <span>MB</span></td>
+			<td class="center">2</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">12467</td>
+			<td class="red lasttd center">10271</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10400806,0" class="icomment icommentjs icon16" href="/robot-overlords-2014-hdrip-xvid-ac3-evo-t10400806.html#comment"> <em class="iconvalue">49</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/robot-overlords-2014-hdrip-xvid-ac3-evo-t10400806.html" class="cellMainLink">Robot Overlords 2014 HDRip XviD AC3-EVO</a></div>
+			</td>
+			<td class="nobr center">1.3 <span>GB</span></td>
+			<td class="center">4</td>
+			<td class="center">11&nbsp;hours</td>
+			<td class="green center">7156</td>
+			<td class="red lasttd center">12378</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10389372,0" class="icomment icommentjs icon16" href="/skin-traffik-2015-bdrip-xvid-ac3-evo-t10389372.html#comment"> <em class="iconvalue">63</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/skin-traffik-2015-bdrip-xvid-ac3-evo-t10389372.html" class="cellMainLink">Skin Traffik 2015 BDRip XviD AC3-EVO</a></div>
+			</td>
+			<td class="nobr center">1.46 <span>GB</span></td>
+			<td class="center">4</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">5414</td>
+			<td class="red lasttd center">4574</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10391939,0" class="icomment icommentjs icon16" href="/hackers-game-2015-hdrip-xvid-juggs-etrg-t10391939.html#comment"> <em class="iconvalue">40</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/hackers-game-2015-hdrip-xvid-juggs-etrg-t10391939.html" class="cellMainLink">Hackers Game 2015 HDRip XViD-juggs[ETRG]</a></div>
+			</td>
+			<td class="nobr center">709.55 <span>MB</span></td>
+			<td class="center">5</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">4473</td>
+			<td class="red lasttd center">3380</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10396117,0" class="icomment icommentjs icon16" href="/dilli-wali-zaleem-girlfriend-2015-1cd-pdvd-x264-ddr-t10396117.html#comment"> <em class="iconvalue">14</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/dilli-wali-zaleem-girlfriend-2015-1cd-pdvd-x264-ddr-t10396117.html" class="cellMainLink">Dilli Wali Zaleem Girlfriend (2015) 1CD - pDVD - x264 [DDR]</a></div>
+			</td>
+			<td class="nobr center">703.77 <span>MB</span></td>
+			<td class="center">3</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">1482</td>
+			<td class="red lasttd center">3496</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10386076,0" class="icomment icommentjs icon16" href="/the-hobbit-the-battle-of-the-five-armies-2014-720p-blu-ray-x264-dual-audio-mafiaking-team-m2tv-t10386076.html#comment"> <em class="iconvalue">72</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/the-hobbit-the-battle-of-the-five-armies-2014-720p-blu-ray-x264-dual-audio-mafiaking-team-m2tv-t10386076.html" class="cellMainLink">The Hobbit The Battle of the Five Armies (2014) 720p Blu-Ray x264[Dual-Audio] - Mafiaking - Team M2Tv</a></div>
+			</td>
+			<td class="nobr center">1.37 <span>GB</span></td>
+			<td class="center">3</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">1673</td>
+			<td class="red lasttd center">2936</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10392223,0" class="icomment icommentjs icon16" href="/il-settimo-figlio-2015-italian-md-dual-proper-1080p-hc-webrip-x264-ig-t10392223.html#comment"> <em class="iconvalue">7</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/il-settimo-figlio-2015-italian-md-dual-proper-1080p-hc-webrip-x264-ig-t10392223.html" class="cellMainLink">Il Settimo Figlio 2015.iTALiAN MD DUAL PROPER 1080p HC WEBRip.x264-iG</a></div>
+			</td>
+			<td class="nobr center">3.02 <span>GB</span></td>
+			<td class="center">3</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">696</td>
+			<td class="red lasttd center">2723</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10395000,0" class="icomment icommentjs icon16" href="/seventh-son-2014-webrip-720p-clear-sound-dual-audio-t10395000.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/seventh-son-2014-webrip-720p-clear-sound-dual-audio-t10395000.html" class="cellMainLink">Seventh Son (2014) WEBRip 720p | Clear Sound | Dual Audio</a></div>
+			</td>
+			<td class="nobr center">1.97 <span>GB</span></td>
+			<td class="center">1</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">1475</td>
+			<td class="red lasttd center">1722</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10400572,0" class="icomment icommentjs icon16" href="/la-french-2014-french-subforced-brrip-xvid-venum-t10400572.html#comment"> <em class="iconvalue">3</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/la-french-2014-french-subforced-brrip-xvid-venum-t10400572.html" class="cellMainLink">La French 2014 FRENCH SUBFORCED BRRip XviD-VENUM</a></div>
+			</td>
+			<td class="nobr center">1.37 <span>GB</span></td>
+			<td class="center">1</td>
+			<td class="center">12&nbsp;hours</td>
+			<td class="green center">597</td>
+			<td class="red lasttd center">2161</td>
+        </tr>
+			</table>
+
+<h2><a class="plain" href="/tv/">TV Shows Torrents</a> <a class="rsssign" target="_blank" href="/tv/?rss=1" title="category feed"></a></h2>
+<div>
+	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
+		<tr class="firstr">
+			<th class="width100perc nopad">torrent name</th>
+			<th class="center">size</th>
+			<th class="center">files</th>
+			<th class="center">age</th>
+			<th class="center">seed</th>
+			<th class="lasttd nobr center">leech</th>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10402130,0" class="icomment icommentjs icon16" href="/the-flash-2014-s01e16-hdtv-x264-lol-ettv-t10402130.html#comment"> <em class="iconvalue">94</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/the-flash-2014-s01e16-hdtv-x264-lol-ettv-t10402130.html" class="cellMainLink">The Flash 2014 S01E16 HDTV x264-LOL[ettv]</a></div>
+			</td>
+			<td class="nobr center">243.65 <span>MB</span></td>
+			<td class="center">4</td>
+			<td class="center">4&nbsp;hours</td>
+			<td class="green center">19649</td>
+			<td class="red lasttd center">25878</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10402275,0" class="icomment icommentjs icon16" href="/marvels-agents-of-s-h-i-e-l-d-s02e14-hdtv-x264-asap-ettv-t10402275.html#comment"> <em class="iconvalue">37</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/marvels-agents-of-s-h-i-e-l-d-s02e14-hdtv-x264-asap-ettv-t10402275.html" class="cellMainLink">Marvels Agents of S H I E L D S02E14 HDTV x264-ASAP[ettv]</a></div>
+			</td>
+			<td class="nobr center">222.84 <span>MB</span></td>
+			<td class="center">4</td>
+			<td class="center">3&nbsp;hours</td>
+			<td class="green center">10008</td>
+			<td class="red lasttd center">12869</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10397342,0" class="icomment icommentjs icon16" href="/scorpion-s01e19-hdtv-x264-lol-ettv-t10397342.html#comment"> <em class="iconvalue">82</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/scorpion-s01e19-hdtv-x264-lol-ettv-t10397342.html" class="cellMainLink">Scorpion S01E19 HDTV x264-LOL[ettv]</a></div>
+			</td>
+			<td class="nobr center">371.12 <span>MB</span></td>
+			<td class="center">4</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">8411</td>
+			<td class="red lasttd center">4074</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10402133,0" class="icomment icommentjs icon16" href="/pretty-little-liars-s05e25-hdtv-x264-lol-ettv-t10402133.html#comment"> <em class="iconvalue">23</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/pretty-little-liars-s05e25-hdtv-x264-lol-ettv-t10402133.html" class="cellMainLink">Pretty Little Liars S05E25 HDTV x264-LOL[ettv]</a></div>
+			</td>
+			<td class="nobr center">205.27 <span>MB</span></td>
+			<td class="center">3</td>
+			<td class="center">4&nbsp;hours</td>
+			<td class="green center">6528</td>
+			<td class="red lasttd center">5300</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10402262,0" class="icomment icommentjs icon16" href="/izombie-s01e02-hdtv-x264-lol-ettv-t10402262.html#comment"> <em class="iconvalue">29</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/izombie-s01e02-hdtv-x264-lol-ettv-t10402262.html" class="cellMainLink">iZombie S01E02 HDTV x264-LOL[ettv]</a></div>
+			</td>
+			<td class="nobr center">224.88 <span>MB</span></td>
+			<td class="center">4</td>
+			<td class="center">3&nbsp;hours</td>
+			<td class="green center">4290</td>
+			<td class="red lasttd center">7005</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10402412,0" class="icomment icommentjs icon16" href="/person-of-interest-s04e18-hdtv-x264-lol-ettv-t10402412.html#comment"> <em class="iconvalue">8</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/person-of-interest-s04e18-hdtv-x264-lol-ettv-t10402412.html" class="cellMainLink">Person of Interest S04E18 HDTV x264-LOL[ettv]</a></div>
+			</td>
+			<td class="nobr center">221.52 <span>MB</span></td>
+			<td class="center">4</td>
+			<td class="center">2&nbsp;hours</td>
+			<td class="green center">4252</td>
+			<td class="red lasttd center">6353</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10392457,0" class="icomment icommentjs icon16" href="/once-upon-a-time-s04e16-hdtv-x264-2hd-ettv-t10392457.html#comment"> <em class="iconvalue">65</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/once-upon-a-time-s04e16-hdtv-x264-2hd-ettv-t10392457.html" class="cellMainLink">Once Upon a Time S04E16 HDTV x264-2HD[ettv]</a></div>
+			</td>
+			<td class="nobr center">290.2 <span>MB</span></td>
+			<td class="center">4</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">6547</td>
+			<td class="red lasttd center">2650</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10397348,0" class="icomment icommentjs icon16" href="/forever-us-s01e18-hdtv-x264-lol-ettv-t10397348.html#comment"> <em class="iconvalue">86</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/forever-us-s01e18-hdtv-x264-lol-ettv-t10397348.html" class="cellMainLink">Forever US S01E18 HDTV x264-LOL[ettv]</a></div>
+			</td>
+			<td class="nobr center">198.16 <span>MB</span></td>
+			<td class="center">4</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">5415</td>
+			<td class="red lasttd center">2542</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10397370,0" class="icomment icommentjs icon16" href="/bates-motel-s03e03-hdtv-x264-killers-ettv-t10397370.html#comment"> <em class="iconvalue">47</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/bates-motel-s03e03-hdtv-x264-killers-ettv-t10397370.html" class="cellMainLink">Bates Motel S03E03 HDTV x264-KILLERS[ettv]</a></div>
+			</td>
+			<td class="nobr center">289.17 <span>MB</span></td>
+			<td class="center">4</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">4458</td>
+			<td class="red lasttd center">2516</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10402421,0" class="icomment icommentjs icon16" href="/justified-s06e10-hdtv-x264-lol-ettv-t10402421.html#comment"> <em class="iconvalue">11</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/justified-s06e10-hdtv-x264-lol-ettv-t10402421.html" class="cellMainLink">Justified S06E10 HDTV x264-LOL[ettv]</a></div>
+			</td>
+			<td class="nobr center">263.88 <span>MB</span></td>
+			<td class="center">4</td>
+			<td class="center">2&nbsp;hours</td>
+			<td class="green center">2308</td>
+			<td class="red lasttd center">3011</td>
+        </tr>
+			</table>
+
+<h2><a class="plain" href="/music/">Music Torrents</a> <a class="rsssign" target="_blank" href="/music/?rss=1" title="category feed"></a></h2>
+<div>
+	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
+		<tr class="firstr">
+			<th class="width100perc nopad">torrent name</th>
+			<th class="center">size</th>
+			<th class="center">files</th>
+			<th class="center">age</th>
+			<th class="center">seed</th>
+			<th class="lasttd nobr center">leech</th>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10392023,0" class="icomment icommentjs icon16" href="/the-official-uk-top-40-singles-chart-03-22-2015-oldskoolscouse-t10392023.html#comment"> <em class="iconvalue">15</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/the-official-uk-top-40-singles-chart-03-22-2015-oldskoolscouse-t10392023.html" class="cellMainLink">The Official UK Top 40 Singles Chart 03-22-2015 (OldSkoolScouse)</a></div>
+			</td>
+			<td class="nobr center">365.2 <span>MB</span></td>
+			<td class="center">42</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">1262</td>
+			<td class="red lasttd center">604</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10390425,0" class="icomment icommentjs icon16" href="/100-dance-march-2015-t10390425.html#comment"> <em class="iconvalue">8</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/100-dance-march-2015-t10390425.html" class="cellMainLink">100_Dance_March 2015</a></div>
+			</td>
+			<td class="nobr center">997.66 <span>MB</span></td>
+			<td class="center">100</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">874</td>
+			<td class="red lasttd center">232</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10386447,0" class="icomment icommentjs icon16" href="/t-i-revenge-of-the-king-thrg-mixjoint-t10386447.html#comment"> <em class="iconvalue">10</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/t-i-revenge-of-the-king-thrg-mixjoint-t10386447.html" class="cellMainLink">T.I. - Revenge Of The King {-ThRG-} (MixJoint)</a></div>
+			</td>
+			<td class="nobr center">69.89 <span>MB</span></td>
+			<td class="center">15</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">842</td>
+			<td class="red lasttd center">96</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10388971,0" class="icomment icommentjs icon16" href="/sxsw-2015-showcasing-artists-part1-t10388971.html#comment"> <em class="iconvalue">8</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/sxsw-2015-showcasing-artists-part1-t10388971.html" class="cellMainLink">SXSW 2015 Showcasing Artists Part1</a></div>
+			</td>
+			<td class="nobr center">5.42 <span>GB</span></td>
+			<td class="center">844</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">483</td>
+			<td class="red lasttd center">233</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10393170,0" class="icomment icommentjs icon16" href="/the-uk-top-40-official-singles-chart-22-march-2015-itake-glodls-t10393170.html#comment"> <em class="iconvalue">4</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/the-uk-top-40-official-singles-chart-22-march-2015-itake-glodls-t10393170.html" class="cellMainLink">The UK Top 40 Official Singles Chart (22 March 2015) ~iTake~ [GloDLS]</a></div>
+			</td>
+			<td class="nobr center">366.25 <span>MB</span></td>
+			<td class="center">41</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">253</td>
+			<td class="red lasttd center">172</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10393775,0" class="icomment icommentjs icon16" href="/va-car-audio-red-pack-sound-clinic-special-edition-t10393775.html#comment"> <em class="iconvalue">4</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/va-car-audio-red-pack-sound-clinic-special-edition-t10393775.html" class="cellMainLink">VA - Car Audio. Red Pack (Sound Clinic - Special Edition)</a></div>
+			</td>
+			<td class="nobr center">2.09 <span>GB</span></td>
+			<td class="center">147</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">192</td>
+			<td class="red lasttd center">170</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10389218,0" class="icomment icommentjs icon16" href="/deep-house-tech-house-techno-indie-dance-nu-disco-electro-progressive-house-juno-download-top-100-march-2015-mp3-320-kbps-edm-rg-t10389218.html#comment"> <em class="iconvalue">3</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/deep-house-tech-house-techno-indie-dance-nu-disco-electro-progressive-house-juno-download-top-100-march-2015-mp3-320-kbps-edm-rg-t10389218.html" class="cellMainLink">(Deep House, Tech House, Techno, Indie Dance, Nu Disco, Electro, Progressive House) Juno Download Top 100 March (2015) MP3, 320 Kbps [EDM RG]</a></div>
+			</td>
+			<td class="nobr center">1.35 <span>GB</span></td>
+			<td class="center">100</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">112</td>
+			<td class="red lasttd center">114</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10390587,0" class="icomment icommentjs icon16" href="/italo-disco-hits-vol-2-2015-t10390587.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/italo-disco-hits-vol-2-2015-t10390587.html" class="cellMainLink">Italo Disco Hits Vol.2 (2015)</a></div>
+			</td>
+			<td class="nobr center">869.16 <span>MB</span></td>
+			<td class="center">65</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">173</td>
+			<td class="red lasttd center">36</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10401394,0" class="icomment icommentjs icon16" href="/the-howard-stern-show-3-24-15-the-wrap-up-show-3-24-15-t10401394.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/the-howard-stern-show-3-24-15-the-wrap-up-show-3-24-15-t10401394.html" class="cellMainLink">The Howard Stern Show 3-24-15 &amp; The Wrap Up Show 3-24-15</a></div>
+			</td>
+			<td class="nobr center">180.88 <span>MB</span></td>
+			<td class="center">3</td>
+			<td class="center">9&nbsp;hours</td>
+			<td class="green center">79</td>
+			<td class="red lasttd center">41</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10391203,0" class="icomment icommentjs icon16" href="/led-zeppelin-led-zeppelin-studio-magik-sessions-1968-1980-mp3-320-t10391203.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/led-zeppelin-led-zeppelin-studio-magik-sessions-1968-1980-mp3-320-t10391203.html" class="cellMainLink">LED ZEPPELIN - Led Zeppelin Studio Magik (Sessions 1968-1980) MP3@320</a></div>
+			</td>
+			<td class="nobr center">2.76 <span>GB</span></td>
+			<td class="center">268</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">16</td>
+			<td class="red lasttd center">38</td>
+        </tr>
+			</table>
+
+<h2><a class="plain" href="/games/">Games Torrents</a> <a class="rsssign" target="_blank" href="/games/?rss=1" title="category feed"></a></h2>
+<div>
+	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
+		<tr class="firstr">
+			<th class="width100perc nopad">torrent name</th>
+			<th class="center">size</th>
+			<th class="center">files</th>
+			<th class="center">age</th>
+			<th class="center">seed</th>
+			<th class="lasttd nobr center">leech</th>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10398184,0" class="icomment icommentjs icon16" href="/life-is-strange-episode-2-codex-t10398184.html#comment"> <em class="iconvalue">86</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType zipType">
+                    <a href="/life-is-strange-episode-2-codex-t10398184.html" class="cellMainLink">Life Is Strange Episode 2-CODEX</a></div>
+			</td>
+			<td class="nobr center">3.35 <span>GB</span></td>
+			<td class="center">3</td>
+			<td class="center">23&nbsp;hours</td>
+			<td class="green center">930</td>
+			<td class="red lasttd center">876</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10399188,0" class="icomment icommentjs icon16" href="/game-of-thrones-telltale-pc-game-e1-e2-e3-nosteam-t10399188.html#comment"> <em class="iconvalue">81</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType exeType">
+                    <a href="/game-of-thrones-telltale-pc-game-e1-e2-e3-nosteam-t10399188.html" class="cellMainLink">Game of Thrones Telltale PC game E1+E2+E3 ^^nosTEAM^^</a></div>
+			</td>
+			<td class="nobr center">5.16 <span>GB</span></td>
+			<td class="center">4</td>
+			<td class="center">18&nbsp;hours</td>
+			<td class="green center">485</td>
+			<td class="red lasttd center">846</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10384331,0" class="icomment icommentjs icon16" href="/cities-skylines-r-g-catalyst-t10384331.html#comment"> <em class="iconvalue">27</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType Type">
+                    <a href="/cities-skylines-r-g-catalyst-t10384331.html" class="cellMainLink">Cities: Skylines [R.G. Catalyst]</a></div>
+			</td>
+			<td class="nobr center">781.71 <span>MB</span></td>
+			<td class="center">4</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">647</td>
+			<td class="red lasttd center">157</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10384679,0" class="icomment icommentjs icon16" href="/divinity-original-sin-multi6-prophet-t10384679.html#comment"> <em class="iconvalue">15</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType zipType">
+                    <a href="/divinity-original-sin-multi6-prophet-t10384679.html" class="cellMainLink">Divinity Original Sin MULTi6-PROPHET</a></div>
+			</td>
+			<td class="nobr center">7.22 <span>GB</span></td>
+			<td class="center">2</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">165</td>
+			<td class="red lasttd center">304</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10394252,0" class="icomment icommentjs icon16" href="/train-simulator-2015-multi7-elamigos-t10394252.html#comment"> <em class="iconvalue">10</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType zipType">
+                    <a href="/train-simulator-2015-multi7-elamigos-t10394252.html" class="cellMainLink">Train Simulator 2015 MULTi7-ElAmigos</a></div>
+			</td>
+			<td class="nobr center">13.38 <span>GB</span></td>
+			<td class="center">1</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">60</td>
+			<td class="red lasttd center">243</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10389638,0" class="icomment icommentjs icon16" href="/men-of-war-assault-squad-2-brick-t10389638.html#comment"> <em class="iconvalue">13</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType exeType">
+                    <a href="/men-of-war-assault-squad-2-brick-t10389638.html" class="cellMainLink">Men of War: Assault Squad 2- Brick</a></div>
+			</td>
+			<td class="nobr center">1.64 <span>GB</span></td>
+			<td class="center">4</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">207</td>
+			<td class="red lasttd center">95</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10394742,0" class="icomment icommentjs icon16" href="/world-of-subways-4-new-york-line-7-codex-t10394742.html#comment"> <em class="iconvalue">37</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType zipType">
+                    <a href="/world-of-subways-4-new-york-line-7-codex-t10394742.html" class="cellMainLink">World of Subways 4 New York Line 7-CODEX</a></div>
+			</td>
+			<td class="nobr center">2.08 <span>GB</span></td>
+			<td class="center">1</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">183</td>
+			<td class="red lasttd center">110</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10399399,0" class="icomment icommentjs icon16" href="/borderlands-the-pre-sequel-r-g-mechanics-t10399399.html#comment"> <em class="iconvalue">10</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType exeType">
+                    <a href="/borderlands-the-pre-sequel-r-g-mechanics-t10399399.html" class="cellMainLink">Borderlands: The Pre-Sequel! [R.G. Mechanics]</a></div>
+			</td>
+			<td class="nobr center">5.05 <span>GB</span></td>
+			<td class="center">22</td>
+			<td class="center">17&nbsp;hours</td>
+			<td class="green center">137</td>
+			<td class="red lasttd center">133</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10391923,0" class="icomment icommentjs icon16" href="/r-g-mechanics-assetto-corsa-v-1-1-3-2013-pc-repack-by-rg-mechanics-t10391923.html#comment"> <em class="iconvalue">22</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType exeType">
+                    <a href="/r-g-mechanics-assetto-corsa-v-1-1-3-2013-pc-repack-by-rg-mechanics-t10391923.html" class="cellMainLink">[R.G. Mechanics] Assetto Corsa [v 1.1.3] (2013) PC | RePack by RG Mechanics</a></div>
+			</td>
+			<td class="nobr center">4.48 <span>GB</span></td>
+			<td class="center">16</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">135</td>
+			<td class="red lasttd center">124</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10398047,0" class="icomment icommentjs icon16" href="/3dmgame-life-is-strange-ep1-2-cracked-3dm-t10398047.html#comment"> <em class="iconvalue">28</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType zipType">
+                    <a href="/3dmgame-life-is-strange-ep1-2-cracked-3dm-t10398047.html" class="cellMainLink">3DMGAME Life Is Strange EP1 2 Cracked 3DM</a></div>
+			</td>
+			<td class="nobr center">3.15 <span>GB</span></td>
+			<td class="center">7</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">89</td>
+			<td class="red lasttd center">103</td>
+        </tr>
+			</table>
+
+<h2><a class="plain" href="/applications/">Applications Torrents</a> <a class="rsssign" target="_blank" href="/applications/?rss=1" title="category feed"></a></h2>
+<div>
+	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
+		<tr class="firstr">
+			<th class="width100perc nopad">torrent name</th>
+			<th class="center">size</th>
+			<th class="center">files</th>
+			<th class="center">age</th>
+			<th class="center">seed</th>
+			<th class="lasttd nobr center">leech</th>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10394856,0" class="icomment icommentjs icon16" href="/top-paid-android-apps-games-themes-pack-23-march-2015-android-zone-t10394856.html#comment"> <em class="iconvalue">26</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType exeType">
+                    <a href="/top-paid-android-apps-games-themes-pack-23-march-2015-android-zone-t10394856.html" class="cellMainLink">Top Paid Android Apps, Games &amp; Themes Pack - 23 March 2015 [ANDROID-ZONE]</a></div>
+			</td>
+			<td class="nobr center">1.1 <span>GB</span></td>
+			<td class="center">72</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">468</td>
+			<td class="red lasttd center">539</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10383927,0" class="icomment icommentjs icon16" href="/autodesk-autocad-architecture-2016-32-64bit-firstuploads-t10383927.html#comment"> <em class="iconvalue">6</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType zipType">
+                    <a href="/autodesk-autocad-architecture-2016-32-64bit-firstuploads-t10383927.html" class="cellMainLink">Autodesk AutoCAD Architecture 2016 [32-64Bit]-[FirstUploads]</a></div>
+			</td>
+			<td class="nobr center">10.23 <span>GB</span></td>
+			<td class="center">6</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">137</td>
+			<td class="red lasttd center">394</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10383937,0" class="icomment icommentjs icon16" href="/internet-download-manager-idm-v-6-23-build-8-crack-mhktricks-menin-t10383937.html#comment"> <em class="iconvalue">14</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType zipType">
+                    <a href="/internet-download-manager-idm-v-6-23-build-8-crack-mhktricks-menin-t10383937.html" class="cellMainLink">Internet Download Manager (IDM) v 6.23 Build 8 + Crack [mhktricks] (menin)</a></div>
+			</td>
+			<td class="nobr center">7.62 <span>MB</span></td>
+			<td class="center">1</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">422</td>
+			<td class="red lasttd center">56</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10389213,0" class="icomment icommentjs icon16" href="/coreldraw-technical-suite-x7-17-4-0-887-32-64bit-firstuploads-t10389213.html#comment"> <em class="iconvalue">12</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType exeType">
+                    <a href="/coreldraw-technical-suite-x7-17-4-0-887-32-64bit-firstuploads-t10389213.html" class="cellMainLink">CorelDRAW Technical Suite X7 17.4.0.887 [32-64Bit]-[FirstUploads]</a></div>
+			</td>
+			<td class="nobr center">2.8 <span>GB</span></td>
+			<td class="center">6</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">179</td>
+			<td class="red lasttd center">204</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10399685,0" class="icomment icommentjs icon16" href="/whatsapp-reborn-1-80-plus-antiban-ban-proof-material-design-download-whatsapp-apk-osmdroid-t10399685.html#comment"> <em class="iconvalue">30</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType exeType">
+                    <a href="/whatsapp-reborn-1-80-plus-antiban-ban-proof-material-design-download-whatsapp-apk-osmdroid-t10399685.html" class="cellMainLink">WhatsApp Reborn 1.80 Plus AntiBan Ban Proof Material Design download WhatsApp+ apk OsmDroid</a></div>
+			</td>
+			<td class="nobr center">23.52 <span>MB</span></td>
+			<td class="center">1</td>
+			<td class="center">16&nbsp;hours</td>
+			<td class="green center">207</td>
+			<td class="red lasttd center">62</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10390172,0" class="icomment icommentjs icon16" href="/avira-antivirus-pro-internet-security-15-0-9-502-final-appzdam-t10390172.html#comment"> <em class="iconvalue">28</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType exeType">
+                    <a href="/avira-antivirus-pro-internet-security-15-0-9-502-final-appzdam-t10390172.html" class="cellMainLink">Avira Antivirus Pro + Internet Security 15.0.9.502 Final - AppzDam</a></div>
+			</td>
+			<td class="nobr center">306.51 <span>MB</span></td>
+			<td class="center">7</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">152</td>
+			<td class="red lasttd center">55</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10390914,0" class="icomment icommentjs icon16" href="/rythmic-robot-synth-collection-kontakt-oddsox-t10390914.html#comment"> <em class="iconvalue">6</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType zipType">
+                    <a href="/rythmic-robot-synth-collection-kontakt-oddsox-t10390914.html" class="cellMainLink">Rythmic Robot Synth Collection KONTAKT [oddsox]</a></div>
+			</td>
+			<td class="nobr center">5.78 <span>GB</span></td>
+			<td class="center">137</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">78</td>
+			<td class="red lasttd center">59</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10389326,0" class="icomment icommentjs icon16" href="/premier-system-x5-1-15-1-979-keygen-firstuploads-t10389326.html#comment"> <em class="iconvalue">9</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType exeType">
+                    <a href="/premier-system-x5-1-15-1-979-keygen-firstuploads-t10389326.html" class="cellMainLink">Premier System X5.1 15.1.979 + Keygen-[FirstUploads]</a></div>
+			</td>
+			<td class="nobr center">423.05 <span>MB</span></td>
+			<td class="center">5</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">52</td>
+			<td class="red lasttd center">35</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10395176,0" class="icomment icommentjs icon16" href="/android-apps-games-19-03-15-t10395176.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType zipType">
+                    <a href="/android-apps-games-19-03-15-t10395176.html" class="cellMainLink">Android Apps &amp; Games 19.03.15</a></div>
+			</td>
+			<td class="nobr center">3.48 <span>GB</span></td>
+			<td class="center">4</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">44</td>
+			<td class="red lasttd center">40</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10399113,0" class="icomment icommentjs icon16" href="/unity-3d-pro-5-0-0p2-crack-64bit-windows-viruz-t10399113.html#comment"> <em class="iconvalue">6</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType zipType">
+                    <a href="/unity-3d-pro-5-0-0p2-crack-64bit-windows-viruz-t10399113.html" class="cellMainLink">Unity 3D Pro 5.0.0p2 &amp; Crack (64bit Windows) | VIruz</a></div>
+			</td>
+			<td class="nobr center">1.16 <span>GB</span></td>
+			<td class="center">1</td>
+			<td class="center">19&nbsp;hours</td>
+			<td class="green center">7</td>
+			<td class="red lasttd center">19</td>
+        </tr>
+			</table>
+
+<h2><a class="plain" href="/anime/">Anime Torrents</a> <a class="rsssign" target="_blank" href="/anime/?rss=1" title="category feed"></a></h2>
+<div>
+	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
+		<tr class="firstr">
+			<th class="width100perc nopad">torrent name</th>
+			<th class="center">size</th>
+			<th class="center">files</th>
+			<th class="center">age</th>
+			<th class="center">seed</th>
+			<th class="lasttd nobr center">leech</th>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10386519,0" class="icomment icommentjs icon16" href="/horriblesubs-the-rolling-girls-11-720p-mkv-t10386519.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/horriblesubs-the-rolling-girls-11-720p-mkv-t10386519.html" class="cellMainLink">[HorribleSubs] The Rolling Girls - 11 [720p].mkv</a></div>
+			</td>
+			<td class="nobr center">454.87 <span>MB</span></td>
+			<td class="center">1</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">48</td>
+			<td class="red lasttd center">528</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10387846,0" class="icomment icommentjs icon16" href="/deadfish-kuroko-no-basket-3-11-720p-aac-mp4-t10387846.html#comment"> <em class="iconvalue">9</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/deadfish-kuroko-no-basket-3-11-720p-aac-mp4-t10387846.html" class="cellMainLink">[DeadFish] Kuroko no Basket 3 - 11 [720p][AAC].mp4</a></div>
+			</td>
+			<td class="nobr center">337.01 <span>MB</span></td>
+			<td class="center">1</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">237</td>
+			<td class="red lasttd center">289</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10388952,0" class="icomment icommentjs icon16" href="/one-piece-685-eng-sub-720p-l-mbert-t10388952.html#comment"> <em class="iconvalue">30</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/one-piece-685-eng-sub-720p-l-mbert-t10388952.html" class="cellMainLink">One Piece 685 [EnG SuB] 720p L@mBerT</a></div>
+			</td>
+			<td class="nobr center">124.8 <span>MB</span></td>
+			<td class="center">9</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">349</td>
+			<td class="red lasttd center">86</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright"> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/leopard-raws-akatsuki-no-yona-mx-1280x720-x264-aac-t10400685.html" class="cellMainLink">[Leopard-Raws] Akatsuki no Yona (MX 1280x720 x264 AAC)</a></div>
+			</td>
+			<td class="nobr center">7.84 <span>GB</span></td>
+			<td class="center">26</td>
+			<td class="center">11&nbsp;hours</td>
+			<td class="green center">89</td>
+			<td class="red lasttd center">301</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10387091,0" class="icomment icommentjs icon16" href="/chihiro-absolute-duo-11-720p-hi10p-aac-9b9b0d5e-t10387091.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/chihiro-absolute-duo-11-720p-hi10p-aac-9b9b0d5e-t10387091.html" class="cellMainLink">[Chihiro] Absolute Duo - 11 [720p Hi10P AAC][9B9B0D5E]</a></div>
+			</td>
+			<td class="nobr center">353.57 <span>MB</span></td>
+			<td class="center">2</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">47</td>
+			<td class="red lasttd center">171</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright"> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/commie-log-horizon-2-23-03d7de09-mkv-t10400440.html" class="cellMainLink">[Commie] Log Horizon 2 - 23 [03D7DE09].mkv</a></div>
+			</td>
+			<td class="nobr center">329.03 <span>MB</span></td>
+			<td class="center">1</td>
+			<td class="center">12&nbsp;hours</td>
+			<td class="green center">35</td>
+			<td class="red lasttd center">123</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10394882,0" class="icomment icommentjs icon16" href="/vivid-durarara-x2-shou-11-00233f42-mkv-t10394882.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/vivid-durarara-x2-shou-11-00233f42-mkv-t10394882.html" class="cellMainLink">[Vivid] Durarara!!x2 Shou - 11 [00233F42].mkv</a></div>
+			</td>
+			<td class="nobr center">338.51 <span>MB</span></td>
+			<td class="center">1</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">16</td>
+			<td class="red lasttd center">135</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10389074,0" class="icomment icommentjs icon16" href="/when-marnie-was-there-jm-720p-47e4bd1c-mkv-t10389074.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/when-marnie-was-there-jm-720p-47e4bd1c-mkv-t10389074.html" class="cellMainLink">When Marnie Was There [jm][720p][47E4BD1C].mkv</a></div>
+			</td>
+			<td class="nobr center">5.51 <span>GB</span></td>
+			<td class="center">1</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">38</td>
+			<td class="red lasttd center">107</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10388255,0" class="icomment icommentjs icon16" href="/commie-the-rolling-girls-10-c1164ddf-mkv-t10388255.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/commie-the-rolling-girls-10-c1164ddf-mkv-t10388255.html" class="cellMainLink">[Commie] The Rolling Girls - 10 [C1164DDF].mkv</a></div>
+			</td>
+			<td class="nobr center">377.86 <span>MB</span></td>
+			<td class="center">1</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">20</td>
+			<td class="red lasttd center">83</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright"> 					
+				</div>
+				<div class="markeredBlock torType filmType">
+                    <a href="/fff-yuuki-yuuna-wa-yuusha-de-aru-12-b469a331-mkv-t10390952.html" class="cellMainLink">[FFF] Yuuki Yuuna wa Yuusha de Aru - 12 [B469A331].mkv</a></div>
+			</td>
+			<td class="nobr center">404.12 <span>MB</span></td>
+			<td class="center">1</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">18</td>
+			<td class="red lasttd center">80</td>
+        </tr>
+			</table>
+
+<h2><a class="plain" href="/books/">Books Torrents</a> <a class="rsssign" target="_blank" href="/books/?rss=1" title="category feed"></a></h2>
+<div>
+	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
+		<tr class="firstr">
+			<th class="width100perc nopad">torrent name</th>
+			<th class="center">size</th>
+			<th class="center">files</th>
+			<th class="center">age</th>
+			<th class="center">seed</th>
+			<th class="lasttd nobr center">leech</th>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10387577,0" class="icomment icommentjs icon16" href="/assorted-magazines-bundle-march-22-2015-true-pdf-t10387577.html#comment"> <em class="iconvalue">17</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType pdfType">
+                    <a href="/assorted-magazines-bundle-march-22-2015-true-pdf-t10387577.html" class="cellMainLink">Assorted Magazines Bundle - March 22 2015 (True PDF)</a></div>
+			</td>
+			<td class="nobr center">446.55 <span>MB</span></td>
+			<td class="center">21</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">408</td>
+			<td class="red lasttd center">218</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10397003,0" class="icomment icommentjs icon16" href="/food-magazines-bundle-march-24-2015-true-pdf-t10397003.html#comment"> <em class="iconvalue">5</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType pdfType">
+                    <a href="/food-magazines-bundle-march-24-2015-true-pdf-t10397003.html" class="cellMainLink">Food Magazines Bundle - March 24 2015 (True PDF)</a></div>
+			</td>
+			<td class="nobr center">102.11 <span>MB</span></td>
+			<td class="center">5</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">357</td>
+			<td class="red lasttd center">71</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright"> 					
+				</div>
+				<div class="markeredBlock torType pdfType">
+                    <a href="/womens-magazines-bundle-march-24-2015-true-pdf-t10397209.html" class="cellMainLink">Womens Magazines Bundle - March 24 2015 (True PDF)</a></div>
+			</td>
+			<td class="nobr center">182.67 <span>MB</span></td>
+			<td class="center">10</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">199</td>
+			<td class="red lasttd center">75</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10396909,0" class="icomment icommentjs icon16" href="/nightwing-v1-v3-extras-1995-ongoing-digital-update-not-extras-requested-nem-t10396909.html#comment"> <em class="iconvalue">12</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType pdfType">
+                    <a href="/nightwing-v1-v3-extras-1995-ongoing-digital-update-not-extras-requested-nem-t10396909.html" class="cellMainLink">Nightwing (v1-v3+Extras)(1995-Ongoing) (Digital Update-Not Extras) REQUESTED (- Nem -)</a></div>
+			</td>
+			<td class="nobr center">6.75 <span>GB</span></td>
+			<td class="center">229</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">69</td>
+			<td class="red lasttd center">191</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10394585,0" class="icomment icommentjs icon16" href="/healing-with-raw-foods-your-guide-to-unlocking-vibrant-health-through-living-cuisine-t10394585.html#comment"> <em class="iconvalue">5</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType pdfType">
+                    <a href="/healing-with-raw-foods-your-guide-to-unlocking-vibrant-health-through-living-cuisine-t10394585.html" class="cellMainLink">Healing with Raw Foods: Your Guide to Unlocking Vibrant Health Through Living Cuisine</a></div>
+			</td>
+			<td class="nobr center">26.07 <span>MB</span></td>
+			<td class="center">3</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">192</td>
+			<td class="red lasttd center">41</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10386264,0" class="icomment icommentjs icon16" href="/2dartist-2011-full-year-issues-collection-bk-t10386264.html#comment"> <em class="iconvalue">5</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType pdfType">
+                    <a href="/2dartist-2011-full-year-issues-collection-bk-t10386264.html" class="cellMainLink">2DArtist - 2011 Full Year Issues Collection {bk}</a></div>
+			</td>
+			<td class="nobr center">1.32 <span>GB</span></td>
+			<td class="center">12</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">125</td>
+			<td class="red lasttd center">87</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10392628,0" class="icomment icommentjs icon16" href="/moon-knight-v1-v5-mini-series-extras-1980-ongoing-scans-digital-nem-t10392628.html#comment"> <em class="iconvalue">9</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType Type">
+                    <a href="/moon-knight-v1-v5-mini-series-extras-1980-ongoing-scans-digital-nem-t10392628.html" class="cellMainLink">Moon Knight (v1-v5+Mini-Series &amp;Extras) (1980-Ongoing) (Scans+Digital) (- Nem -)</a></div>
+			</td>
+			<td class="nobr center">4.08 <span>GB</span></td>
+			<td class="center">226</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">96</td>
+			<td class="red lasttd center">82</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10393800,0" class="icomment icommentjs icon16" href="/justice-league-international-v01-v05-2009-2011-digital-minutemen-flynnlives-nem-t10393800.html#comment"> <em class="iconvalue">4</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType pdfType">
+                    <a href="/justice-league-international-v01-v05-2009-2011-digital-minutemen-flynnlives-nem-t10393800.html" class="cellMainLink">Justice League International (v01-v05) (2009-2011) (digital) (Minutemen-FlynnLives) (- Nem -)</a></div>
+			</td>
+			<td class="nobr center">1.39 <span>GB</span></td>
+			<td class="center">5</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">103</td>
+			<td class="red lasttd center">75</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10400384,0" class="icomment icommentjs icon16" href="/the-amazing-spider-man-519-700-5-extras-newrips-2005-2014-digital-minutemen-innerdemons-endriago-faessla-nem-t10400384.html#comment"> <em class="iconvalue">3</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType pdfType">
+                    <a href="/the-amazing-spider-man-519-700-5-extras-newrips-2005-2014-digital-minutemen-innerdemons-endriago-faessla-nem-t10400384.html" class="cellMainLink">The Amazing Spider-Man (519-700.5+Extras) (NewRips) (2005-2014) (digital) (Minutemen-InnerDemons+Endriago+Faessla) (- Nem -)</a></div>
+			</td>
+			<td class="nobr center">7.23 <span>GB</span></td>
+			<td class="center">252</td>
+			<td class="center">13&nbsp;hours</td>
+			<td class="green center">2</td>
+			<td class="red lasttd center">154</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10395402,0" class="icomment icommentjs icon16" href="/the-navy-lark-s01-to-s15-audio-comedy-mp3-slimoo-t10395402.html#comment"> <em class="iconvalue">7</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/the-navy-lark-s01-to-s15-audio-comedy-mp3-slimoo-t10395402.html" class="cellMainLink">The Navy Lark - S01 to S15 - Audio Comedy - MP3 - Slimoo</a></div>
+			</td>
+			<td class="nobr center">4.18 <span>GB</span></td>
+			<td class="center">236</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">39</td>
+			<td class="red lasttd center">87</td>
+        </tr>
+			</table>
+
+<h2><a class="plain" href="/lossless/">Lossless Music Torrents</a> <a class="rsssign" target="_blank" href="/lossless/?rss=1" title="category feed"></a></h2>
+<div>
+	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
+		<tr class="firstr">
+			<th class="width100perc nopad">torrent name</th>
+			<th class="center">size</th>
+			<th class="center">files</th>
+			<th class="center">age</th>
+			<th class="center">seed</th>
+			<th class="lasttd nobr center">leech</th>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10399625,0" class="icomment icommentjs icon16" href="/daryl-hall-john-oates-discography-flac-t10399625.html#comment"> <em class="iconvalue">6</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/daryl-hall-john-oates-discography-flac-t10399625.html" class="cellMainLink">Daryl Hall &amp; John Oates - Discography [FLAC]</a></div>
+			</td>
+			<td class="nobr center">10.12 <span>GB</span></td>
+			<td class="center">619</td>
+			<td class="center">16&nbsp;hours</td>
+			<td class="green center">2</td>
+			<td class="red lasttd center">486</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10391757,0" class="icomment icommentjs icon16" href="/santana-the-magic-of-santana-flac-2015-bbm-t10391757.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/santana-the-magic-of-santana-flac-2015-bbm-t10391757.html" class="cellMainLink">Santana - The Magic Of Santana (FLAC) (2015) BBM</a></div>
+			</td>
+			<td class="nobr center">417.58 <span>MB</span></td>
+			<td class="center">22</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">305</td>
+			<td class="red lasttd center">95</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10395811,0" class="icomment icommentjs icon16" href="/buena-vista-social-club-2015-lost-and-found-flac-t10395811.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/buena-vista-social-club-2015-lost-and-found-flac-t10395811.html" class="cellMainLink">Buena Vista Social Club - 2015 - Lost And Found [FLAC]</a></div>
+			</td>
+			<td class="nobr center">295.9 <span>MB</span></td>
+			<td class="center">7</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">247</td>
+			<td class="red lasttd center">63</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10400160,0" class="icomment icommentjs icon16" href="/david-bowie-18-studio-albums-1967-1989-shm-cd-japan-2009-flac-t10400160.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/david-bowie-18-studio-albums-1967-1989-shm-cd-japan-2009-flac-t10400160.html" class="cellMainLink">David Bowie - 18 Studio Albums 1967-1989 (SHM-CD Japan 2009) [FLAC]</a></div>
+			</td>
+			<td class="nobr center">5.33 <span>GB</span></td>
+			<td class="center">403</td>
+			<td class="center">14&nbsp;hours</td>
+			<td class="green center">98</td>
+			<td class="red lasttd center">179</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10399871,0" class="icomment icommentjs icon16" href="/talk-talk-discography-1982-2001-flac-t10399871.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/talk-talk-discography-1982-2001-flac-t10399871.html" class="cellMainLink">Talk Talk - Discography 1982-2001 [FLAC]</a></div>
+			</td>
+			<td class="nobr center">3.52 <span>GB</span></td>
+			<td class="center">256</td>
+			<td class="center">15&nbsp;hours</td>
+			<td class="green center">89</td>
+			<td class="red lasttd center">77</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10391553,0" class="icomment icommentjs icon16" href="/lead-belly-the-smithsonian-folkways-collection-5cd-box-2015-flac-beolab1700-t10391553.html#comment"> <em class="iconvalue">6</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/lead-belly-the-smithsonian-folkways-collection-5cd-box-2015-flac-beolab1700-t10391553.html" class="cellMainLink">Lead Belly - The Smithsonian Folkways Collection [5CD Box] (2015) FLAC Beolab1700</a></div>
+			</td>
+			<td class="nobr center">1.18 <span>GB</span></td>
+			<td class="center">121</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">66</td>
+			<td class="red lasttd center">59</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright"> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/va-more-greatest-hits-of-the-80s-2000-8cd-flac-soup-t10400874.html" class="cellMainLink">VA - More Greatest Hits of the 80s (2000) 8CD FLAC Soup</a></div>
+			</td>
+			<td class="nobr center">4.03 <span>GB</span></td>
+			<td class="center">151</td>
+			<td class="center">11&nbsp;hours</td>
+			<td class="green center">1</td>
+			<td class="red lasttd center">97</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10395417,0" class="icomment icommentjs icon16" href="/sting-25-years-3cd-flac-2011-t10395417.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/sting-25-years-3cd-flac-2011-t10395417.html" class="cellMainLink">Sting 25 Years [3CD FLAC] 2011</a></div>
+			</td>
+			<td class="nobr center">1.88 <span>GB</span></td>
+			<td class="center">143</td>
+			<td class="center">1&nbsp;day</td>
+			<td class="green center">61</td>
+			<td class="red lasttd center">35</td>
+        </tr>
+				<tr class="odd">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10400351,0" class="icomment icommentjs icon16" href="/supertramp-retrospectacle-the-supertramp-anthology-2005-flac-soup-t10400351.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/supertramp-retrospectacle-the-supertramp-anthology-2005-flac-soup-t10400351.html" class="cellMainLink">Supertramp - Retrospectacle The Supertramp Anthology (2005) FLAC Soup</a></div>
+			</td>
+			<td class="nobr center">994.18 <span>MB</span></td>
+			<td class="center">34</td>
+			<td class="center">13&nbsp;hours</td>
+			<td class="green center">44</td>
+			<td class="red lasttd center">46</td>
+        </tr>
+				<tr class="even">
+			<td>
+                <div class="iaconbox floatright">  <a rel="10385585,0" class="icomment icommentjs icon16" href="/deep-purple-new-live-rare-volume-two-2008-japan-k2hd-vicp-64327-flac-beolab1700-t10385585.html#comment"> <em class="iconvalue">8</em><span></span> </a> 					
+				</div>
+				<div class="markeredBlock torType musicType">
+                    <a href="/deep-purple-new-live-rare-volume-two-2008-japan-k2hd-vicp-64327-flac-beolab1700-t10385585.html" class="cellMainLink">Deep Purple - New Live &amp; Rare Volume Two (2008) Japan K2HD VICP-64327 FLAC Beolab1700</a></div>
+			</td>
+			<td class="nobr center">389.67 <span>MB</span></td>
+			<td class="center">14</td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">50</td>
+			<td class="red lasttd center">29</td>
+        </tr>
+			</table>
+
+
+		</td>
+		<td class="sidebarCell">
+			
+<div id="sidebar" >
+                
+        <div id="_119b0a17fab5493361a252d04bf527db"></div>
+    
+                
+    	    <div class="advertising">
+    <div class="legend">Advertising (<a href="/auth/login/register/" class="ajaxLink removeAdv" title="Login or register to remove advertising">remove</a>)</div>
+    <div id="_7063408f1c01d50e0dc2d833186ce962"></div>
+</div>
+
+    
+        <div class="sliderbox">
+<h3><a href="/community/">Latest Forum Threads</a><i id="hideLatestThreads" style="float:right; margin-top:-3px;" class="ka ka16 ka-arrow2-up foldClose"></i></h3>
+<ul id="latestForum" rel="latestForum" class="showBlockJS">
+		<li>
+		<a href="/community/show/need-help-ask-super-users-experienced-site-members-here-v6/?unread=16299720">
+			<i class="ka ka16 ka-community latest-icon"></i>
+			<p class="latest-title">
+				Need Help? Ask Super Users &amp; Experienced Site Members Here v6
+			</p>
+		</a>
+		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_2"><a class="plain" href="/user/Keka_Umans/">Keka_Umans</a></span></span> 1&nbsp;min.&nbsp;ago</span>
+	</li>
+		<li>
+		<a href="/community/show/game-thrones-discussion-thread/?unread=16299719">
+			<i class="ka ka16 ka-community latest-icon"></i>
+			<p class="latest-title">
+				GAME OF THRONES Discussion Thread
+			</p>
+		</a>
+		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/vikingjester/">vikingjester</a></span></span> 2&nbsp;min.&nbsp;ago</span>
+	</li>
+		<li>
+		<a href="/community/show/how-large-was-largest-torrent-you-ve-ever-downloaded/?unread=16299717">
+			<i class="ka ka16 ka-community latest-icon"></i>
+			<p class="latest-title">
+				How large was the largest torrent you&#039;ve ever downloaded?
+			</p>
+		</a>
+		<span class="explanation">by <span class="badgeInline"><span class="online" title="online"></span> <span class="aclColor_1"><a class="plain" href="/user/keimah015/">keimah015</a></span></span> 2&nbsp;min.&nbsp;ago</span>
+	</li>
+		<li>
+		<a href="/community/show/quiz-can-you-guess-movie-v9/?unread=16299715">
+			<i class="ka ka16 ka-community latest-icon"></i>
+			<p class="latest-title">
+				Quiz; Can you guess this movie? V9
+			</p>
+		</a>
+		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/VirtualDjango/">VirtualDjango</a></span></span> 4&nbsp;min.&nbsp;ago</span>
+	</li>
+		<li>
+		<a href="/community/show/what-are-you-listening-right-now-v3-thread-99291/?unread=16299711">
+			<i class="ka ka16 ka-community latest-icon"></i>
+			<p class="latest-title">
+				What are you listening to right now? V3
+			</p>
+		</a>
+		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/Crustytoes/">Crustytoes</a></span></span> 6&nbsp;min.&nbsp;ago</span>
+	</li>
+		<li>
+		<a href="/community/show/what-animemanga-are-you-currently-watchingreading/?unread=16299709">
+			<i class="ka ka16 ka-community latest-icon"></i>
+			<p class="latest-title">
+				What Anime/Manga Are You Currently Watching/Reading ?
+			</p>
+		</a>
+		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/Viole-kun/">Viole-kun</a></span></span> 7&nbsp;min.&nbsp;ago</span>
+	</li>
+	</ul>
+</div><!-- div class="sliderbox" -->
+
+    <div class="sliderbox">
+<h3><a href="/blog/">Latest News</a><i style="float:right; margin-top:-3px;" class="ka ka16 ka-arrow2-up foldClose"></i></h3>
+<ul id="latestNews" rel="latestNews" class="showBlockJS">
+	<li>
+		<a href="/blog/post/technical-maintenance-march-17/">
+			<i class="ka ka16 ka-rss latest-icon"></i>
+			<p class="latest-title">
+				Technical maintenance (March, 17)
+			</p>
+		</a>
+		<span class="explanation">by KickassTorrents 1&nbsp;week&nbsp;ago</span>
+	</li>
+	<li>
+		<a href="/blog/post/kickass-to-domain-back/">
+			<i class="ka ka16 ka-rss latest-icon"></i>
+			<p class="latest-title">
+				Kickass.to domain back
+			</p>
+		</a>
+		<span class="explanation">by KickassTorrents 1&nbsp;month&nbsp;ago</span>
+	</li>
+	<li>
+		<a href="/blog/post/merry-christmas/">
+			<i class="ka ka16 ka-rss latest-icon"></i>
+			<p class="latest-title">
+				Merry Christmas!
+			</p>
+		</a>
+		<span class="explanation">by KickassTorrents 2&nbsp;months&nbsp;ago</span>
+	</li>
+</ul>
+</div><!-- div class="sliderbox" -->
+<div class="sliderbox">
+<h3>Blogroll<i style="float:right; margin-top:-3px;" class="ka ka16 ka-arrow2-up foldClose"></i></h3>
+<ul id="blogroll" rel="blogroll" class="showBlockJS">
+	<li><a href="/blog/r00tH4cK3r/post/a-friendly-hello-clash-of-clans-talk/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> A Friendly hello + Clash of Clans talk</p></a><span class="explanation">by <a class="plain" href="/user/r00tH4cK3r/">r00tH4cK3r</a> 2&nbsp;hours&nbsp;ago</span></li>
+	<li><a href="/blog/DawnStar/post/a-birth-day-story/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> A Birth Day Story</p></a><span class="explanation">by <a class="plain" href="/user/DawnStar/">DawnStar</a> 3&nbsp;hours&nbsp;ago</span></li>
+	<li><a href="/blog/OptimusPr1me/post/my-passion-for-formula-1/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> My Passion For Formula 1</p></a><span class="explanation">by <a class="plain" href="/user/OptimusPr1me/">OptimusPr1me</a> 5&nbsp;hours&nbsp;ago</span></li>
+	<li><a href="/blog/rabinsxp/post/when-the-dawn-breaks/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> When the Dawn Breaks</p></a><span class="explanation">by <a class="plain" href="/user/rabinsxp/">rabinsxp</a> 12&nbsp;hours&nbsp;ago</span></li>
+	<li><a href="/blog/PiratMas/post/random-ramblingies-1/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> Random Ramblingies 1</p></a><span class="explanation">by <a class="plain" href="/user/PiratMas/">PiratMas</a> yesterday</span></li>
+	<li><a href="/blog/PXgamer/post/blog-38-1-year-at-kat/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> Blog 38 / 1 Year at KAT</p></a><span class="explanation">by <a class="plain" href="/user/PXgamer/">PXgamer</a> yesterday</span></li>
+</ul>
+</div><!-- div class="sliderbox" -->
+
+    <div class="sliderbox">
+<h3>Goodies<i style="float:right; margin-top:-3px;" class="ka ka16 ka-arrow2-up foldClose"></i></h3>
+<ul id="goodies" rel="goodies" class="showBlockJS">
+
+	<li>
+		<a target="_blank" rel="external" href="http://addons.mozilla.org/en-US/firefox/addon/11412" target="_blank" rel="external">
+			<span class="ifirefox thirdPartIcons"></span>Firefox search plugin
+		</a>
+	</li>
+	<li>
+		<a target="_blank" rel="external" href="/content/utorrent.btsearch">
+			<span class="iutorrent thirdPartIcons"></span>uTorrent search template
+		</a>
+	</li>
+	<li>
+		<a target="_blank" rel="external" href="http://twitter.com/kickasstorrents">
+			<span class="ifollow thirdPartIcons"></span>Follow us on Twitter
+		</a>
+	</li>
+	<li>
+		<a target="_blank" rel="external" href="/blog/post/30/">
+			<span class="ikat thirdPartIcons"></span>Kickass wallpapers
+		</a>
+	</li>
+	<li>
+		<a target="_blank" rel="external" href="http://www.facebook.com/official.KAT.fanclub">
+			<span class="ifacebook thirdPartIcons"></span>Like us on Facebook
+		</a>
+	</li>
+	<li>
+		<a target="_blank" rel="external nofollow" href="http://chat.efnet.org:9090/?channels=%23KAT.ph"><span class="iirc thirdPartIcons"></span>IRC official chat</a>
+	</li>
+</ul>
+</div><!-- div class="sliderbox" -->
+    <div class="sliderbox">
+<h3>Latest Searches<i style="float:right; margin-top:-3px;" class="ka ka16 ka-arrow2-up foldClose"></i></h3>
+<ul id="latestSearches" rel="latestSearches" class="showBlockJS">
+	<li>
+		<a href="/search/the%20walking%20dead%20s05/">
+			<i class="ka ka16 ka-zoom latest-icon"></i>
+			<p class="latest-title">
+				the walking dead s05
+			</p>
+		</a>
+				<span class="explanation">just&nbsp;now</span>
+	</li>
+
+	<li>
+		<a href="/search/anger%20manage%20season%202/">
+			<i class="ka ka16 ka-zoom latest-icon"></i>
+			<p class="latest-title">
+				anger manage season 2
+			</p>
+		</a>
+				<span class="explanation">just&nbsp;now</span>
+	</li>
+
+	<li>
+		<a href="/search/portuguese%20dragon%20ball/">
+			<i class="ka ka16 ka-zoom latest-icon"></i>
+			<p class="latest-title">
+				portuguese dragon ball
+			</p>
+		</a>
+				<span class="explanation">just&nbsp;now</span>
+	</li>
+
+	<li>
+		<a href="/search/chappie%201080/">
+			<i class="ka ka16 ka-zoom latest-icon"></i>
+			<p class="latest-title">
+				chappie 1080
+			</p>
+		</a>
+				<span class="explanation">just&nbsp;now</span>
+	</li>
+
+	<li>
+		<a href="/search/holly%20halston/">
+			<i class="ka ka16 ka-zoom latest-icon"></i>
+			<p class="latest-title">
+				holly halston
+			</p>
+		</a>
+				<span class="explanation">just&nbsp;now</span>
+	</li>
+
+	<li>
+		<a href="/search/professional%20plus%20x64/">
+			<i class="ka ka16 ka-zoom latest-icon"></i>
+			<p class="latest-title">
+				professional plus x64
+			</p>
+		</a>
+				<span class="explanation">just&nbsp;now</span>
+	</li>
+
+	<li>
+		<a href="/search/activation%20windows%207%20ultimate/">
+			<i class="ka ka16 ka-zoom latest-icon"></i>
+			<p class="latest-title">
+				activation windows 7 ultimate
+			</p>
+		</a>
+				<span class="explanation">just&nbsp;now</span>
+	</li>
+
+	<li>
+		<a href="/search/2015%20dmt%20nl/">
+			<i class="ka ka16 ka-zoom latest-icon"></i>
+			<p class="latest-title">
+				2015 dmt nl
+			</p>
+		</a>
+				<span class="explanation">just&nbsp;now</span>
+	</li>
+
+	<li>
+		<a href="/search/big%20black%20dick/">
+			<i class="ka ka16 ka-zoom latest-icon"></i>
+			<p class="latest-title">
+				big black dick
+			</p>
+		</a>
+				<span class="explanation">just&nbsp;now</span>
+	</li>
+
+	<li>
+		<a href="/search/ten%2Byears%2Bafter%2Bstonedhenge/">
+			<i class="ka ka16 ka-zoom latest-icon"></i>
+			<p class="latest-title">
+				ten+years+after+stonedhenge
+			</p>
+		</a>
+				<span class="explanation">just&nbsp;now</span>
+	</li>
+
+	<li>
+		<a href="/search/klixen/">
+			<i class="ka ka16 ka-zoom latest-icon"></i>
+			<p class="latest-title">
+				klixen
+			</p>
+		</a>
+				<span class="explanation">just&nbsp;now</span>
+	</li>
+
+</ul>
+</div><!-- div class="sliderbox" -->
+        	<div class="sliderbox">
+	<h3>Friends Links<i style="float:right; margin-top:-3px;" class="ka ka16 ka-arrow2-up foldClose"></i></h3>
+    <ul id="friendsLinks" rel="friendsLinks" class="showBlockJS">
+		
+		<li>
+			<a href="http://torrents.to/" target="_blank" rel="external">
+				<span class="itorrentsto thirdPartIcons"></span>Torrents.to
+			</a>
+		</li>
+		<li>
+			<a href="http://www.torrentdownloads.net/" target="_blank" rel="external">
+				<span class="itorrentdownloads thirdPartIcons"></span>Torrent Downloads
+			</a>
+		</li>
+		
+		<li>
+			<a href="http://www.torrentreactor.net/" target="_blank" rel="external">
+				<span class="itorreact thirdPartIcons"></span>TorrentReactor
+			</a>
+		</li>
+		
+
+		<li>
+			<a href="http://torrent-finder.info/" target="_blank" rel="external">
+				<span class="itorrentfinder thirdPartIcons"></span>Torrent Finder
+			</a>
+		</li>
+	</ul>
+</div><!-- div class="sliderbox" -->
+        
+</div>
+<a class="showSidebar" id="showsidebar" onclick="showSidebar();" style="display:none;"></a>
+
+		</td>
+	</tr>
+</table>
+</div>
+<div id="translate_site" style="display:none">
+    <h3>Select Your Language</h3>
+    <div class="textcontent">
+        <div style="-moz-column-width: 12em; -moz-columns: 12em; -webkit-columns: 12em; columns:12em;">
+            <ul>
+                                <li class="current_lang"><a onclick="setLanguage('en', '.kickass.to');return false;" class="plain"><strong>English</strong></a></li>
+                                <li><a onclick="setLanguage('af', '.kickass.to');return false;" class="plain">Afrikaans</a></li>
+                                <li><a onclick="setLanguage('al', '.kickass.to');return false;" class="plain">Albanian</a></li>
+                                <li><a onclick="setLanguage('ar', '.kickass.to');return false;" class="plain">Arabic (Modern)</a></li>
+                                <li><a onclick="setLanguage('eu', '.kickass.to');return false;" class="plain">Basque</a></li>
+                                <li><a onclick="setLanguage('bn', '.kickass.to');return false;" class="plain">Bengali</a></li>
+                                <li><a onclick="setLanguage('bs', '.kickass.to');return false;" class="plain">Bosnian</a></li>
+                                <li><a onclick="setLanguage('bg', '.kickass.to');return false;" class="plain">Bulgarian</a></li>
+                                <li><a onclick="setLanguage('ch', '.kickass.to');return false;" class="plain">Chinese Simplified</a></li>
+                                <li><a onclick="setLanguage('tw', '.kickass.to');return false;" class="plain">Chinese Traditional</a></li>
+                                <li><a onclick="setLanguage('hr', '.kickass.to');return false;" class="plain">Croatian</a></li>
+                                <li><a onclick="setLanguage('cz', '.kickass.to');return false;" class="plain">Czech</a></li>
+                                <li><a onclick="setLanguage('da', '.kickass.to');return false;" class="plain">Danish</a></li>
+                                <li><a onclick="setLanguage('nl', '.kickass.to');return false;" class="plain">Dutch</a></li>
+                                <li><a onclick="setLanguage('tl', '.kickass.to');return false;" class="plain">Filipino</a></li>
+                                <li><a onclick="setLanguage('fi', '.kickass.to');return false;" class="plain">Finnish</a></li>
+                                <li><a onclick="setLanguage('fr', '.kickass.to');return false;" class="plain">French</a></li>
+                                <li><a onclick="setLanguage('ka', '.kickass.to');return false;" class="plain">Georgian</a></li>
+                                <li><a onclick="setLanguage('de', '.kickass.to');return false;" class="plain">German</a></li>
+                                <li><a onclick="setLanguage('el', '.kickass.to');return false;" class="plain">Greek</a></li>
+                                <li><a onclick="setLanguage('hi', '.kickass.to');return false;" class="plain">Hindi</a></li>
+                                <li><a onclick="setLanguage('hu', '.kickass.to');return false;" class="plain">Hungarian</a></li>
+                                <li><a onclick="setLanguage('id', '.kickass.to');return false;" class="plain">Indonesian</a></li>
+                                <li><a onclick="setLanguage('it', '.kickass.to');return false;" class="plain">Italian</a></li>
+                                <li><a onclick="setLanguage('kn', '.kickass.to');return false;" class="plain">Kannada</a></li>
+                                <li><a onclick="setLanguage('lt', '.kickass.to');return false;" class="plain">Lithuanian</a></li>
+                                <li><a onclick="setLanguage('ml', '.kickass.to');return false;" class="plain">Malayalam</a></li>
+                                <li><a onclick="setLanguage('ms', '.kickass.to');return false;" class="plain">Malaysian</a></li>
+                                <li><a onclick="setLanguage('no', '.kickass.to');return false;" class="plain">Norwegian</a></li>
+                                <li><a onclick="setLanguage('pr', '.kickass.to');return false;" class="plain">Pirate</a></li>
+                                <li><a onclick="setLanguage('pl', '.kickass.to');return false;" class="plain">Polish</a></li>
+                                <li><a onclick="setLanguage('pt', '.kickass.to');return false;" class="plain">Portuguese</a></li>
+                                <li><a onclick="setLanguage('pa', '.kickass.to');return false;" class="plain">Punjabi</a></li>
+                                <li><a onclick="setLanguage('ro', '.kickass.to');return false;" class="plain">Romanian</a></li>
+                                <li><a onclick="setLanguage('ru', '.kickass.to');return false;" class="plain">Russian</a></li>
+                                <li><a onclick="setLanguage('sr', '.kickass.to');return false;" class="plain">Serbian</a></li>
+                                <li><a onclick="setLanguage('src', '.kickass.to');return false;" class="plain">Serbian-Cyrillic</a></li>
+                                <li><a onclick="setLanguage('sk', '.kickass.to');return false;" class="plain">Slovak</a></li>
+                                <li><a onclick="setLanguage('es', '.kickass.to');return false;" class="plain">Spanish</a></li>
+                                <li><a onclick="setLanguage('sv', '.kickass.to');return false;" class="plain">Swedish</a></li>
+                                <li><a onclick="setLanguage('ta', '.kickass.to');return false;" class="plain">Tamil</a></li>
+                                <li><a onclick="setLanguage('te', '.kickass.to');return false;" class="plain">Telugu</a></li>
+                                <li><a onclick="setLanguage('tr', '.kickass.to');return false;" class="plain">Turkish</a></li>
+                                <li><a onclick="setLanguage('uk', '.kickass.to');return false;" class="plain">Ukrainian</a></li>
+                                <li><a onclick="setLanguage('vi', '.kickass.to');return false;" class="plain">Vietnamese</a></li>
+                            </ul>
+        </div>
+    </div><!-- div class="textcontent" -->
+</div>
+</div><!--id="main"-->
+</div><!--id="wrap"-->
+
+<footer class="lightgrey">
+	<ul>
+		<li><a class="plain" href="#translate_site" id="translate_link"><strong>change language</strong></a></li>
+		<li><a href="/rules/" class="lower">rules</a></li>
+        <li><a href="/ideabox/">idea box</a></li>
+		<li class="lower"><a href="/achievements/">Achievements</a></li>
+		<li><a href="/trends/">trends</a></li>
+		<li class="lower"><a href="/latest-searches/">Latest Searches</a></li>
+        <li><a href="/request/">torrent requests</a></li>        	</ul>
+	<ul>
+		<li><a href="/about/">about</a></li>
+		<li><a href="/welcome/">welcome</a></li>
+		<li><a href="/privacy/">privacy</a></li>
+		<li><a href="/dmca/">dmca</a></li>
+        		<li><a href="/logos/">logos</a></li>
+				<li><a href="/contacts/">contacts</a></li>
+        <li><a href="/api/">api</a></li>
+		<li><a target="_blank" rel="external nofollow" href="http://chat.efnet.org:9090/?channels=%23KAT.ph">chat</a></li>
+	</ul>
+        </footer>
+<a class="feedbackButton eventsButtons" href="/issue/create/" id="feedback"><span>Report a bug</span></a>
+    <div id="_673e31f53f8166159b8e996c4124765b"></div>
+        <div id="_e7050fb15fd39b3e4e99a5be4a57b6ea"></div>
+<script type="text/javascript" charset="utf-8">$(document).ready(function() {  $("#contentSearch").focus(); });</script><script type="text/javascript">
+_scq.push(['setHost', 'a.kickass.to']);
+_scq.push(['setAccount', '_b894d6cb1e370fb9ad89f8d6d99eeb33']);
+_scq.push(['addGlobal', 'pagetype', 'front']);
+_scq.push(['addSlot', '_60318cd4e8d28f6fb76fe34e9bd9c498']);
+_scq.push(['addSlot', '_39ecb76dd457e5ac33776fdf11500d56']);
+_scq.push(['addSlot', '_119b0a17fab5493361a252d04bf527db']);
+_scq.push(['addSlot', '_7063408f1c01d50e0dc2d833186ce962', { 'searchQuery': '' }]);
+_scq.push(['addSlot', '_673e31f53f8166159b8e996c4124765b']);
+_scq.push(['addSlot', '_e7050fb15fd39b3e4e99a5be4a57b6ea']);
+_scq.push(['load']);
+(function() {
+    var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
+    sc.src = document.location.protocol + '//a.kickass.to/sc-5facf2d.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
+})();
+</script>
+<script type="text/javascript"><!--
+document.write("<a style='display:none;' href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t45.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";h"+escape(document.title.substring(0,80))+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='0' height='0'><\/a>")
+//--></script>
+<script>
+  (function(i,s,o,g,r,a,m) { i['GoogleAnalyticsObject']=r;i[r]=i[r]||function() {
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41854124-1', 'kickass.to');
+  ga('send', 'pageview');
+</script>
+</body>
+</html>

@@ -1,7 +1,22 @@
-import urllib
+import urllib.request
+import gzip, zlib
 
-thisurl = "http://www-rohan.sdsu.edu/~gawron/index.html"
+url = "https://kickass.to/"
 
-handle = urllib.urlopen(thisurl)
+#make a request to the url
+handle = urllib.request.urlopen(url)
 
-html_gunk =  handle.read()
+byteOutput =  handle.read()
+
+#Decompress gzip content
+htmltxt = zlib.decompress(byteOutput, 15+32)
+
+#Decode bytes into string
+htmltxt = str(htmltxt.decode("utf-8"))
+
+#Save to a txt file
+outputfilename = "kickass.txt"
+f = open(outputfilename, "w")
+
+f.write(htmltxt)
+f.close()
