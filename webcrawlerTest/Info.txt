@@ -1,0 +1,1 @@
+This Crawler searchs through the subreddit hiphopheads on reddit and gets all the posts that a week old that are tagged with "[fresh]" and saves them into a txt file.
