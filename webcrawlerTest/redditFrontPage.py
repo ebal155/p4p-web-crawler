@@ -49,7 +49,7 @@ def main():
         time.sleep(5)
 
     outputString = "subbreddit name: number of entries\n"
-    for key, value in sorted(mydict.iteritems(), key=lambda k,v: (v,k)) :
+    for key, value in sorted(dictOfSubs.iteritems(), key=lambda k,v: (v,k)) :
         outputString += "%s: %s\n" % (key, value)
         file = open('log.txt', 'w+')
         file.write(outputString)
