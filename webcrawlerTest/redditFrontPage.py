@@ -28,7 +28,7 @@ def main():
                 requestWorked = True # it worked so carry on.
             except  Exception  as e:
                 print(e)
-                print("Too many requests, sleeping for 5 seconds")
+                print("sleeping for 5 seconds")
                 requestWorked = False
                 time.sleep(5) # something went wrong, wait 5 seconds and try again
                 print("awake")
@@ -49,10 +49,10 @@ def main():
         time.sleep(5)
 
     outputString = "subbreddit name: number of entries\n"
-    for key, value in sorted(dictOfSubs.iteritems(), key=lambda k,v: (v,k)) :
-        outputString += "%s: %s\n" % (key, value)
-        file = open('log.txt', 'w+')
-        file.write(outputString)
+    for key in dictOfSubs :
+        outputString += "%s: %s\n" % (key, dictOfSubs[key])
+    file = open('log.txt', 'w+')
+    file.write(outputString)
 
 if __name__ == '__main__':
     main()
