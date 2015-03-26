@@ -3,16 +3,18 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="Content-Style-Type" content="text/css"/>
-    <meta name="description" content="Search and discuss new and favorite TV shows & TV series, movies, music and games."/>
-    <title>Download Torrents. Fast and Free Torrent Downloads - KickassTorrents</title>
-    <link rel="stylesheet" type="text/css" href="//kastatic.com/all-5facf2d.css" charset="utf-8" />
+    <meta name="description" content="Choose from more than 10000 movies available for download. Movies available in HD, DVDRip, DivX, XviD formats.
+"/>
+    <meta name="robots" content="noindex" rel="listing"/>
+    <title>Download Movie Torrents - KickassTorrents</title>
+    <link rel="stylesheet" type="text/css" href="//kastatic.com/all-f3274ce.css" charset="utf-8" />
     <link rel="shortcut icon" href="//kastatic.com/images/favicon.ico" />
     
 
     <link rel="apple-touch-icon" href="//kastatic.com/images/apple-touch-icon.png" />
 
     <!--[if IE 7]>
-    <link href="//kastatic.com/css/ie7-5facf2d.css" rel="stylesheet" type="text/css"/>
+    <link href="//kastatic.com/css/ie7-f3274ce.css" rel="stylesheet" type="text/css"/>
     <![endif]-->
 
     <!--[if IE 8]>
@@ -20,20 +22,20 @@
     <![endif]-->
 
     <!--[if lt IE 9]>
-    <script src="//kastatic.com/js/html5.min-5facf2d.js" type="text/javascript"></script>
+    <script src="//kastatic.com/js/html5.min-f3274ce.js" type="text/javascript"></script>
     <![endif]-->
 
     <!--[if gte IE 9]>
-    <link href="//kastatic.com/css/ie9-5facf2d.css" rel="stylesheet" type="text/css"/>
+    <link href="//kastatic.com/css/ie9-f3274ce.css" rel="stylesheet" type="text/css"/>
     <![endif]-->
     <script>
         var kat = {
-            release_id: '5facf2d',
+            release_id: 'f3274ce',
             detect_lang: 0,
             spare_click: 1        };
     </script>
-    <script src="//kastatic.com/js/all-5facf2d.js" type="text/javascript"></script>
-    <link rel="alternate" type="application/rss+xml" title="Subscribe to RSS feed" href="/?rss=1"/>
+    <script src="//kastatic.com/js/all-f3274ce.js" type="text/javascript"></script>
+    <link rel="alternate" type="application/rss+xml" title="Subscribe to RSS feed" href="http://kickass.to/movies/?rss=1"/>
         <meta name="verify-v1" content="YccN/iP28SifHNEFY6u92i0ou3tAegQAIk2OyOJLp1s="/>
     <meta name="y_key" content="f0b40c3f5fee758f"/>
     <meta name="google-site-verification" content="C1rNEC4fJIvFoyyccMV2PbuqX3P-SFtlD2MNZ9D2uy0" />
@@ -47,6 +49,7 @@
     <div id="wrapperInner">
 <div id="_60318cd4e8d28f6fb76fe34e9bd9c498"></div>
 <div id="_39ecb76dd457e5ac33776fdf11500d56"></div>
+            
     <div id="logindiv"></div>
     <header>
 	<nav id="menu">
@@ -86,1207 +89,662 @@
 </header>
 
 <div class="pusher"></div>
-<div id="tagcloud" class="tagcloud">
-	<a href="/search/1080p/" class="tag4">1080p</a>
-	<a href="/search/2014/" class="tag4">2014</a>
-	<a href="/search/2015/" class="tag10">2015</a>
-	<a href="/search/3d/" class="tag3">3d</a>
-	<a href="/search/50%20shades%20of%20grey/" class="tag2">50 shades of grey</a>
-	<a href="/search/american%20sniper/" class="tag2">american sniper</a>
-	<a href="/search/android/" class="tag2">android</a>
-	<a href="/search/arrow/" class="tag2">arrow</a>
-	<a href="/search/better%20call%20saul/" class="tag3">better call saul</a>
-	<a href="/search/discography/" class="tag3">discography</a>
-	<a href="/search/family%20guy/" class="tag2">family guy</a>
-	<a href="/search/fifty%20shades%20of%20grey/" class="tag3">fifty shades of grey</a>
-	<a href="/search/flac/" class="tag2">flac</a>
-	<a href="/search/focus/" class="tag2">focus</a>
-	<a href="/search/french/" class="tag3">french</a>
-	<a href="/search/game%20of%20thrones/" class="tag2">game of thrones</a>
-	<a href="/search/gotham/" class="tag2">gotham</a>
-	<a href="/search/hindi/" class="tag6">hindi</a>
-	<a href="/search/house%20of%20cards/" class="tag2">house of cards</a>
-	<a href="/search/interstellar/" class="tag5">interstellar</a>
-	<a href="/search/ita/" class="tag3">ita</a>
-	<a href="/search/jupiter%20ascending/" class="tag2">jupiter ascending</a>
-	<a href="/search/kendrick%20lamar/" class="tag2">kendrick lamar</a>
-	<a href="/search/kingsman/" class="tag2">kingsman</a>
-	<a href="/search/loose%20change%20911%20an%20american%20coup/" class="tag7">loose change 911 an american coup</a>
-	<a href="/search/lost%20and%20love/" class="tag9">lost and love</a>
-	<a href="/search/lynda/" class="tag2">lynda</a>
-	<a href="/search/movies/" class="tag2">movies</a>
-	<a href="/search/nezu/" class="tag5">nezu</a>
-	<a href="/search/nl/" class="tag2">nl</a>
-	<a href="/search/once%20upon%20a%20time/" class="tag2">once upon a time</a>
-	<a href="/search/tamil/" class="tag2">tamil</a>
-	<a href="/search/telugu/" class="tag2">telugu</a>
-	<a href="/search/tg/" class="tag3">tg</a>
-	<a href="/search/the%20big%20bang%20theory/" class="tag5">the big bang theory</a>
-	<a href="/search/the%20blacklist/" class="tag2">the blacklist</a>
-	<a href="/search/the%20flash/" class="tag2">the flash</a>
-	<a href="/search/the%20jinx/" class="tag2">the jinx</a>
-	<a href="/search/the%20last%20man%20on%20earth/" class="tag2">the last man on earth</a>
-	<a href="/search/the%20walking%20dead/" class="tag7">the walking dead</a>
-	<a href="/search/the%20walking%20dead%20s05/" class="tag2">the walking dead s05</a>
-	<a href="/search/the%20walking%20dead%20s05e14/" class="tag5">the walking dead s05e14</a>
-	<a href="/search/top%20gear/" class="tag3">top gear</a>
-	<a href="/search/walking%20dead/" class="tag4">walking dead</a>
-	<a href="/search/windows%207%20untouched/" class="tag9">windows 7 untouched</a>
-	<a href="/search/yify/" class="tag10">yify</a>
-	<a href="/search/yify%201080p/" class="tag4">yify 1080p</a>
-	<a href="/search/yify%20720p/" class="tag4">yify 720p</a>
-</div>
-<a class="line50perc showmore botmarg0" onClick="toggleTags(this);" title="hide tagcloud"><span class="font80perc">&#x25B2;</span></a>
 <div class="mainpart">
     
-<table width="100%" cellspacing="0" cellpadding="0" class="doublecelltable">
+
+<table width="100%" cellspacing="0" cellpadding="0" class="doublecelltable" id="mainSearchTable">
 	<tr>
 		<td width="100%">
-			<h2><a class="plain" href="/movies/">Movies Torrents</a> <a class="rsssign" target="_blank" href="/movies/?rss=1" title="category feed"></a></h2>
-<div>
+							<div class="advertising horizontalAdvert">
+    <div class="legend">Advertising (<a href="/auth/login/register/" class="ajaxLink removeAdv" title="Login or register to remove advertising">remove</a>)</div>
+    <div id="_b77c3599a877a4e9d6097b83ec9f23bb"></div>
+</div>
+
+									            								    
+			
+	        
+			<div><h2>								    				    Movies torrents
+				    							<span>  results 1-25 from 10000</span>  <a class="rsssign" target="_blank" href="http://kickass.to/movies/?rss=1" title="rss"></a></h2>
+
+
 	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
 		<tr class="firstr">
 			<th class="width100perc nopad">torrent name</th>
-			<th class="center">size</th>
-			<th class="center">files</th>
-			<th class="center">age</th>
-			<th class="center">seed</th>
-			<th class="lasttd nobr center">leech</th>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10390759,0" class="icomment icommentjs icon16" href="/cinderella-2015-72op-hdtc-h264-ac3-murd3r-t10390759.html#comment"> <em class="iconvalue">205</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/cinderella-2015-72op-hdtc-h264-ac3-murd3r-t10390759.html" class="cellMainLink">Cinderella 2015 72OP HDTC H264 AC3 MURD3R</a></div>
-			</td>
-			<td class="nobr center">2.05 <span>GB</span></td>
+						<th class="center"><a href="/movies/?field=size&sorder=desc" rel="nofollow">size</a></th>
+						<th class="center"><span class="files"><a href="/movies/?field=files_count&sorder=desc" rel="nofollow">files</a></span></th>
+						<th class="center"><span><a href="/movies/?field=time_add&sorder=desc" rel="nofollow">age</a></span></th>
+						<th class="center"><span class="seed"><a href="/movies/?field=seeders&sorder=desc" rel="nofollow">seed</a></span></th>
+						<th class="lasttd nobr center"><a href="/movies/?field=leechers&sorder=desc" rel="nofollow">leech</a></th>
+</tr>
+						<tr class="odd" id="torrent_movies_torrents10319461">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10319461,0" class="icommentjs icon16" href="/le-règne-de-la-beauté-2014-720p-bluray-dts-x264-rehd-movietam-t10319461.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">40</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/le-règne-de-la-beauté-2014-720p-bluray-dts-x264-rehd-movietam-t10319461.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Le%20R%C3%A8gne%20De%20La%20Beaut%C3%A9%202014%20720p%20BluRay%20DTS%20x264-ReHD%20%5BMovietaM%5D', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A3C71CFA6B06B575D990058CD49B54B1ACA3B47A0%26dn%3Dle%2Br%25C3%25A8gne%2Bde%2Bla%2Bbeaut%25C3%25A9%2B2014%2B720p%2Bbluray%2Bdts%2Bx264%2Brehd%2Bmovietam%26tr%3Dhttp%253A%252F%252Ffreerutor.com%253A2710%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:3C71CFA6B06B575D990058CD49B54B1ACA3B47A0&dn=le+r%C3%A8gne+de+la+beaut%C3%A9+2014+720p+bluray+dts+x264+rehd+movietam&tr=http%3A%2F%2Ffreerutor.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/3C71CFA6B06B575D990058CD49B54B1ACA3B47A0.torrent?title=[kickass.to]le.r%C3%A8gne.de.la.beaut%C3%A9.2014.720p.bluray.dts.x264.rehd.movietam" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/le-règne-de-la-beauté-2014-720p-bluray-dts-x264-rehd-movietam-t10319461.html" class="torType filmType"></a>
+                <a href="/le-règne-de-la-beauté-2014-720p-bluray-dts-x264-rehd-movietam-t10319461.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/le-règne-de-la-beauté-2014-720p-bluray-dts-x264-rehd-movietam-t10319461.html" class="cellMainLink">Le Règne De La Beauté 2014 720p BluRay DTS x264-ReHD [MovietaM]</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/czp568/">czp568</a> in <span id="cat_10319461"><strong><a href="/movies/">Movies</a> > <a href="/highres-movies/">Highres Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">5.61 <span>GB</span></td>
+			<td class="center">1</td>
+			<td class="center">2&nbsp;weeks</td>
+			<td class="green center">33659</td>
+			<td class="red lasttd center">58836</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10352928">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10352928,0" class="icommentjs icon16" href="/interstellar-2014-720p-brrip-x264-yify-t10352928.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">1125</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/interstellar-2014-720p-brrip-x264-yify-t10352928.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Interstellar%20%282014%29%20720p%20BrRip%20x264%20-%20YIFY', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A6E88B3F25BA49D483D740A652BF013C341BC5373%26dn%3Dinterstellar%2B2014%2B720p%2Bbrrip%2Bx264%2Byify%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:6E88B3F25BA49D483D740A652BF013C341BC5373&dn=interstellar+2014+720p+brrip+x264+yify&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/6E88B3F25BA49D483D740A652BF013C341BC5373.torrent?title=[kickass.to]interstellar.2014.720p.brrip.x264.yify" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/interstellar-2014-720p-brrip-x264-yify-t10352928.html" class="torType filmType"></a>
+                <a href="/interstellar-2014-720p-brrip-x264-yify-t10352928.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/interstellar-2014-720p-brrip-x264-yify-t10352928.html" class="cellMainLink">Interstellar (2014) 720p BrRip x264 - YIFY</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/YIFY/">YIFY</a> in <span id="cat_10352928"><strong><a href="/movies/">Movies</a> > <a href="/highres-movies/">Highres Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.02 <span>GB</span></td>
+			<td class="center">2</td>
+			<td class="center">1&nbsp;week</td>
+			<td class="green center">16036</td>
+			<td class="red lasttd center">5012</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10396600">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10396600,0" class="icommentjs icon16" href="/stretch-2014-720p-brrip-x264-yify-t10396600.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">119</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/stretch-2014-720p-brrip-x264-yify-t10396600.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Stretch%20%282014%29%20720p%20BrRip%20x264%20-%20YIFY', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A9B9571328EB8D416C3552B6412C279E924D705CE%26dn%3Dstretch%2B2014%2B720p%2Bbrrip%2Bx264%2Byify%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:9B9571328EB8D416C3552B6412C279E924D705CE&dn=stretch+2014+720p+brrip+x264+yify&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/9B9571328EB8D416C3552B6412C279E924D705CE.torrent?title=[kickass.to]stretch.2014.720p.brrip.x264.yify" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/stretch-2014-720p-brrip-x264-yify-t10396600.html" class="torType filmType"></a>
+                <a href="/stretch-2014-720p-brrip-x264-yify-t10396600.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/stretch-2014-720p-brrip-x264-yify-t10396600.html" class="cellMainLink">Stretch (2014) 720p BrRip x264 - YIFY</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/YIFY/">YIFY</a> in <span id="cat_10396600"><strong><a href="/movies/">Movies</a> > <a href="/highres-movies/">Highres Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">752.05 <span>MB</span></td>
+			<td class="center">2</td>
+			<td class="center">2&nbsp;days</td>
+			<td class="green center">12050</td>
+			<td class="red lasttd center">7852</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10390759">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10390759,0" class="icommentjs icon16" href="/cinderella-2015-72op-hdtc-h264-ac3-murd3r-t10390759.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">288</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/cinderella-2015-72op-hdtc-h264-ac3-murd3r-t10390759.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Cinderella%202015%2072OP%20HDTC%20H264%20AC3%20MURD3R', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A716D5CA392A05B98691839098824916BE10ECCED%26dn%3Dcinderella%2B2015%2B72op%2Bhdtc%2Bh264%2Bac3%2Bmurd3r%26tr%3Dudp%253A%252F%252Fglotorrents.pw%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:716D5CA392A05B98691839098824916BE10ECCED&dn=cinderella+2015+72op+hdtc+h264+ac3+murd3r&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/716D5CA392A05B98691839098824916BE10ECCED.torrent?title=[kickass.to]cinderella.2015.72op.hdtc.h264.ac3.murd3r" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/cinderella-2015-72op-hdtc-h264-ac3-murd3r-t10390759.html" class="torType filmType"></a>
+                <a href="/cinderella-2015-72op-hdtc-h264-ac3-murd3r-t10390759.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/cinderella-2015-72op-hdtc-h264-ac3-murd3r-t10390759.html" class="cellMainLink">Cinderella 2015 72OP HDTC H264 AC3 MURD3R</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/DOCMURDER82/">DOCMURDER82</a> in <span id="cat_10390759"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">2.05 <span>GB</span></td>
 			<td class="center">13</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">9796</td>
-			<td class="red lasttd center">13384</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10396600,0" class="icomment icommentjs icon16" href="/stretch-2014-720p-brrip-x264-yify-t10396600.html#comment"> <em class="iconvalue">69</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/stretch-2014-720p-brrip-x264-yify-t10396600.html" class="cellMainLink">Stretch (2014) 720p BrRip x264 - YIFY</a></div>
-			</td>
-			<td class="nobr center">752.05 <span>MB</span></td>
-			<td class="center">2</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">12467</td>
-			<td class="red lasttd center">10271</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10400806,0" class="icomment icommentjs icon16" href="/robot-overlords-2014-hdrip-xvid-ac3-evo-t10400806.html#comment"> <em class="iconvalue">49</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/robot-overlords-2014-hdrip-xvid-ac3-evo-t10400806.html" class="cellMainLink">Robot Overlords 2014 HDRip XviD AC3-EVO</a></div>
-			</td>
-			<td class="nobr center">1.3 <span>GB</span></td>
-			<td class="center">4</td>
-			<td class="center">11&nbsp;hours</td>
-			<td class="green center">7156</td>
-			<td class="red lasttd center">12378</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10389372,0" class="icomment icommentjs icon16" href="/skin-traffik-2015-bdrip-xvid-ac3-evo-t10389372.html#comment"> <em class="iconvalue">63</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/skin-traffik-2015-bdrip-xvid-ac3-evo-t10389372.html" class="cellMainLink">Skin Traffik 2015 BDRip XviD AC3-EVO</a></div>
-			</td>
-			<td class="nobr center">1.46 <span>GB</span></td>
-			<td class="center">4</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">5414</td>
-			<td class="red lasttd center">4574</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10391939,0" class="icomment icommentjs icon16" href="/hackers-game-2015-hdrip-xvid-juggs-etrg-t10391939.html#comment"> <em class="iconvalue">40</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/hackers-game-2015-hdrip-xvid-juggs-etrg-t10391939.html" class="cellMainLink">Hackers Game 2015 HDRip XViD-juggs[ETRG]</a></div>
-			</td>
-			<td class="nobr center">709.55 <span>MB</span></td>
+			<td class="center">3&nbsp;days</td>
+			<td class="green center">10858</td>
+			<td class="red lasttd center">12411</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10313268">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10313268,0" class="icommentjs icon16" href="/fifty-shades-of-grey-2015-uncut-hc-hdrip-x264-ac3-titan-t10313268.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">1004</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/fifty-shades-of-grey-2015-uncut-hc-hdrip-x264-ac3-titan-t10313268.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Fifty%20Shades%20of%20Grey%202015%20UNCUT%20HC%20HDRIP%20x264%20AC3%20TiTAN', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3ABFF9E2F76C55DA6CFEC07ACD6961BE5607E09B6B%26dn%3Dfifty%2Bshades%2Bof%2Bgrey%2B2015%2Buncut%2Bhc%2Bhdrip%2Bx264%2Bac3%2Btitan%26tr%3Dudp%253A%252F%252Fglotorrents.pw%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:BFF9E2F76C55DA6CFEC07ACD6961BE5607E09B6B&dn=fifty+shades+of+grey+2015+uncut+hc+hdrip+x264+ac3+titan&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/BFF9E2F76C55DA6CFEC07ACD6961BE5607E09B6B.torrent?title=[kickass.to]fifty.shades.of.grey.2015.uncut.hc.hdrip.x264.ac3.titan" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/fifty-shades-of-grey-2015-uncut-hc-hdrip-x264-ac3-titan-t10313268.html" class="torType filmType"></a>
+                <a href="/fifty-shades-of-grey-2015-uncut-hc-hdrip-x264-ac3-titan-t10313268.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/fifty-shades-of-grey-2015-uncut-hc-hdrip-x264-ac3-titan-t10313268.html" class="cellMainLink">Fifty Shades of Grey 2015 UNCUT HC HDRIP x264 AC3 TiTAN</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/Silmarillion/">Silmarillion</a> in <span id="cat_10313268"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.48 <span>GB</span></td>
+			<td class="center">3</td>
+			<td class="center">2&nbsp;weeks</td>
+			<td class="green center">10838</td>
+			<td class="red lasttd center">2310</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10382121">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10382121,0" class="icommentjs icon16" href="/seventh-son-2015-cropped-hdrip-xvid-juggs-etrg-t10382121.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">383</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/seventh-son-2015-cropped-hdrip-xvid-juggs-etrg-t10382121.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Seventh%20Son%202015%20Cropped%20HDRip%20XViD-juggs%5BETRG%5D', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3AE704CAAD6DD45E2C3F48A3D790060D047A941964%26dn%3Dseventh%2Bson%2B2015%2Bcropped%2Bhdrip%2Bxvid%2Bjuggs%2Betrg%26tr%3Dudp%253A%252F%252Fglotorrents.pw%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:E704CAAD6DD45E2C3F48A3D790060D047A941964&dn=seventh+son+2015+cropped+hdrip+xvid+juggs+etrg&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/E704CAAD6DD45E2C3F48A3D790060D047A941964.torrent?title=[kickass.to]seventh.son.2015.cropped.hdrip.xvid.juggs.etrg" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/seventh-son-2015-cropped-hdrip-xvid-juggs-etrg-t10382121.html" class="torType filmType"></a>
+                <a href="/seventh-son-2015-cropped-hdrip-xvid-juggs-etrg-t10382121.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/seventh-son-2015-cropped-hdrip-xvid-juggs-etrg-t10382121.html" class="cellMainLink">Seventh Son 2015 Cropped HDRip XViD-juggs[ETRG]</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/juggs/">juggs</a> in <span id="cat_10382121"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.4 <span>GB</span></td>
 			<td class="center">5</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">4473</td>
-			<td class="red lasttd center">3380</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10396117,0" class="icomment icommentjs icon16" href="/dilli-wali-zaleem-girlfriend-2015-1cd-pdvd-x264-ddr-t10396117.html#comment"> <em class="iconvalue">14</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/dilli-wali-zaleem-girlfriend-2015-1cd-pdvd-x264-ddr-t10396117.html" class="cellMainLink">Dilli Wali Zaleem Girlfriend (2015) 1CD - pDVD - x264 [DDR]</a></div>
-			</td>
-			<td class="nobr center">703.77 <span>MB</span></td>
-			<td class="center">3</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">1482</td>
-			<td class="red lasttd center">3496</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10386076,0" class="icomment icommentjs icon16" href="/the-hobbit-the-battle-of-the-five-armies-2014-720p-blu-ray-x264-dual-audio-mafiaking-team-m2tv-t10386076.html#comment"> <em class="iconvalue">72</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/the-hobbit-the-battle-of-the-five-armies-2014-720p-blu-ray-x264-dual-audio-mafiaking-team-m2tv-t10386076.html" class="cellMainLink">The Hobbit The Battle of the Five Armies (2014) 720p Blu-Ray x264[Dual-Audio] - Mafiaking - Team M2Tv</a></div>
-			</td>
-			<td class="nobr center">1.37 <span>GB</span></td>
-			<td class="center">3</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">1673</td>
-			<td class="red lasttd center">2936</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10392223,0" class="icomment icommentjs icon16" href="/il-settimo-figlio-2015-italian-md-dual-proper-1080p-hc-webrip-x264-ig-t10392223.html#comment"> <em class="iconvalue">7</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/il-settimo-figlio-2015-italian-md-dual-proper-1080p-hc-webrip-x264-ig-t10392223.html" class="cellMainLink">Il Settimo Figlio 2015.iTALiAN MD DUAL PROPER 1080p HC WEBRip.x264-iG</a></div>
-			</td>
-			<td class="nobr center">3.02 <span>GB</span></td>
-			<td class="center">3</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">696</td>
-			<td class="red lasttd center">2723</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10395000,0" class="icomment icommentjs icon16" href="/seventh-son-2014-webrip-720p-clear-sound-dual-audio-t10395000.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/seventh-son-2014-webrip-720p-clear-sound-dual-audio-t10395000.html" class="cellMainLink">Seventh Son (2014) WEBRip 720p | Clear Sound | Dual Audio</a></div>
-			</td>
-			<td class="nobr center">1.97 <span>GB</span></td>
-			<td class="center">1</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">1475</td>
-			<td class="red lasttd center">1722</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10400572,0" class="icomment icommentjs icon16" href="/la-french-2014-french-subforced-brrip-xvid-venum-t10400572.html#comment"> <em class="iconvalue">3</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/la-french-2014-french-subforced-brrip-xvid-venum-t10400572.html" class="cellMainLink">La French 2014 FRENCH SUBFORCED BRRip XviD-VENUM</a></div>
-			</td>
-			<td class="nobr center">1.37 <span>GB</span></td>
-			<td class="center">1</td>
-			<td class="center">12&nbsp;hours</td>
-			<td class="green center">597</td>
-			<td class="red lasttd center">2161</td>
-        </tr>
-			</table>
+			<td class="center">5&nbsp;days</td>
+			<td class="green center">10692</td>
+			<td class="red lasttd center">6199</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10400806">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10400806,0" class="icommentjs icon16" href="/robot-overlords-2014-hdrip-xvid-ac3-evo-t10400806.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">106</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/robot-overlords-2014-hdrip-xvid-ac3-evo-t10400806.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Robot%20Overlords%202014%20HDRip%20XviD%20AC3-EVO', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3AD62FC46C62412AEEACD652022BFAD78EECCEA9E9%26dn%3Drobot%2Boverlords%2B2014%2Bhdrip%2Bxvid%2Bac3%2Bevo%26tr%3Dudp%253A%252F%252Ftracker.blackunicorn.xyz%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:D62FC46C62412AEEACD652022BFAD78EECCEA9E9&dn=robot+overlords+2014+hdrip+xvid+ac3+evo&tr=udp%3A%2F%2Ftracker.blackunicorn.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/D62FC46C62412AEEACD652022BFAD78EECCEA9E9.torrent?title=[kickass.to]robot.overlords.2014.hdrip.xvid.ac3.evo" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/robot-overlords-2014-hdrip-xvid-ac3-evo-t10400806.html" class="torType filmType"></a>
+                <a href="/robot-overlords-2014-hdrip-xvid-ac3-evo-t10400806.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
 
-<h2><a class="plain" href="/tv/">TV Shows Torrents</a> <a class="rsssign" target="_blank" href="/tv/?rss=1" title="category feed"></a></h2>
-<div>
-	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
-		<tr class="firstr">
-			<th class="width100perc nopad">torrent name</th>
-			<th class="center">size</th>
-			<th class="center">files</th>
-			<th class="center">age</th>
-			<th class="center">seed</th>
-			<th class="lasttd nobr center">leech</th>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10402130,0" class="icomment icommentjs icon16" href="/the-flash-2014-s01e16-hdtv-x264-lol-ettv-t10402130.html#comment"> <em class="iconvalue">94</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/the-flash-2014-s01e16-hdtv-x264-lol-ettv-t10402130.html" class="cellMainLink">The Flash 2014 S01E16 HDTV x264-LOL[ettv]</a></div>
-			</td>
-			<td class="nobr center">243.65 <span>MB</span></td>
-			<td class="center">4</td>
-			<td class="center">4&nbsp;hours</td>
-			<td class="green center">19649</td>
-			<td class="red lasttd center">25878</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10402275,0" class="icomment icommentjs icon16" href="/marvels-agents-of-s-h-i-e-l-d-s02e14-hdtv-x264-asap-ettv-t10402275.html#comment"> <em class="iconvalue">37</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/marvels-agents-of-s-h-i-e-l-d-s02e14-hdtv-x264-asap-ettv-t10402275.html" class="cellMainLink">Marvels Agents of S H I E L D S02E14 HDTV x264-ASAP[ettv]</a></div>
-			</td>
-			<td class="nobr center">222.84 <span>MB</span></td>
-			<td class="center">4</td>
-			<td class="center">3&nbsp;hours</td>
-			<td class="green center">10008</td>
-			<td class="red lasttd center">12869</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10397342,0" class="icomment icommentjs icon16" href="/scorpion-s01e19-hdtv-x264-lol-ettv-t10397342.html#comment"> <em class="iconvalue">82</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/scorpion-s01e19-hdtv-x264-lol-ettv-t10397342.html" class="cellMainLink">Scorpion S01E19 HDTV x264-LOL[ettv]</a></div>
-			</td>
-			<td class="nobr center">371.12 <span>MB</span></td>
-			<td class="center">4</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">8411</td>
-			<td class="red lasttd center">4074</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10402133,0" class="icomment icommentjs icon16" href="/pretty-little-liars-s05e25-hdtv-x264-lol-ettv-t10402133.html#comment"> <em class="iconvalue">23</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/pretty-little-liars-s05e25-hdtv-x264-lol-ettv-t10402133.html" class="cellMainLink">Pretty Little Liars S05E25 HDTV x264-LOL[ettv]</a></div>
-			</td>
-			<td class="nobr center">205.27 <span>MB</span></td>
-			<td class="center">3</td>
-			<td class="center">4&nbsp;hours</td>
-			<td class="green center">6528</td>
-			<td class="red lasttd center">5300</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10402262,0" class="icomment icommentjs icon16" href="/izombie-s01e02-hdtv-x264-lol-ettv-t10402262.html#comment"> <em class="iconvalue">29</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/izombie-s01e02-hdtv-x264-lol-ettv-t10402262.html" class="cellMainLink">iZombie S01E02 HDTV x264-LOL[ettv]</a></div>
-			</td>
-			<td class="nobr center">224.88 <span>MB</span></td>
-			<td class="center">4</td>
-			<td class="center">3&nbsp;hours</td>
-			<td class="green center">4290</td>
-			<td class="red lasttd center">7005</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10402412,0" class="icomment icommentjs icon16" href="/person-of-interest-s04e18-hdtv-x264-lol-ettv-t10402412.html#comment"> <em class="iconvalue">8</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/person-of-interest-s04e18-hdtv-x264-lol-ettv-t10402412.html" class="cellMainLink">Person of Interest S04E18 HDTV x264-LOL[ettv]</a></div>
-			</td>
-			<td class="nobr center">221.52 <span>MB</span></td>
-			<td class="center">4</td>
-			<td class="center">2&nbsp;hours</td>
-			<td class="green center">4252</td>
-			<td class="red lasttd center">6353</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10392457,0" class="icomment icommentjs icon16" href="/once-upon-a-time-s04e16-hdtv-x264-2hd-ettv-t10392457.html#comment"> <em class="iconvalue">65</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/once-upon-a-time-s04e16-hdtv-x264-2hd-ettv-t10392457.html" class="cellMainLink">Once Upon a Time S04E16 HDTV x264-2HD[ettv]</a></div>
-			</td>
-			<td class="nobr center">290.2 <span>MB</span></td>
-			<td class="center">4</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">6547</td>
-			<td class="red lasttd center">2650</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10397348,0" class="icomment icommentjs icon16" href="/forever-us-s01e18-hdtv-x264-lol-ettv-t10397348.html#comment"> <em class="iconvalue">86</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/forever-us-s01e18-hdtv-x264-lol-ettv-t10397348.html" class="cellMainLink">Forever US S01E18 HDTV x264-LOL[ettv]</a></div>
-			</td>
-			<td class="nobr center">198.16 <span>MB</span></td>
-			<td class="center">4</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">5415</td>
-			<td class="red lasttd center">2542</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10397370,0" class="icomment icommentjs icon16" href="/bates-motel-s03e03-hdtv-x264-killers-ettv-t10397370.html#comment"> <em class="iconvalue">47</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/bates-motel-s03e03-hdtv-x264-killers-ettv-t10397370.html" class="cellMainLink">Bates Motel S03E03 HDTV x264-KILLERS[ettv]</a></div>
-			</td>
-			<td class="nobr center">289.17 <span>MB</span></td>
-			<td class="center">4</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">4458</td>
-			<td class="red lasttd center">2516</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10402421,0" class="icomment icommentjs icon16" href="/justified-s06e10-hdtv-x264-lol-ettv-t10402421.html#comment"> <em class="iconvalue">11</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/justified-s06e10-hdtv-x264-lol-ettv-t10402421.html" class="cellMainLink">Justified S06E10 HDTV x264-LOL[ettv]</a></div>
-			</td>
-			<td class="nobr center">263.88 <span>MB</span></td>
-			<td class="center">4</td>
-			<td class="center">2&nbsp;hours</td>
-			<td class="green center">2308</td>
-			<td class="red lasttd center">3011</td>
-        </tr>
-			</table>
+                <a href="/robot-overlords-2014-hdrip-xvid-ac3-evo-t10400806.html" class="cellMainLink">Robot Overlords 2014 HDRip XviD AC3-EVO</a>
 
-<h2><a class="plain" href="/music/">Music Torrents</a> <a class="rsssign" target="_blank" href="/music/?rss=1" title="category feed"></a></h2>
-<div>
-	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
-		<tr class="firstr">
-			<th class="width100perc nopad">torrent name</th>
-			<th class="center">size</th>
-			<th class="center">files</th>
-			<th class="center">age</th>
-			<th class="center">seed</th>
-			<th class="lasttd nobr center">leech</th>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10392023,0" class="icomment icommentjs icon16" href="/the-official-uk-top-40-singles-chart-03-22-2015-oldskoolscouse-t10392023.html#comment"> <em class="iconvalue">15</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/the-official-uk-top-40-singles-chart-03-22-2015-oldskoolscouse-t10392023.html" class="cellMainLink">The Official UK Top 40 Singles Chart 03-22-2015 (OldSkoolScouse)</a></div>
-			</td>
-			<td class="nobr center">365.2 <span>MB</span></td>
-			<td class="center">42</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">1262</td>
-			<td class="red lasttd center">604</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10390425,0" class="icomment icommentjs icon16" href="/100-dance-march-2015-t10390425.html#comment"> <em class="iconvalue">8</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/100-dance-march-2015-t10390425.html" class="cellMainLink">100_Dance_March 2015</a></div>
-			</td>
-			<td class="nobr center">997.66 <span>MB</span></td>
-			<td class="center">100</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">874</td>
-			<td class="red lasttd center">232</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10386447,0" class="icomment icommentjs icon16" href="/t-i-revenge-of-the-king-thrg-mixjoint-t10386447.html#comment"> <em class="iconvalue">10</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/t-i-revenge-of-the-king-thrg-mixjoint-t10386447.html" class="cellMainLink">T.I. - Revenge Of The King {-ThRG-} (MixJoint)</a></div>
-			</td>
-			<td class="nobr center">69.89 <span>MB</span></td>
-			<td class="center">15</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">842</td>
-			<td class="red lasttd center">96</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10388971,0" class="icomment icommentjs icon16" href="/sxsw-2015-showcasing-artists-part1-t10388971.html#comment"> <em class="iconvalue">8</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/sxsw-2015-showcasing-artists-part1-t10388971.html" class="cellMainLink">SXSW 2015 Showcasing Artists Part1</a></div>
-			</td>
-			<td class="nobr center">5.42 <span>GB</span></td>
-			<td class="center">844</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">483</td>
-			<td class="red lasttd center">233</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10393170,0" class="icomment icommentjs icon16" href="/the-uk-top-40-official-singles-chart-22-march-2015-itake-glodls-t10393170.html#comment"> <em class="iconvalue">4</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/the-uk-top-40-official-singles-chart-22-march-2015-itake-glodls-t10393170.html" class="cellMainLink">The UK Top 40 Official Singles Chart (22 March 2015) ~iTake~ [GloDLS]</a></div>
-			</td>
-			<td class="nobr center">366.25 <span>MB</span></td>
-			<td class="center">41</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">253</td>
-			<td class="red lasttd center">172</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10393775,0" class="icomment icommentjs icon16" href="/va-car-audio-red-pack-sound-clinic-special-edition-t10393775.html#comment"> <em class="iconvalue">4</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/va-car-audio-red-pack-sound-clinic-special-edition-t10393775.html" class="cellMainLink">VA - Car Audio. Red Pack (Sound Clinic - Special Edition)</a></div>
-			</td>
-			<td class="nobr center">2.09 <span>GB</span></td>
-			<td class="center">147</td>
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/Silmarillion/">Silmarillion</a> in <span id="cat_10400806"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.3 <span>GB</span></td>
+			<td class="center">4</td>
 			<td class="center">1&nbsp;day</td>
-			<td class="green center">192</td>
-			<td class="red lasttd center">170</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10389218,0" class="icomment icommentjs icon16" href="/deep-house-tech-house-techno-indie-dance-nu-disco-electro-progressive-house-juno-download-top-100-march-2015-mp3-320-kbps-edm-rg-t10389218.html#comment"> <em class="iconvalue">3</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/deep-house-tech-house-techno-indie-dance-nu-disco-electro-progressive-house-juno-download-top-100-march-2015-mp3-320-kbps-edm-rg-t10389218.html" class="cellMainLink">(Deep House, Tech House, Techno, Indie Dance, Nu Disco, Electro, Progressive House) Juno Download Top 100 March (2015) MP3, 320 Kbps [EDM RG]</a></div>
-			</td>
-			<td class="nobr center">1.35 <span>GB</span></td>
-			<td class="center">100</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">112</td>
-			<td class="red lasttd center">114</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10390587,0" class="icomment icommentjs icon16" href="/italo-disco-hits-vol-2-2015-t10390587.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/italo-disco-hits-vol-2-2015-t10390587.html" class="cellMainLink">Italo Disco Hits Vol.2 (2015)</a></div>
-			</td>
-			<td class="nobr center">869.16 <span>MB</span></td>
-			<td class="center">65</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">173</td>
-			<td class="red lasttd center">36</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10401394,0" class="icomment icommentjs icon16" href="/the-howard-stern-show-3-24-15-the-wrap-up-show-3-24-15-t10401394.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/the-howard-stern-show-3-24-15-the-wrap-up-show-3-24-15-t10401394.html" class="cellMainLink">The Howard Stern Show 3-24-15 &amp; The Wrap Up Show 3-24-15</a></div>
-			</td>
-			<td class="nobr center">180.88 <span>MB</span></td>
-			<td class="center">3</td>
-			<td class="center">9&nbsp;hours</td>
-			<td class="green center">79</td>
-			<td class="red lasttd center">41</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10391203,0" class="icomment icommentjs icon16" href="/led-zeppelin-led-zeppelin-studio-magik-sessions-1968-1980-mp3-320-t10391203.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/led-zeppelin-led-zeppelin-studio-magik-sessions-1968-1980-mp3-320-t10391203.html" class="cellMainLink">LED ZEPPELIN - Led Zeppelin Studio Magik (Sessions 1968-1980) MP3@320</a></div>
-			</td>
-			<td class="nobr center">2.76 <span>GB</span></td>
-			<td class="center">268</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">16</td>
-			<td class="red lasttd center">38</td>
-        </tr>
-			</table>
+			<td class="green center">13303</td>
+			<td class="red lasttd center">11204</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10327043">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10327043,0" class="icommentjs icon16" href="/exodus-gods-and-kings-2014-720p-brrip-x264-yify-t10327043.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">537</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/exodus-gods-and-kings-2014-720p-brrip-x264-yify-t10327043.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Exodus%3A%20Gods%20and%20Kings%20%282014%29%20720p%20BrRip%20x264%20-%20YIFY', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A9EB1A2D6A377731FF645A9802293F9C6DDE6F3B1%26dn%3Dexodus%2Bgods%2Band%2Bkings%2B2014%2B720p%2Bbrrip%2Bx264%2Byify%26tr%3Dhttp%253A%252F%252Ftracker.best-torrents.net%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:9EB1A2D6A377731FF645A9802293F9C6DDE6F3B1&dn=exodus+gods+and+kings+2014+720p+brrip+x264+yify&tr=http%3A%2F%2Ftracker.best-torrents.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/9EB1A2D6A377731FF645A9802293F9C6DDE6F3B1.torrent?title=[kickass.to]exodus.gods.and.kings.2014.720p.brrip.x264.yify" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/exodus-gods-and-kings-2014-720p-brrip-x264-yify-t10327043.html" class="torType filmType"></a>
+                <a href="/exodus-gods-and-kings-2014-720p-brrip-x264-yify-t10327043.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
 
-<h2><a class="plain" href="/games/">Games Torrents</a> <a class="rsssign" target="_blank" href="/games/?rss=1" title="category feed"></a></h2>
-<div>
-	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
-		<tr class="firstr">
-			<th class="width100perc nopad">torrent name</th>
-			<th class="center">size</th>
-			<th class="center">files</th>
-			<th class="center">age</th>
-			<th class="center">seed</th>
-			<th class="lasttd nobr center">leech</th>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10398184,0" class="icomment icommentjs icon16" href="/life-is-strange-episode-2-codex-t10398184.html#comment"> <em class="iconvalue">86</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType zipType">
-                    <a href="/life-is-strange-episode-2-codex-t10398184.html" class="cellMainLink">Life Is Strange Episode 2-CODEX</a></div>
-			</td>
-			<td class="nobr center">3.35 <span>GB</span></td>
-			<td class="center">3</td>
-			<td class="center">23&nbsp;hours</td>
-			<td class="green center">930</td>
-			<td class="red lasttd center">876</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10399188,0" class="icomment icommentjs icon16" href="/game-of-thrones-telltale-pc-game-e1-e2-e3-nosteam-t10399188.html#comment"> <em class="iconvalue">81</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType exeType">
-                    <a href="/game-of-thrones-telltale-pc-game-e1-e2-e3-nosteam-t10399188.html" class="cellMainLink">Game of Thrones Telltale PC game E1+E2+E3 ^^nosTEAM^^</a></div>
-			</td>
-			<td class="nobr center">5.16 <span>GB</span></td>
-			<td class="center">4</td>
-			<td class="center">18&nbsp;hours</td>
-			<td class="green center">485</td>
-			<td class="red lasttd center">846</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10384331,0" class="icomment icommentjs icon16" href="/cities-skylines-r-g-catalyst-t10384331.html#comment"> <em class="iconvalue">27</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType Type">
-                    <a href="/cities-skylines-r-g-catalyst-t10384331.html" class="cellMainLink">Cities: Skylines [R.G. Catalyst]</a></div>
-			</td>
-			<td class="nobr center">781.71 <span>MB</span></td>
-			<td class="center">4</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">647</td>
-			<td class="red lasttd center">157</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10384679,0" class="icomment icommentjs icon16" href="/divinity-original-sin-multi6-prophet-t10384679.html#comment"> <em class="iconvalue">15</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType zipType">
-                    <a href="/divinity-original-sin-multi6-prophet-t10384679.html" class="cellMainLink">Divinity Original Sin MULTi6-PROPHET</a></div>
-			</td>
-			<td class="nobr center">7.22 <span>GB</span></td>
+                <a href="/exodus-gods-and-kings-2014-720p-brrip-x264-yify-t10327043.html" class="cellMainLink">Exodus: Gods and Kings (2014) 720p BrRip x264 - YIFY</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/YIFY/">YIFY</a> in <span id="cat_10327043"><strong><a href="/movies/">Movies</a> > <a href="/highres-movies/">Highres Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">986.24 <span>MB</span></td>
 			<td class="center">2</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">165</td>
-			<td class="red lasttd center">304</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10394252,0" class="icomment icommentjs icon16" href="/train-simulator-2015-multi7-elamigos-t10394252.html#comment"> <em class="iconvalue">10</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType zipType">
-                    <a href="/train-simulator-2015-multi7-elamigos-t10394252.html" class="cellMainLink">Train Simulator 2015 MULTi7-ElAmigos</a></div>
-			</td>
-			<td class="nobr center">13.38 <span>GB</span></td>
-			<td class="center">1</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">60</td>
-			<td class="red lasttd center">243</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10389638,0" class="icomment icommentjs icon16" href="/men-of-war-assault-squad-2-brick-t10389638.html#comment"> <em class="iconvalue">13</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType exeType">
-                    <a href="/men-of-war-assault-squad-2-brick-t10389638.html" class="cellMainLink">Men of War: Assault Squad 2- Brick</a></div>
-			</td>
-			<td class="nobr center">1.64 <span>GB</span></td>
-			<td class="center">4</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">207</td>
-			<td class="red lasttd center">95</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10394742,0" class="icomment icommentjs icon16" href="/world-of-subways-4-new-york-line-7-codex-t10394742.html#comment"> <em class="iconvalue">37</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType zipType">
-                    <a href="/world-of-subways-4-new-york-line-7-codex-t10394742.html" class="cellMainLink">World of Subways 4 New York Line 7-CODEX</a></div>
-			</td>
-			<td class="nobr center">2.08 <span>GB</span></td>
-			<td class="center">1</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">183</td>
-			<td class="red lasttd center">110</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10399399,0" class="icomment icommentjs icon16" href="/borderlands-the-pre-sequel-r-g-mechanics-t10399399.html#comment"> <em class="iconvalue">10</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType exeType">
-                    <a href="/borderlands-the-pre-sequel-r-g-mechanics-t10399399.html" class="cellMainLink">Borderlands: The Pre-Sequel! [R.G. Mechanics]</a></div>
-			</td>
-			<td class="nobr center">5.05 <span>GB</span></td>
-			<td class="center">22</td>
-			<td class="center">17&nbsp;hours</td>
-			<td class="green center">137</td>
-			<td class="red lasttd center">133</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10391923,0" class="icomment icommentjs icon16" href="/r-g-mechanics-assetto-corsa-v-1-1-3-2013-pc-repack-by-rg-mechanics-t10391923.html#comment"> <em class="iconvalue">22</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType exeType">
-                    <a href="/r-g-mechanics-assetto-corsa-v-1-1-3-2013-pc-repack-by-rg-mechanics-t10391923.html" class="cellMainLink">[R.G. Mechanics] Assetto Corsa [v 1.1.3] (2013) PC | RePack by RG Mechanics</a></div>
-			</td>
-			<td class="nobr center">4.48 <span>GB</span></td>
-			<td class="center">16</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">135</td>
-			<td class="red lasttd center">124</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10398047,0" class="icomment icommentjs icon16" href="/3dmgame-life-is-strange-ep1-2-cracked-3dm-t10398047.html#comment"> <em class="iconvalue">28</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType zipType">
-                    <a href="/3dmgame-life-is-strange-ep1-2-cracked-3dm-t10398047.html" class="cellMainLink">3DMGAME Life Is Strange EP1 2 Cracked 3DM</a></div>
-			</td>
-			<td class="nobr center">3.15 <span>GB</span></td>
-			<td class="center">7</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">89</td>
-			<td class="red lasttd center">103</td>
-        </tr>
-			</table>
+			<td class="center">2&nbsp;weeks</td>
+			<td class="green center">12780</td>
+			<td class="red lasttd center">3199</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10382992">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10382992,0" class="icommentjs icon16" href="/paddington-2014-720p-brrip-x264-yify-t10382992.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">198</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/paddington-2014-720p-brrip-x264-yify-t10382992.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Paddington%20%282014%29%20720p%20BrRip%20x264%20-%20YIFY', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A6419775CCBF3833859449C940C2E2357DD7F2613%26dn%3Dpaddington%2B2014%2B720p%2Bbrrip%2Bx264%2Byify%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:6419775CCBF3833859449C940C2E2357DD7F2613&dn=paddington+2014+720p+brrip+x264+yify&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/6419775CCBF3833859449C940C2E2357DD7F2613.torrent?title=[kickass.to]paddington.2014.720p.brrip.x264.yify" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/paddington-2014-720p-brrip-x264-yify-t10382992.html" class="torType filmType"></a>
+                <a href="/paddington-2014-720p-brrip-x264-yify-t10382992.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
 
-<h2><a class="plain" href="/applications/">Applications Torrents</a> <a class="rsssign" target="_blank" href="/applications/?rss=1" title="category feed"></a></h2>
-<div>
-	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
-		<tr class="firstr">
-			<th class="width100perc nopad">torrent name</th>
-			<th class="center">size</th>
-			<th class="center">files</th>
-			<th class="center">age</th>
-			<th class="center">seed</th>
-			<th class="lasttd nobr center">leech</th>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10394856,0" class="icomment icommentjs icon16" href="/top-paid-android-apps-games-themes-pack-23-march-2015-android-zone-t10394856.html#comment"> <em class="iconvalue">26</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType exeType">
-                    <a href="/top-paid-android-apps-games-themes-pack-23-march-2015-android-zone-t10394856.html" class="cellMainLink">Top Paid Android Apps, Games &amp; Themes Pack - 23 March 2015 [ANDROID-ZONE]</a></div>
-			</td>
-			<td class="nobr center">1.1 <span>GB</span></td>
-			<td class="center">72</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">468</td>
-			<td class="red lasttd center">539</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10383927,0" class="icomment icommentjs icon16" href="/autodesk-autocad-architecture-2016-32-64bit-firstuploads-t10383927.html#comment"> <em class="iconvalue">6</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType zipType">
-                    <a href="/autodesk-autocad-architecture-2016-32-64bit-firstuploads-t10383927.html" class="cellMainLink">Autodesk AutoCAD Architecture 2016 [32-64Bit]-[FirstUploads]</a></div>
-			</td>
-			<td class="nobr center">10.23 <span>GB</span></td>
+                <a href="/paddington-2014-720p-brrip-x264-yify-t10382992.html" class="cellMainLink">Paddington (2014) 720p BrRip x264 - YIFY</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/YIFY/">YIFY</a> in <span id="cat_10382992"><strong><a href="/movies/">Movies</a> > <a href="/highres-movies/">Highres Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">751.94 <span>MB</span></td>
+			<td class="center">2</td>
+			<td class="center">5&nbsp;days</td>
+			<td class="green center">10868</td>
+			<td class="red lasttd center">3102</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10342821">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10342821,0" class="icommentjs icon16" href="/into-the-woods-2014-1080p-brrip-x264-yify-t10342821.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">248</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/into-the-woods-2014-1080p-brrip-x264-yify-t10342821.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Into%20the%20Woods%20%282014%29%201080p%20BrRip%20x264%20-%20YIFY', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A4E660F05AD95F61950985C3A6702AE605E41B649%26dn%3Dinto%2Bthe%2Bwoods%2B2014%2B1080p%2Bbrrip%2Bx264%2Byify%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:4E660F05AD95F61950985C3A6702AE605E41B649&dn=into+the+woods+2014+1080p+brrip+x264+yify&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/4E660F05AD95F61950985C3A6702AE605E41B649.torrent?title=[kickass.to]into.the.woods.2014.1080p.brrip.x264.yify" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/into-the-woods-2014-1080p-brrip-x264-yify-t10342821.html" class="torType filmType"></a>
+                <a href="/into-the-woods-2014-1080p-brrip-x264-yify-t10342821.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/into-the-woods-2014-1080p-brrip-x264-yify-t10342821.html" class="cellMainLink">Into the Woods (2014) 1080p BrRip x264 - YIFY</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/YIFY/">YIFY</a> in <span id="cat_10342821"><strong><a href="/movies/">Movies</a> > <a href="/highres-movies/">Highres Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.85 <span>GB</span></td>
+			<td class="center">2</td>
+			<td class="center">1&nbsp;week</td>
+			<td class="green center">9489</td>
+			<td class="red lasttd center">4299</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10349158">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10349158,0" class="icommentjs icon16" href="/focus-2015-hc-hdrip-xvid-ac3-juggs-etrg-t10349158.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">456</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/focus-2015-hc-hdrip-xvid-ac3-juggs-etrg-t10349158.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Focus%202015%20HC%20HDRip%20XViD%20AC3-juggs%5BETRG%5D', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A4867D6CF5BE68BEA5BD4D34059168F2EDCE93306%26dn%3Dfocus%2B2015%2Bhc%2Bhdrip%2Bxvid%2Bac3%2Bjuggs%2Betrg%26tr%3Dudp%253A%252F%252Fglotorrents.pw%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:4867D6CF5BE68BEA5BD4D34059168F2EDCE93306&dn=focus+2015+hc+hdrip+xvid+ac3+juggs+etrg&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/4867D6CF5BE68BEA5BD4D34059168F2EDCE93306.torrent?title=[kickass.to]focus.2015.hc.hdrip.xvid.ac3.juggs.etrg" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/focus-2015-hc-hdrip-xvid-ac3-juggs-etrg-t10349158.html" class="torType filmType"></a>
+                <a href="/focus-2015-hc-hdrip-xvid-ac3-juggs-etrg-t10349158.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/focus-2015-hc-hdrip-xvid-ac3-juggs-etrg-t10349158.html" class="cellMainLink">Focus 2015 HC HDRip XViD AC3-juggs[ETRG]</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/juggs/">juggs</a> in <span id="cat_10349158"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.39 <span>GB</span></td>
+			<td class="center">5</td>
+			<td class="center">1&nbsp;week</td>
+			<td class="green center">11054</td>
+			<td class="red lasttd center">4900</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10290078">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10290078,0" class="icommentjs icon16" href="/american-sniper-2014-french-dvdscr-xvid-md-prozaik-avi-t10290078.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">12</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/american-sniper-2014-french-dvdscr-xvid-md-prozaik-avi-t10290078.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'American%20Sniper%202014%20FRENCH%20DVDSCR%20XviD%20MD-ProZaiK%20avi', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3AB414C69F81D6B1AAB36445618F0AFD6C58EAAB17%26dn%3Damerican%2Bsniper%2B2014%2Bfrench%2Bdvdscr%2Bxvid%2Bmd%2Bprozaik%2Bavi%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:B414C69F81D6B1AAB36445618F0AFD6C58EAAB17&dn=american+sniper+2014+french+dvdscr+xvid+md+prozaik+avi&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/B414C69F81D6B1AAB36445618F0AFD6C58EAAB17.torrent?title=[kickass.to]american.sniper.2014.french.dvdscr.xvid.md.prozaik.avi" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/american-sniper-2014-french-dvdscr-xvid-md-prozaik-avi-t10290078.html" class="torType filmType"></a>
+                <a href="/american-sniper-2014-french-dvdscr-xvid-md-prozaik-avi-t10290078.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/american-sniper-2014-french-dvdscr-xvid-md-prozaik-avi-t10290078.html" class="cellMainLink">American Sniper 2014 FRENCH DVDSCR XviD MD-ProZaiK avi</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <a class="plain" href="/user/alex4020/">alex4020</a> in <span id="cat_10290078"><strong><a href="/movies/">Movies</a> > <a href="/dubbed-movies/">Dubbed Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.01 <span>GB</span></td>
+			<td class="center">1</td>
+			<td class="center">3&nbsp;weeks</td>
+			<td class="green center">10574</td>
+			<td class="red lasttd center">1254</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10327698">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10327698,0" class="icommentjs icon16" href="/exodus-gods-and-kings-2014-1080p-brrip-x264-yify-t10327698.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">147</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/exodus-gods-and-kings-2014-1080p-brrip-x264-yify-t10327698.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Exodus%3A%20Gods%20and%20Kings%20%282014%29%201080p%20BrRip%20x264%20-%20YIFY', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3AA382EED00124931CEC1E4D0723C9609F382E2757%26dn%3Dexodus%2Bgods%2Band%2Bkings%2B2014%2B1080p%2Bbrrip%2Bx264%2Byify%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:A382EED00124931CEC1E4D0723C9609F382E2757&dn=exodus+gods+and+kings+2014+1080p+brrip+x264+yify&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/A382EED00124931CEC1E4D0723C9609F382E2757.torrent?title=[kickass.to]exodus.gods.and.kings.2014.1080p.brrip.x264.yify" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/exodus-gods-and-kings-2014-1080p-brrip-x264-yify-t10327698.html" class="torType filmType"></a>
+                <a href="/exodus-gods-and-kings-2014-1080p-brrip-x264-yify-t10327698.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/exodus-gods-and-kings-2014-1080p-brrip-x264-yify-t10327698.html" class="cellMainLink">Exodus: Gods and Kings (2014) 1080p BrRip x264 - YIFY</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/YIFY/">YIFY</a> in <span id="cat_10327698"><strong><a href="/movies/">Movies</a> > <a href="/highres-movies/">Highres Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">2.16 <span>GB</span></td>
+			<td class="center">2</td>
+			<td class="center">2&nbsp;weeks</td>
+			<td class="green center">6748</td>
+			<td class="red lasttd center">2212</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10369122">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10369122,0" class="icommentjs icon16" href="/interstellar-2014-truefrench-brrip-xvid-slay3r-avi-t10369122.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">18</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/interstellar-2014-truefrench-brrip-xvid-slay3r-avi-t10369122.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Interstellar%202014%20TRUEFRENCH%20BRRip%20XviD-Slay3R%20avi', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A2BBFA58659E8D9541E803A4B803D2352B8BC4ECB%26dn%3Dinterstellar%2B2014%2Btruefrench%2Bbrrip%2Bxvid%2Bslay3r%2Bavi%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:2BBFA58659E8D9541E803A4B803D2352B8BC4ECB&dn=interstellar+2014+truefrench+brrip+xvid+slay3r+avi&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/2BBFA58659E8D9541E803A4B803D2352B8BC4ECB.torrent?title=[kickass.to]interstellar.2014.truefrench.brrip.xvid.slay3r.avi" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/interstellar-2014-truefrench-brrip-xvid-slay3r-avi-t10369122.html" class="torType filmType"></a>
+                <a href="/interstellar-2014-truefrench-brrip-xvid-slay3r-avi-t10369122.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/interstellar-2014-truefrench-brrip-xvid-slay3r-avi-t10369122.html" class="cellMainLink">Interstellar 2014 TRUEFRENCH BRRip XviD-Slay3R avi</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <a class="plain" href="/user/Frenchripper/">Frenchripper</a> in <span id="cat_10369122"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.39 <span>GB</span></td>
+			<td class="center">1</td>
+			<td class="center">1&nbsp;week</td>
+			<td class="green center">8950</td>
+			<td class="red lasttd center">1580</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10354318">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10354318,0" class="icommentjs icon16" href="/into-the-woods-2014-french-brrip-xvid-ac3-carpediem-avi-t10354318.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">3</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/into-the-woods-2014-french-brrip-xvid-ac3-carpediem-avi-t10354318.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Into%20the%20Woods%202014%20FRENCH%20BRRip%20XviD%20AC3-CARPEDIEM%20avi', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A8DEA787827EC3FD98A3E4EC9E21603F38811795E%26dn%3Dinto%2Bthe%2Bwoods%2B2014%2Bfrench%2Bbrrip%2Bxvid%2Bac3%2Bcarpediem%2Bavi%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:8DEA787827EC3FD98A3E4EC9E21603F38811795E&dn=into+the+woods+2014+french+brrip+xvid+ac3+carpediem+avi&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/8DEA787827EC3FD98A3E4EC9E21603F38811795E.torrent?title=[kickass.to]into.the.woods.2014.french.brrip.xvid.ac3.carpediem.avi" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/into-the-woods-2014-french-brrip-xvid-ac3-carpediem-avi-t10354318.html" class="torType filmType"></a>
+                <a href="/into-the-woods-2014-french-brrip-xvid-ac3-carpediem-avi-t10354318.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/into-the-woods-2014-french-brrip-xvid-ac3-carpediem-avi-t10354318.html" class="cellMainLink">Into the Woods 2014 FRENCH BRRip XviD AC3-CARPEDIEM avi</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <a class="plain" href="/user/rafalefly45/">rafalefly45</a> in <span id="cat_10354318"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">2.05 <span>GB</span></td>
+			<td class="center">1</td>
+			<td class="center">1&nbsp;week</td>
+			<td class="green center">8368</td>
+			<td class="red lasttd center">1507</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10364309">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10364309,0" class="icommentjs icon16" href="/the-water-diviner-2014-brrip-xvid-ac3-evo-t10364309.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">185</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/the-water-diviner-2014-brrip-xvid-ac3-evo-t10364309.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'The%20Water%20Diviner%202014%20BRRip%20XviD%20AC3-EVO', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A1E692E8AC3269FC2F6E82ED420C44EE2B249365B%26dn%3Dthe%2Bwater%2Bdiviner%2B2014%2Bbrrip%2Bxvid%2Bac3%2Bevo%26tr%3Dudp%253A%252F%252Fglotorrents.pw%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:1E692E8AC3269FC2F6E82ED420C44EE2B249365B&dn=the+water+diviner+2014+brrip+xvid+ac3+evo&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/1E692E8AC3269FC2F6E82ED420C44EE2B249365B.torrent?title=[kickass.to]the.water.diviner.2014.brrip.xvid.ac3.evo" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/the-water-diviner-2014-brrip-xvid-ac3-evo-t10364309.html" class="torType filmType"></a>
+                <a href="/the-water-diviner-2014-brrip-xvid-ac3-evo-t10364309.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/the-water-diviner-2014-brrip-xvid-ac3-evo-t10364309.html" class="cellMainLink">The Water Diviner 2014 BRRip XviD AC3-EVO</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/Silmarillion/">Silmarillion</a> in <span id="cat_10364309"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.48 <span>GB</span></td>
 			<td class="center">6</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">137</td>
-			<td class="red lasttd center">394</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10383937,0" class="icomment icommentjs icon16" href="/internet-download-manager-idm-v-6-23-build-8-crack-mhktricks-menin-t10383937.html#comment"> <em class="iconvalue">14</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType zipType">
-                    <a href="/internet-download-manager-idm-v-6-23-build-8-crack-mhktricks-menin-t10383937.html" class="cellMainLink">Internet Download Manager (IDM) v 6.23 Build 8 + Crack [mhktricks] (menin)</a></div>
-			</td>
-			<td class="nobr center">7.62 <span>MB</span></td>
-			<td class="center">1</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">422</td>
-			<td class="red lasttd center">56</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10389213,0" class="icomment icommentjs icon16" href="/coreldraw-technical-suite-x7-17-4-0-887-32-64bit-firstuploads-t10389213.html#comment"> <em class="iconvalue">12</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType exeType">
-                    <a href="/coreldraw-technical-suite-x7-17-4-0-887-32-64bit-firstuploads-t10389213.html" class="cellMainLink">CorelDRAW Technical Suite X7 17.4.0.887 [32-64Bit]-[FirstUploads]</a></div>
-			</td>
-			<td class="nobr center">2.8 <span>GB</span></td>
-			<td class="center">6</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">179</td>
-			<td class="red lasttd center">204</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10399685,0" class="icomment icommentjs icon16" href="/whatsapp-reborn-1-80-plus-antiban-ban-proof-material-design-download-whatsapp-apk-osmdroid-t10399685.html#comment"> <em class="iconvalue">30</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType exeType">
-                    <a href="/whatsapp-reborn-1-80-plus-antiban-ban-proof-material-design-download-whatsapp-apk-osmdroid-t10399685.html" class="cellMainLink">WhatsApp Reborn 1.80 Plus AntiBan Ban Proof Material Design download WhatsApp+ apk OsmDroid</a></div>
-			</td>
-			<td class="nobr center">23.52 <span>MB</span></td>
-			<td class="center">1</td>
-			<td class="center">16&nbsp;hours</td>
-			<td class="green center">207</td>
-			<td class="red lasttd center">62</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10390172,0" class="icomment icommentjs icon16" href="/avira-antivirus-pro-internet-security-15-0-9-502-final-appzdam-t10390172.html#comment"> <em class="iconvalue">28</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType exeType">
-                    <a href="/avira-antivirus-pro-internet-security-15-0-9-502-final-appzdam-t10390172.html" class="cellMainLink">Avira Antivirus Pro + Internet Security 15.0.9.502 Final - AppzDam</a></div>
-			</td>
-			<td class="nobr center">306.51 <span>MB</span></td>
-			<td class="center">7</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">152</td>
-			<td class="red lasttd center">55</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10390914,0" class="icomment icommentjs icon16" href="/rythmic-robot-synth-collection-kontakt-oddsox-t10390914.html#comment"> <em class="iconvalue">6</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType zipType">
-                    <a href="/rythmic-robot-synth-collection-kontakt-oddsox-t10390914.html" class="cellMainLink">Rythmic Robot Synth Collection KONTAKT [oddsox]</a></div>
-			</td>
-			<td class="nobr center">5.78 <span>GB</span></td>
-			<td class="center">137</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">78</td>
-			<td class="red lasttd center">59</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10389326,0" class="icomment icommentjs icon16" href="/premier-system-x5-1-15-1-979-keygen-firstuploads-t10389326.html#comment"> <em class="iconvalue">9</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType exeType">
-                    <a href="/premier-system-x5-1-15-1-979-keygen-firstuploads-t10389326.html" class="cellMainLink">Premier System X5.1 15.1.979 + Keygen-[FirstUploads]</a></div>
-			</td>
-			<td class="nobr center">423.05 <span>MB</span></td>
-			<td class="center">5</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">52</td>
-			<td class="red lasttd center">35</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10395176,0" class="icomment icommentjs icon16" href="/android-apps-games-19-03-15-t10395176.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType zipType">
-                    <a href="/android-apps-games-19-03-15-t10395176.html" class="cellMainLink">Android Apps &amp; Games 19.03.15</a></div>
-			</td>
-			<td class="nobr center">3.48 <span>GB</span></td>
-			<td class="center">4</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">44</td>
-			<td class="red lasttd center">40</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10399113,0" class="icomment icommentjs icon16" href="/unity-3d-pro-5-0-0p2-crack-64bit-windows-viruz-t10399113.html#comment"> <em class="iconvalue">6</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType zipType">
-                    <a href="/unity-3d-pro-5-0-0p2-crack-64bit-windows-viruz-t10399113.html" class="cellMainLink">Unity 3D Pro 5.0.0p2 &amp; Crack (64bit Windows) | VIruz</a></div>
-			</td>
-			<td class="nobr center">1.16 <span>GB</span></td>
-			<td class="center">1</td>
-			<td class="center">19&nbsp;hours</td>
-			<td class="green center">7</td>
-			<td class="red lasttd center">19</td>
-        </tr>
-			</table>
+			<td class="center">1&nbsp;week</td>
+			<td class="green center">8108</td>
+			<td class="red lasttd center">3132</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10383642">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10383642,0" class="icommentjs icon16" href="/seventh-son-2014-1080p-hdrip-x264-aac-jyk-t10383642.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">82</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/seventh-son-2014-1080p-hdrip-x264-aac-jyk-t10383642.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Seventh%20Son%202014%201080p%20HDRip%20x264%20AAC-JYK', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3AF1A6A79B2090CEE3AEA90AF49F633C849911602B%26dn%3Dseventh%2Bson%2B2014%2B1080p%2Bhdrip%2Bx264%2Baac%2Bjyk%26tr%3Dhttp%253A%252F%252Ftracker.aletorrenty.pl%253A2710%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:F1A6A79B2090CEE3AEA90AF49F633C849911602B&dn=seventh+son+2014+1080p+hdrip+x264+aac+jyk&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/F1A6A79B2090CEE3AEA90AF49F633C849911602B.torrent?title=[kickass.to]seventh.son.2014.1080p.hdrip.x264.aac.jyk" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/seventh-son-2014-1080p-hdrip-x264-aac-jyk-t10383642.html" class="torType filmType"></a>
+                <a href="/seventh-son-2014-1080p-hdrip-x264-aac-jyk-t10383642.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
 
-<h2><a class="plain" href="/anime/">Anime Torrents</a> <a class="rsssign" target="_blank" href="/anime/?rss=1" title="category feed"></a></h2>
-<div>
-	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
-		<tr class="firstr">
-			<th class="width100perc nopad">torrent name</th>
-			<th class="center">size</th>
-			<th class="center">files</th>
-			<th class="center">age</th>
-			<th class="center">seed</th>
-			<th class="lasttd nobr center">leech</th>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10386519,0" class="icomment icommentjs icon16" href="/horriblesubs-the-rolling-girls-11-720p-mkv-t10386519.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/horriblesubs-the-rolling-girls-11-720p-mkv-t10386519.html" class="cellMainLink">[HorribleSubs] The Rolling Girls - 11 [720p].mkv</a></div>
-			</td>
-			<td class="nobr center">454.87 <span>MB</span></td>
-			<td class="center">1</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">48</td>
-			<td class="red lasttd center">528</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10387846,0" class="icomment icommentjs icon16" href="/deadfish-kuroko-no-basket-3-11-720p-aac-mp4-t10387846.html#comment"> <em class="iconvalue">9</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/deadfish-kuroko-no-basket-3-11-720p-aac-mp4-t10387846.html" class="cellMainLink">[DeadFish] Kuroko no Basket 3 - 11 [720p][AAC].mp4</a></div>
-			</td>
-			<td class="nobr center">337.01 <span>MB</span></td>
-			<td class="center">1</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">237</td>
-			<td class="red lasttd center">289</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10388952,0" class="icomment icommentjs icon16" href="/one-piece-685-eng-sub-720p-l-mbert-t10388952.html#comment"> <em class="iconvalue">30</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/one-piece-685-eng-sub-720p-l-mbert-t10388952.html" class="cellMainLink">One Piece 685 [EnG SuB] 720p L@mBerT</a></div>
-			</td>
-			<td class="nobr center">124.8 <span>MB</span></td>
-			<td class="center">9</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">349</td>
-			<td class="red lasttd center">86</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright"> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/leopard-raws-akatsuki-no-yona-mx-1280x720-x264-aac-t10400685.html" class="cellMainLink">[Leopard-Raws] Akatsuki no Yona (MX 1280x720 x264 AAC)</a></div>
-			</td>
-			<td class="nobr center">7.84 <span>GB</span></td>
-			<td class="center">26</td>
-			<td class="center">11&nbsp;hours</td>
-			<td class="green center">89</td>
-			<td class="red lasttd center">301</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10387091,0" class="icomment icommentjs icon16" href="/chihiro-absolute-duo-11-720p-hi10p-aac-9b9b0d5e-t10387091.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/chihiro-absolute-duo-11-720p-hi10p-aac-9b9b0d5e-t10387091.html" class="cellMainLink">[Chihiro] Absolute Duo - 11 [720p Hi10P AAC][9B9B0D5E]</a></div>
-			</td>
-			<td class="nobr center">353.57 <span>MB</span></td>
-			<td class="center">2</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">47</td>
-			<td class="red lasttd center">171</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright"> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/commie-log-horizon-2-23-03d7de09-mkv-t10400440.html" class="cellMainLink">[Commie] Log Horizon 2 - 23 [03D7DE09].mkv</a></div>
-			</td>
-			<td class="nobr center">329.03 <span>MB</span></td>
-			<td class="center">1</td>
-			<td class="center">12&nbsp;hours</td>
-			<td class="green center">35</td>
-			<td class="red lasttd center">123</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10394882,0" class="icomment icommentjs icon16" href="/vivid-durarara-x2-shou-11-00233f42-mkv-t10394882.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/vivid-durarara-x2-shou-11-00233f42-mkv-t10394882.html" class="cellMainLink">[Vivid] Durarara!!x2 Shou - 11 [00233F42].mkv</a></div>
-			</td>
-			<td class="nobr center">338.51 <span>MB</span></td>
-			<td class="center">1</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">16</td>
-			<td class="red lasttd center">135</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10389074,0" class="icomment icommentjs icon16" href="/when-marnie-was-there-jm-720p-47e4bd1c-mkv-t10389074.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/when-marnie-was-there-jm-720p-47e4bd1c-mkv-t10389074.html" class="cellMainLink">When Marnie Was There [jm][720p][47E4BD1C].mkv</a></div>
-			</td>
-			<td class="nobr center">5.51 <span>GB</span></td>
-			<td class="center">1</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">38</td>
-			<td class="red lasttd center">107</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10388255,0" class="icomment icommentjs icon16" href="/commie-the-rolling-girls-10-c1164ddf-mkv-t10388255.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/commie-the-rolling-girls-10-c1164ddf-mkv-t10388255.html" class="cellMainLink">[Commie] The Rolling Girls - 10 [C1164DDF].mkv</a></div>
-			</td>
-			<td class="nobr center">377.86 <span>MB</span></td>
-			<td class="center">1</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">20</td>
-			<td class="red lasttd center">83</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright"> 					
-				</div>
-				<div class="markeredBlock torType filmType">
-                    <a href="/fff-yuuki-yuuna-wa-yuusha-de-aru-12-b469a331-mkv-t10390952.html" class="cellMainLink">[FFF] Yuuki Yuuna wa Yuusha de Aru - 12 [B469A331].mkv</a></div>
-			</td>
-			<td class="nobr center">404.12 <span>MB</span></td>
-			<td class="center">1</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">18</td>
-			<td class="red lasttd center">80</td>
-        </tr>
-			</table>
+                <a href="/seventh-son-2014-1080p-hdrip-x264-aac-jyk-t10383642.html" class="cellMainLink">Seventh Son 2014 1080p HDRip x264 AAC-JYK</a>
 
-<h2><a class="plain" href="/books/">Books Torrents</a> <a class="rsssign" target="_blank" href="/books/?rss=1" title="category feed"></a></h2>
-<div>
-	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
-		<tr class="firstr">
-			<th class="width100perc nopad">torrent name</th>
-			<th class="center">size</th>
-			<th class="center">files</th>
-			<th class="center">age</th>
-			<th class="center">seed</th>
-			<th class="lasttd nobr center">leech</th>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10387577,0" class="icomment icommentjs icon16" href="/assorted-magazines-bundle-march-22-2015-true-pdf-t10387577.html#comment"> <em class="iconvalue">17</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType pdfType">
-                    <a href="/assorted-magazines-bundle-march-22-2015-true-pdf-t10387577.html" class="cellMainLink">Assorted Magazines Bundle - March 22 2015 (True PDF)</a></div>
-			</td>
-			<td class="nobr center">446.55 <span>MB</span></td>
-			<td class="center">21</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">408</td>
-			<td class="red lasttd center">218</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10397003,0" class="icomment icommentjs icon16" href="/food-magazines-bundle-march-24-2015-true-pdf-t10397003.html#comment"> <em class="iconvalue">5</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType pdfType">
-                    <a href="/food-magazines-bundle-march-24-2015-true-pdf-t10397003.html" class="cellMainLink">Food Magazines Bundle - March 24 2015 (True PDF)</a></div>
-			</td>
-			<td class="nobr center">102.11 <span>MB</span></td>
-			<td class="center">5</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">357</td>
-			<td class="red lasttd center">71</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright"> 					
-				</div>
-				<div class="markeredBlock torType pdfType">
-                    <a href="/womens-magazines-bundle-march-24-2015-true-pdf-t10397209.html" class="cellMainLink">Womens Magazines Bundle - March 24 2015 (True PDF)</a></div>
-			</td>
-			<td class="nobr center">182.67 <span>MB</span></td>
-			<td class="center">10</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">199</td>
-			<td class="red lasttd center">75</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10396909,0" class="icomment icommentjs icon16" href="/nightwing-v1-v3-extras-1995-ongoing-digital-update-not-extras-requested-nem-t10396909.html#comment"> <em class="iconvalue">12</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType pdfType">
-                    <a href="/nightwing-v1-v3-extras-1995-ongoing-digital-update-not-extras-requested-nem-t10396909.html" class="cellMainLink">Nightwing (v1-v3+Extras)(1995-Ongoing) (Digital Update-Not Extras) REQUESTED (- Nem -)</a></div>
-			</td>
-			<td class="nobr center">6.75 <span>GB</span></td>
-			<td class="center">229</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">69</td>
-			<td class="red lasttd center">191</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10394585,0" class="icomment icommentjs icon16" href="/healing-with-raw-foods-your-guide-to-unlocking-vibrant-health-through-living-cuisine-t10394585.html#comment"> <em class="iconvalue">5</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType pdfType">
-                    <a href="/healing-with-raw-foods-your-guide-to-unlocking-vibrant-health-through-living-cuisine-t10394585.html" class="cellMainLink">Healing with Raw Foods: Your Guide to Unlocking Vibrant Health Through Living Cuisine</a></div>
-			</td>
-			<td class="nobr center">26.07 <span>MB</span></td>
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/condors/">condors</a> in <span id="cat_10383642"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">2.52 <span>GB</span></td>
 			<td class="center">3</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">192</td>
-			<td class="red lasttd center">41</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10386264,0" class="icomment icommentjs icon16" href="/2dartist-2011-full-year-issues-collection-bk-t10386264.html#comment"> <em class="iconvalue">5</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType pdfType">
-                    <a href="/2dartist-2011-full-year-issues-collection-bk-t10386264.html" class="cellMainLink">2DArtist - 2011 Full Year Issues Collection {bk}</a></div>
-			</td>
-			<td class="nobr center">1.32 <span>GB</span></td>
-			<td class="center">12</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">125</td>
-			<td class="red lasttd center">87</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10392628,0" class="icomment icommentjs icon16" href="/moon-knight-v1-v5-mini-series-extras-1980-ongoing-scans-digital-nem-t10392628.html#comment"> <em class="iconvalue">9</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType Type">
-                    <a href="/moon-knight-v1-v5-mini-series-extras-1980-ongoing-scans-digital-nem-t10392628.html" class="cellMainLink">Moon Knight (v1-v5+Mini-Series &amp;Extras) (1980-Ongoing) (Scans+Digital) (- Nem -)</a></div>
-			</td>
-			<td class="nobr center">4.08 <span>GB</span></td>
-			<td class="center">226</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">96</td>
-			<td class="red lasttd center">82</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10393800,0" class="icomment icommentjs icon16" href="/justice-league-international-v01-v05-2009-2011-digital-minutemen-flynnlives-nem-t10393800.html#comment"> <em class="iconvalue">4</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType pdfType">
-                    <a href="/justice-league-international-v01-v05-2009-2011-digital-minutemen-flynnlives-nem-t10393800.html" class="cellMainLink">Justice League International (v01-v05) (2009-2011) (digital) (Minutemen-FlynnLives) (- Nem -)</a></div>
-			</td>
-			<td class="nobr center">1.39 <span>GB</span></td>
-			<td class="center">5</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">103</td>
-			<td class="red lasttd center">75</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10400384,0" class="icomment icommentjs icon16" href="/the-amazing-spider-man-519-700-5-extras-newrips-2005-2014-digital-minutemen-innerdemons-endriago-faessla-nem-t10400384.html#comment"> <em class="iconvalue">3</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType pdfType">
-                    <a href="/the-amazing-spider-man-519-700-5-extras-newrips-2005-2014-digital-minutemen-innerdemons-endriago-faessla-nem-t10400384.html" class="cellMainLink">The Amazing Spider-Man (519-700.5+Extras) (NewRips) (2005-2014) (digital) (Minutemen-InnerDemons+Endriago+Faessla) (- Nem -)</a></div>
-			</td>
-			<td class="nobr center">7.23 <span>GB</span></td>
-			<td class="center">252</td>
-			<td class="center">13&nbsp;hours</td>
-			<td class="green center">2</td>
-			<td class="red lasttd center">154</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10395402,0" class="icomment icommentjs icon16" href="/the-navy-lark-s01-to-s15-audio-comedy-mp3-slimoo-t10395402.html#comment"> <em class="iconvalue">7</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/the-navy-lark-s01-to-s15-audio-comedy-mp3-slimoo-t10395402.html" class="cellMainLink">The Navy Lark - S01 to S15 - Audio Comedy - MP3 - Slimoo</a></div>
-			</td>
-			<td class="nobr center">4.18 <span>GB</span></td>
-			<td class="center">236</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">39</td>
-			<td class="red lasttd center">87</td>
-        </tr>
+			<td class="center">5&nbsp;days</td>
+			<td class="green center">6480</td>
+			<td class="red lasttd center">4735</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10276037">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10276037,0" class="icommentjs icon16" href="/fifty-shades-of-grey-2015-1080p-hc-webrip-x264-aac2-0-rarbg-t10276037.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">364</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/fifty-shades-of-grey-2015-1080p-hc-webrip-x264-aac2-0-rarbg-t10276037.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Fifty%20Shades%20of%20Grey%202015%201080p%20HC%20WEBRip%20x264%20AAC2%200-RARBG', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A5604D74D725CCA2487AA89CA6FBC3C3DF69199EC%26dn%3Dfifty%2Bshades%2Bof%2Bgrey%2B2015%2B1080p%2Bhc%2Bwebrip%2Bx264%2Baac2%2B0%2Brarbg%26tr%3Dudp%253A%252F%252F12.rarbg.me%253A80%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:5604D74D725CCA2487AA89CA6FBC3C3DF69199EC&dn=fifty+shades+of+grey+2015+1080p+hc+webrip+x264+aac2+0+rarbg&tr=udp%3A%2F%2F12.rarbg.me%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/5604D74D725CCA2487AA89CA6FBC3C3DF69199EC.torrent?title=[kickass.to]fifty.shades.of.grey.2015.1080p.hc.webrip.x264.aac2.0.rarbg" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/fifty-shades-of-grey-2015-1080p-hc-webrip-x264-aac2-0-rarbg-t10276037.html" class="torType filmType"></a>
+                <a href="/fifty-shades-of-grey-2015-1080p-hc-webrip-x264-aac2-0-rarbg-t10276037.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/fifty-shades-of-grey-2015-1080p-hc-webrip-x264-aac2-0-rarbg-t10276037.html" class="cellMainLink">Fifty Shades of Grey 2015 1080p HC WEBRip x264 AAC2 0-RARBG</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/z0n321/">z0n321</a> in <span id="cat_10276037"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">2.43 <span>GB</span></td>
+			<td class="center">4</td>
+			<td class="center">3&nbsp;weeks</td>
+			<td class="green center">6152</td>
+			<td class="red lasttd center">1523</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10383265">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10383265,0" class="icommentjs icon16" href="/paddington-2014-1080p-brrip-x264-yify-t10383265.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">59</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/paddington-2014-1080p-brrip-x264-yify-t10383265.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Paddington%20%282014%29%201080p%20BrRip%20x264%20-%20YIFY', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A8EC835C8285EF421D3B77768425A8FDCEF72B2BD%26dn%3Dpaddington%2B2014%2B1080p%2Bbrrip%2Bx264%2Byify%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:8EC835C8285EF421D3B77768425A8FDCEF72B2BD&dn=paddington+2014+1080p+brrip+x264+yify&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/8EC835C8285EF421D3B77768425A8FDCEF72B2BD.torrent?title=[kickass.to]paddington.2014.1080p.brrip.x264.yify" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/paddington-2014-1080p-brrip-x264-yify-t10383265.html" class="torType filmType"></a>
+                <a href="/paddington-2014-1080p-brrip-x264-yify-t10383265.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/paddington-2014-1080p-brrip-x264-yify-t10383265.html" class="cellMainLink">Paddington (2014) 1080p BrRip x264 - YIFY</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/YIFY/">YIFY</a> in <span id="cat_10383265"><strong><a href="/movies/">Movies</a> > <a href="/highres-movies/">Highres Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.44 <span>GB</span></td>
+			<td class="center">2</td>
+			<td class="center">5&nbsp;days</td>
+			<td class="green center">7051</td>
+			<td class="red lasttd center">2870</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10379610">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10379610,0" class="icommentjs icon16" href="/sword-of-vengeance-2015-hdrip-xvid-ac3-evo-t10379610.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">78</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/sword-of-vengeance-2015-hdrip-xvid-ac3-evo-t10379610.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Sword%20of%20Vengeance%202015%20HDRip%20XviD%20AC3-EVO', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A55B9725385148CA829DA2B8F6209A582A57A41B1%26dn%3Dsword%2Bof%2Bvengeance%2B2015%2Bhdrip%2Bxvid%2Bac3%2Bevo%26tr%3Dudp%253A%252F%252Fglotorrents.pw%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:55B9725385148CA829DA2B8F6209A582A57A41B1&dn=sword+of+vengeance+2015+hdrip+xvid+ac3+evo&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/55B9725385148CA829DA2B8F6209A582A57A41B1.torrent?title=[kickass.to]sword.of.vengeance.2015.hdrip.xvid.ac3.evo" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/sword-of-vengeance-2015-hdrip-xvid-ac3-evo-t10379610.html" class="torType filmType"></a>
+                <a href="/sword-of-vengeance-2015-hdrip-xvid-ac3-evo-t10379610.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/sword-of-vengeance-2015-hdrip-xvid-ac3-evo-t10379610.html" class="cellMainLink">Sword of Vengeance 2015 HDRip XviD AC3-EVO</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/Silmarillion/">Silmarillion</a> in <span id="cat_10379610"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.35 <span>GB</span></td>
+			<td class="center">4</td>
+			<td class="center">5&nbsp;days</td>
+			<td class="green center">5056</td>
+			<td class="red lasttd center">2558</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10299360">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10299360,0" class="icommentjs icon16" href="/exodus-gods-and-kings-2014-web-dl-itunes-t10299360.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">6</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/exodus-gods-and-kings-2014-web-dl-itunes-t10299360.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Exodus%3A%20Gods%20and%20Kings%20%282014%29%20WEB-DL%20%7C%20iTunes', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A0501D73DC520FF4FF13E2AEF72FB3B0A36282504%26dn%3Dexodus%2Bgods%2Band%2Bkings%2B2014%2Bweb%2Bdl%2Bitunes%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:0501D73DC520FF4FF13E2AEF72FB3B0A36282504&dn=exodus+gods+and+kings+2014+web+dl+itunes&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/0501D73DC520FF4FF13E2AEF72FB3B0A36282504.torrent?title=[kickass.to]exodus.gods.and.kings.2014.web.dl.itunes" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/exodus-gods-and-kings-2014-web-dl-itunes-t10299360.html" class="torType filmType"></a>
+                <a href="/exodus-gods-and-kings-2014-web-dl-itunes-t10299360.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/exodus-gods-and-kings-2014-web-dl-itunes-t10299360.html" class="cellMainLink">Exodus: Gods and Kings (2014) WEB-DL | iTunes</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <a class="plain" href="/user/X-min/">X-min</a> in <span id="cat_10299360"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">2.05 <span>GB</span></td>
+			<td class="center">1</td>
+			<td class="center">3&nbsp;weeks</td>
+			<td class="green center">7984</td>
+			<td class="red lasttd center">366</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10296267">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10296267,0" class="icommentjs icon16" href="/kingsman-the-secret-service-2014-hdcam-xvid-ac3-hq-hive-cm8-t10296267.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">214</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/kingsman-the-secret-service-2014-hdcam-xvid-ac3-hq-hive-cm8-t10296267.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Kingsman-The%20Secret%20Service%202014%20HDCAM%20XVID%20AC3%20HQ%20Hive-CM8', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A4A93BB0582A36C532F61169C9CCE6C05307B1277%26dn%3Dkingsman%2Bthe%2Bsecret%2Bservice%2B2014%2Bhdcam%2Bxvid%2Bac3%2Bhq%2Bhive%2Bcm8%26tr%3Dudp%253A%252F%252Fglotorrents.pw%253A6969%252Fannounce%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:4A93BB0582A36C532F61169C9CCE6C05307B1277&dn=kingsman+the+secret+service+2014+hdcam+xvid+ac3+hq+hive+cm8&tr=udp%3A%2F%2Fglotorrents.pw%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/4A93BB0582A36C532F61169C9CCE6C05307B1277.torrent?title=[kickass.to]kingsman.the.secret.service.2014.hdcam.xvid.ac3.hq.hive.cm8" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/kingsman-the-secret-service-2014-hdcam-xvid-ac3-hq-hive-cm8-t10296267.html" class="torType filmType"></a>
+                <a href="/kingsman-the-secret-service-2014-hdcam-xvid-ac3-hq-hive-cm8-t10296267.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/kingsman-the-secret-service-2014-hdcam-xvid-ac3-hq-hive-cm8-t10296267.html" class="cellMainLink">Kingsman-The Secret Service 2014 HDCAM XVID AC3 HQ Hive-CM8</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/Silmarillion/">Silmarillion</a> in <span id="cat_10296267"><strong><a href="/movies/">Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.64 <span>GB</span></td>
+			<td class="center">4</td>
+			<td class="center">3&nbsp;weeks</td>
+			<td class="green center">5504</td>
+			<td class="red lasttd center">2094</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10178654">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10178654,0" class="icommentjs icon16" href="/big-hero-6-2014-720p-brrip-x264-yify-t10178654.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">585</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/big-hero-6-2014-720p-brrip-x264-yify-t10178654.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Big%20Hero%206%20%282014%29%20720p%20BrRip%20x264%20-%20YIFY', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3ABB43CF1DC5B200BA37679DB96375A8190D933C2E%26dn%3Dbig%2Bhero%2B6%2B2014%2B720p%2Bbrrip%2Bx264%2Byify%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:BB43CF1DC5B200BA37679DB96375A8190D933C2E&dn=big+hero+6+2014+720p+brrip+x264+yify&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/BB43CF1DC5B200BA37679DB96375A8190D933C2E.torrent?title=[kickass.to]big.hero.6.2014.720p.brrip.x264.yify" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/big-hero-6-2014-720p-brrip-x264-yify-t10178654.html" class="torType filmType"></a>
+                <a href="/big-hero-6-2014-720p-brrip-x264-yify-t10178654.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/big-hero-6-2014-720p-brrip-x264-yify-t10178654.html" class="cellMainLink">Big Hero 6 (2014) 720p BrRip x264 - YIFY</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/YIFY/">YIFY</a> in <span id="cat_10178654"><strong><a href="/movies/">Movies</a> > <a href="/animation/">Animation</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">810.17 <span>MB</span></td>
+			<td class="center">2</td>
+			<td class="center">1&nbsp;month</td>
+			<td class="green center">7257</td>
+			<td class="red lasttd center">1110</td>
+			</tr>
+						<tr class="even" id="torrent_movies_torrents10343307">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10343307,0" class="icommentjs icon16" href="/wild-2014-720p-brrip-x264-yify-t10343307.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">187</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/wild-2014-720p-brrip-x264-yify-t10343307.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Wild%20%282014%29%20720p%20BrRip%20x264%20-%20YIFY', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3AA4A2EF0246D9FEB8DE5B8C7BCB99B9E0610737C9%26dn%3Dwild%2B2014%2B720p%2Bbrrip%2Bx264%2Byify%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:A4A2EF0246D9FEB8DE5B8C7BCB99B9E0610737C9&dn=wild+2014+720p+brrip+x264+yify&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/A4A2EF0246D9FEB8DE5B8C7BCB99B9E0610737C9.torrent?title=[kickass.to]wild.2014.720p.brrip.x264.yify" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/wild-2014-720p-brrip-x264-yify-t10343307.html" class="torType filmType"></a>
+                <a href="/wild-2014-720p-brrip-x264-yify-t10343307.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/wild-2014-720p-brrip-x264-yify-t10343307.html" class="cellMainLink">Wild (2014) 720p BrRip x264 - YIFY</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/YIFY/">YIFY</a> in <span id="cat_10343307"><strong><a href="/movies/">Movies</a> > <a href="/highres-movies/">Highres Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">817.21 <span>MB</span></td>
+			<td class="center">2</td>
+			<td class="center">1&nbsp;week</td>
+			<td class="green center">6875</td>
+			<td class="red lasttd center">1747</td>
+			</tr>
+						<tr class="odd" id="torrent_movies_torrents10175718">
+            <td>
+            <div class="iaconbox center floatright">
+                <a rel="10175718,0" class="icommentjs icon16" href="/birdman-2014-1080p-brrip-x264-yify-t10175718.html#comment"><em style="font-size: 12px; margin: 0 4px 0 4px;" class="iconvalue">249</em><i class="ka ka-comment"></i></a>				<a class="iverify icon16" href="/birdman-2014-1080p-brrip-x264-yify-t10175718.html" title="Verified Torrent"><i class="ka ka16 ka-verify ka-green"></i></a>                                <a href="#" onclick="_scq.push(['redirect', '_b91ea3142d712c64815b8c569ca90f34', { 'name': 'Birdman%20%282014%29%201080p%20BrRip%20x264%20-%20YIFY', 'magnet': 'magnet%3A%3Fxt%3Durn%3Abtih%3A2302ECAB74207E7831055400563A61AA23025FE5%26dn%3Dbirdman%2B2014%2B1080p%2Bbrrip%2Bx264%2Byify%26tr%3Dudp%253A%252F%252Fopen.demonii.com%253A1337%252Fannounce' }]); return false;" class="partner1Button idownload icon16"><i class="ka ka16 ka-arrow-down partner1Button"></i></a>
+                
+                <a title="Torrent magnet link" href="magnet:?xt=urn:btih:2302ECAB74207E7831055400563A61AA23025FE5&dn=birdman+2014+1080p+brrip+x264+yify&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce" class="imagnet icon16"><i class="ka ka16 ka-magnet"></i></a>
+                <a title="Download torrent file" href="http://torcache.net/torrent/2302ECAB74207E7831055400563A61AA23025FE5.torrent?title=[kickass.to]birdman.2014.1080p.brrip.x264.yify" class="idownload icon16"><i class="ka ka16 ka-arrow-down"></i></a>
+            </div>
+            <div class="torrentname">
+                <a href="/birdman-2014-1080p-brrip-x264-yify-t10175718.html" class="torType filmType"></a>
+                <a href="/birdman-2014-1080p-brrip-x264-yify-t10175718.html" class="normalgrey font12px plain bold"></a>
+            <div class="markeredBlock torType filmType">
+
+                <a href="/birdman-2014-1080p-brrip-x264-yify-t10175718.html" class="cellMainLink">Birdman (2014) 1080p BrRip x264 - YIFY</a>
+
+                                                <span class="font11px lightgrey block">
+                                Posted by <i class="ka ka-verify" style="font-size: 16px;color:orange;"></i> <a class="plain" href="/user/YIFY/">YIFY</a> in <span id="cat_10175718"><strong><a href="/movies/">Movies</a> > <a href="/highres-movies/">Highres Movies</a></strong></span>                	                </span>
+            	            </div>
+            </td>
+									<td class="nobr center">1.84 <span>GB</span></td>
+			<td class="center">2</td>
+			<td class="center">1&nbsp;month</td>
+			<td class="green center">5104</td>
+			<td class="red lasttd center">748</td>
+			</tr>
 			</table>
-
-<h2><a class="plain" href="/lossless/">Lossless Music Torrents</a> <a class="rsssign" target="_blank" href="/lossless/?rss=1" title="category feed"></a></h2>
-<div>
-	<table cellpadding="0" cellspacing="0" class="data" style="width: 100%">
-		<tr class="firstr">
-			<th class="width100perc nopad">torrent name</th>
-			<th class="center">size</th>
-			<th class="center">files</th>
-			<th class="center">age</th>
-			<th class="center">seed</th>
-			<th class="lasttd nobr center">leech</th>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10399625,0" class="icomment icommentjs icon16" href="/daryl-hall-john-oates-discography-flac-t10399625.html#comment"> <em class="iconvalue">6</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/daryl-hall-john-oates-discography-flac-t10399625.html" class="cellMainLink">Daryl Hall &amp; John Oates - Discography [FLAC]</a></div>
-			</td>
-			<td class="nobr center">10.12 <span>GB</span></td>
-			<td class="center">619</td>
-			<td class="center">16&nbsp;hours</td>
-			<td class="green center">2</td>
-			<td class="red lasttd center">486</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10391757,0" class="icomment icommentjs icon16" href="/santana-the-magic-of-santana-flac-2015-bbm-t10391757.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/santana-the-magic-of-santana-flac-2015-bbm-t10391757.html" class="cellMainLink">Santana - The Magic Of Santana (FLAC) (2015) BBM</a></div>
-			</td>
-			<td class="nobr center">417.58 <span>MB</span></td>
-			<td class="center">22</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">305</td>
-			<td class="red lasttd center">95</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10395811,0" class="icomment icommentjs icon16" href="/buena-vista-social-club-2015-lost-and-found-flac-t10395811.html#comment"> <em class="iconvalue">2</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/buena-vista-social-club-2015-lost-and-found-flac-t10395811.html" class="cellMainLink">Buena Vista Social Club - 2015 - Lost And Found [FLAC]</a></div>
-			</td>
-			<td class="nobr center">295.9 <span>MB</span></td>
-			<td class="center">7</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">247</td>
-			<td class="red lasttd center">63</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10400160,0" class="icomment icommentjs icon16" href="/david-bowie-18-studio-albums-1967-1989-shm-cd-japan-2009-flac-t10400160.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/david-bowie-18-studio-albums-1967-1989-shm-cd-japan-2009-flac-t10400160.html" class="cellMainLink">David Bowie - 18 Studio Albums 1967-1989 (SHM-CD Japan 2009) [FLAC]</a></div>
-			</td>
-			<td class="nobr center">5.33 <span>GB</span></td>
-			<td class="center">403</td>
-			<td class="center">14&nbsp;hours</td>
-			<td class="green center">98</td>
-			<td class="red lasttd center">179</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10399871,0" class="icomment icommentjs icon16" href="/talk-talk-discography-1982-2001-flac-t10399871.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/talk-talk-discography-1982-2001-flac-t10399871.html" class="cellMainLink">Talk Talk - Discography 1982-2001 [FLAC]</a></div>
-			</td>
-			<td class="nobr center">3.52 <span>GB</span></td>
-			<td class="center">256</td>
-			<td class="center">15&nbsp;hours</td>
-			<td class="green center">89</td>
-			<td class="red lasttd center">77</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10391553,0" class="icomment icommentjs icon16" href="/lead-belly-the-smithsonian-folkways-collection-5cd-box-2015-flac-beolab1700-t10391553.html#comment"> <em class="iconvalue">6</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/lead-belly-the-smithsonian-folkways-collection-5cd-box-2015-flac-beolab1700-t10391553.html" class="cellMainLink">Lead Belly - The Smithsonian Folkways Collection [5CD Box] (2015) FLAC Beolab1700</a></div>
-			</td>
-			<td class="nobr center">1.18 <span>GB</span></td>
-			<td class="center">121</td>
-			<td class="center">2&nbsp;days</td>
-			<td class="green center">66</td>
-			<td class="red lasttd center">59</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright"> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/va-more-greatest-hits-of-the-80s-2000-8cd-flac-soup-t10400874.html" class="cellMainLink">VA - More Greatest Hits of the 80s (2000) 8CD FLAC Soup</a></div>
-			</td>
-			<td class="nobr center">4.03 <span>GB</span></td>
-			<td class="center">151</td>
-			<td class="center">11&nbsp;hours</td>
-			<td class="green center">1</td>
-			<td class="red lasttd center">97</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10395417,0" class="icomment icommentjs icon16" href="/sting-25-years-3cd-flac-2011-t10395417.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/sting-25-years-3cd-flac-2011-t10395417.html" class="cellMainLink">Sting 25 Years [3CD FLAC] 2011</a></div>
-			</td>
-			<td class="nobr center">1.88 <span>GB</span></td>
-			<td class="center">143</td>
-			<td class="center">1&nbsp;day</td>
-			<td class="green center">61</td>
-			<td class="red lasttd center">35</td>
-        </tr>
-				<tr class="odd">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10400351,0" class="icomment icommentjs icon16" href="/supertramp-retrospectacle-the-supertramp-anthology-2005-flac-soup-t10400351.html#comment"> <em class="iconvalue">1</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/supertramp-retrospectacle-the-supertramp-anthology-2005-flac-soup-t10400351.html" class="cellMainLink">Supertramp - Retrospectacle The Supertramp Anthology (2005) FLAC Soup</a></div>
-			</td>
-			<td class="nobr center">994.18 <span>MB</span></td>
-			<td class="center">34</td>
-			<td class="center">13&nbsp;hours</td>
-			<td class="green center">44</td>
-			<td class="red lasttd center">46</td>
-        </tr>
-				<tr class="even">
-			<td>
-                <div class="iaconbox floatright">  <a rel="10385585,0" class="icomment icommentjs icon16" href="/deep-purple-new-live-rare-volume-two-2008-japan-k2hd-vicp-64327-flac-beolab1700-t10385585.html#comment"> <em class="iconvalue">8</em><span></span> </a> 					
-				</div>
-				<div class="markeredBlock torType musicType">
-                    <a href="/deep-purple-new-live-rare-volume-two-2008-japan-k2hd-vicp-64327-flac-beolab1700-t10385585.html" class="cellMainLink">Deep Purple - New Live &amp; Rare Volume Two (2008) Japan K2HD VICP-64327 FLAC Beolab1700</a></div>
-			</td>
-			<td class="nobr center">389.67 <span>MB</span></td>
-			<td class="center">14</td>
-			<td class="center">3&nbsp;days</td>
-			<td class="green center">50</td>
-			<td class="red lasttd center">29</td>
-        </tr>
-			</table>
-
-
+	<div class="pages botmarg5px floatright">
+<a class="turnoverButton siteButton bigButton active">1</a><a rel="nofollow" href="/movies/2/" class="turnoverButton siteButton bigButton">2</a><a rel="nofollow" href="/movies/3/" class="turnoverButton siteButton bigButton">3</a><a rel="nofollow" href="/movies/4/" class="turnoverButton siteButton bigButton">4</a><a rel="nofollow" href="/movies/5/" class="turnoverButton siteButton bigButton">5</a><a class="blank turnoverButton siteButton nohov"><span></span></a><a rel="nofollow" href="/movies/400/" class="turnoverButton siteButton bigButton">400</a></div>
+</div>
 		</td>
 		<td class="sidebarCell">
 			
@@ -1305,58 +763,58 @@
 <h3><a href="/community/">Latest Forum Threads</a><i id="hideLatestThreads" style="float:right; margin-top:-3px;" class="ka ka16 ka-arrow2-up foldClose"></i></h3>
 <ul id="latestForum" rel="latestForum" class="showBlockJS">
 		<li>
-		<a href="/community/show/need-help-ask-super-users-experienced-site-members-here-v6/?unread=16299720">
+		<a href="/community/show/latest-book-uploads-v2/?unread=16303454">
 			<i class="ka ka16 ka-community latest-icon"></i>
 			<p class="latest-title">
-				Need Help? Ask Super Users &amp; Experienced Site Members Here v6
+				Latest Book Uploads V2
 			</p>
 		</a>
-		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_2"><a class="plain" href="/user/Keka_Umans/">Keka_Umans</a></span></span> 1&nbsp;min.&nbsp;ago</span>
+		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/fakepersona0/">fakepersona0</a></span></span> 2&nbsp;min.&nbsp;ago</span>
 	</li>
 		<li>
-		<a href="/community/show/game-thrones-discussion-thread/?unread=16299719">
+		<a href="/community/show/tutorial-how-do-i-request-torrent-and-how-does-system-work-r/?unread=16303452">
 			<i class="ka ka16 ka-community latest-icon"></i>
 			<p class="latest-title">
-				GAME OF THRONES Discussion Thread
+				Tutorial - How do I request a torrent and how does the system work? Request thread index / compendium
 			</p>
 		</a>
-		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/vikingjester/">vikingjester</a></span></span> 2&nbsp;min.&nbsp;ago</span>
+		<span class="explanation">by <span class="badgeInline"><span class="online" title="online"></span> <span class="aclColor_2"><a class="plain" href="/user/DarkU%243R/">DarkU$3R</a></span></span> 3&nbsp;min.&nbsp;ago</span>
 	</li>
 		<li>
-		<a href="/community/show/how-large-was-largest-torrent-you-ve-ever-downloaded/?unread=16299717">
+		<a href="/community/show/please-request-ebooks-and-audio-books-here-v9/?unread=16303450">
 			<i class="ka ka16 ka-community latest-icon"></i>
 			<p class="latest-title">
-				How large was the largest torrent you&#039;ve ever downloaded?
+				Please request ebooks and audio books here. V9
 			</p>
 		</a>
-		<span class="explanation">by <span class="badgeInline"><span class="online" title="online"></span> <span class="aclColor_1"><a class="plain" href="/user/keimah015/">keimah015</a></span></span> 2&nbsp;min.&nbsp;ago</span>
+		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/hoozuki/">hoozuki</a></span></span> 5&nbsp;min.&nbsp;ago</span>
 	</li>
 		<li>
-		<a href="/community/show/quiz-can-you-guess-movie-v9/?unread=16299715">
-			<i class="ka ka16 ka-community latest-icon"></i>
-			<p class="latest-title">
-				Quiz; Can you guess this movie? V9
-			</p>
-		</a>
-		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/VirtualDjango/">VirtualDjango</a></span></span> 4&nbsp;min.&nbsp;ago</span>
-	</li>
-		<li>
-		<a href="/community/show/what-are-you-listening-right-now-v3-thread-99291/?unread=16299711">
+		<a href="/community/show/what-are-you-listening-right-now-v3-thread-99291/?unread=16303448">
 			<i class="ka ka16 ka-community latest-icon"></i>
 			<p class="latest-title">
 				What are you listening to right now? V3
 			</p>
 		</a>
-		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/Crustytoes/">Crustytoes</a></span></span> 6&nbsp;min.&nbsp;ago</span>
+		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/nobody_here/">nobody_here</a></span></span> 7&nbsp;min.&nbsp;ago</span>
 	</li>
 		<li>
-		<a href="/community/show/what-animemanga-are-you-currently-watchingreading/?unread=16299709">
+		<a href="/community/show/what-animemanga-are-you-currently-watchingreading/?unread=16303447">
 			<i class="ka ka16 ka-community latest-icon"></i>
 			<p class="latest-title">
 				What Anime/Manga Are You Currently Watching/Reading ?
 			</p>
 		</a>
-		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/Viole-kun/">Viole-kun</a></span></span> 7&nbsp;min.&nbsp;ago</span>
+		<span class="explanation">by <span class="badgeInline"><span class="offline" title="offline"></span> <span class="aclColor_1"><a class="plain" href="/user/sven_298/">sven_298</a></span></span> 10&nbsp;min.&nbsp;ago</span>
+	</li>
+		<li>
+		<a href="/community/show/crime-tv/">
+			<i class="ka ka16 ka-community latest-icon"></i>
+			<p class="latest-title">
+				crime tv
+			</p>
+		</a>
+		<span class="explanation">by <span class="badgeInline"><span class="online" title="online"></span> <span class="aclColor_1"><a class="plain" href="/user/somats/">somats</a></span></span> 10&nbsp;min.&nbsp;ago</span>
 	</li>
 	</ul>
 </div><!-- div class="sliderbox" -->
@@ -1389,19 +847,19 @@
 				Merry Christmas!
 			</p>
 		</a>
-		<span class="explanation">by KickassTorrents 2&nbsp;months&nbsp;ago</span>
+		<span class="explanation">by KickassTorrents 3&nbsp;months&nbsp;ago</span>
 	</li>
 </ul>
 </div><!-- div class="sliderbox" -->
 <div class="sliderbox">
 <h3>Blogroll<i style="float:right; margin-top:-3px;" class="ka ka16 ka-arrow2-up foldClose"></i></h3>
 <ul id="blogroll" rel="blogroll" class="showBlockJS">
-	<li><a href="/blog/r00tH4cK3r/post/a-friendly-hello-clash-of-clans-talk/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> A Friendly hello + Clash of Clans talk</p></a><span class="explanation">by <a class="plain" href="/user/r00tH4cK3r/">r00tH4cK3r</a> 2&nbsp;hours&nbsp;ago</span></li>
-	<li><a href="/blog/DawnStar/post/a-birth-day-story/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> A Birth Day Story</p></a><span class="explanation">by <a class="plain" href="/user/DawnStar/">DawnStar</a> 3&nbsp;hours&nbsp;ago</span></li>
-	<li><a href="/blog/OptimusPr1me/post/my-passion-for-formula-1/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> My Passion For Formula 1</p></a><span class="explanation">by <a class="plain" href="/user/OptimusPr1me/">OptimusPr1me</a> 5&nbsp;hours&nbsp;ago</span></li>
-	<li><a href="/blog/rabinsxp/post/when-the-dawn-breaks/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> When the Dawn Breaks</p></a><span class="explanation">by <a class="plain" href="/user/rabinsxp/">rabinsxp</a> 12&nbsp;hours&nbsp;ago</span></li>
-	<li><a href="/blog/PiratMas/post/random-ramblingies-1/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> Random Ramblingies 1</p></a><span class="explanation">by <a class="plain" href="/user/PiratMas/">PiratMas</a> yesterday</span></li>
-	<li><a href="/blog/PXgamer/post/blog-38-1-year-at-kat/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> Blog 38 / 1 Year at KAT</p></a><span class="explanation">by <a class="plain" href="/user/PXgamer/">PXgamer</a> yesterday</span></li>
+	<li><a href="/blog/VTS/post/nowhere-nexus/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> Nowhere Nexus</p></a><span class="explanation">by <a class="plain" href="/user/VTS/">VTS</a> 6&nbsp;hours&nbsp;ago</span></li>
+	<li><a href="/blog/FREDDYLOC/post/not-going-back-to-tpb/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> NOT going back to TPB</p></a><span class="explanation">by <a class="plain" href="/user/FREDDYLOC/">FREDDYLOC</a> 9&nbsp;hours&nbsp;ago</span></li>
+	<li><a href="/blog/rugbybill/post/no-seeds/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> No Seeds?</p></a><span class="explanation">by <a class="plain" href="/user/rugbybill/">rugbybill</a> 15&nbsp;hours&nbsp;ago</span></li>
+	<li><a href="/blog/zombie_rox/post/rise-from-the-ashes-a-true-story/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> Rise from the Ashes : a true story !</p></a><span class="explanation">by <a class="plain" href="/user/zombie_rox/">zombie_rox</a> 15&nbsp;hours&nbsp;ago</span></li>
+	<li><a href="/blog/Smittech/post/girls-girls-girls-kickass-women/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> Girls,Girls,Girls...KickAss Women....</p></a><span class="explanation">by <a class="plain" href="/user/Smittech/">Smittech</a> 20&nbsp;hours&nbsp;ago</span></li>
+	<li><a href="/blog/Shovon_Khan/post/good-news-for-the-x-files-lovers/"><i class="ka ka16 ka-comment latest-icon"></i><p class="latest-title"> Good News For The X-Files Lovers</p></a><span class="explanation">by <a class="plain" href="/user/Shovon_Khan/">Shovon_Khan</a> yesterday</span></li>
 </ul>
 </div><!-- div class="sliderbox" -->
 
@@ -1443,110 +901,110 @@
 <h3>Latest Searches<i style="float:right; margin-top:-3px;" class="ka ka16 ka-arrow2-up foldClose"></i></h3>
 <ul id="latestSearches" rel="latestSearches" class="showBlockJS">
 	<li>
-		<a href="/search/the%20walking%20dead%20s05/">
+		<a href="/search/marriage%20counselor%20tyler%20perry/">
 			<i class="ka ka16 ka-zoom latest-icon"></i>
 			<p class="latest-title">
-				the walking dead s05
+				marriage counselor tyler perry
 			</p>
 		</a>
 				<span class="explanation">just&nbsp;now</span>
 	</li>
 
 	<li>
-		<a href="/search/anger%20manage%20season%202/">
+		<a href="/search/college%20sex%20hd/">
 			<i class="ka ka16 ka-zoom latest-icon"></i>
 			<p class="latest-title">
-				anger manage season 2
+				college sex hd
 			</p>
 		</a>
 				<span class="explanation">just&nbsp;now</span>
 	</li>
 
 	<li>
-		<a href="/search/portuguese%20dragon%20ball/">
+		<a href="/search/xxx%20extreme%20anal/">
 			<i class="ka ka16 ka-zoom latest-icon"></i>
 			<p class="latest-title">
-				portuguese dragon ball
+				xxx extreme anal
 			</p>
 		</a>
 				<span class="explanation">just&nbsp;now</span>
 	</li>
 
 	<li>
-		<a href="/search/chappie%201080/">
+		<a href="/search/joking%20apart/">
 			<i class="ka ka16 ka-zoom latest-icon"></i>
 			<p class="latest-title">
-				chappie 1080
+				Joking Apart
 			</p>
 		</a>
 				<span class="explanation">just&nbsp;now</span>
 	</li>
 
 	<li>
-		<a href="/search/holly%20halston/">
+		<a href="/search/man%20vs/">
 			<i class="ka ka16 ka-zoom latest-icon"></i>
 			<p class="latest-title">
-				holly halston
+				man vs
 			</p>
 		</a>
 				<span class="explanation">just&nbsp;now</span>
 	</li>
 
 	<li>
-		<a href="/search/professional%20plus%20x64/">
+		<a href="/search/alchemy/">
 			<i class="ka ka16 ka-zoom latest-icon"></i>
 			<p class="latest-title">
-				professional plus x64
+				alchemy
 			</p>
 		</a>
 				<span class="explanation">just&nbsp;now</span>
 	</li>
 
 	<li>
-		<a href="/search/activation%20windows%207%20ultimate/">
+		<a href="/search/blacklist%20s02e16/">
 			<i class="ka ka16 ka-zoom latest-icon"></i>
 			<p class="latest-title">
-				activation windows 7 ultimate
+				blacklist s02e16
 			</p>
 		</a>
 				<span class="explanation">just&nbsp;now</span>
 	</li>
 
 	<li>
-		<a href="/search/2015%20dmt%20nl/">
+		<a href="/search/mortal%20combat%20dc/">
 			<i class="ka ka16 ka-zoom latest-icon"></i>
 			<p class="latest-title">
-				2015 dmt nl
+				mortal combat dc
 			</p>
 		</a>
 				<span class="explanation">just&nbsp;now</span>
 	</li>
 
 	<li>
-		<a href="/search/big%20black%20dick/">
+		<a href="/search/malayalam%20oru%20vadakkan%20selfie/">
 			<i class="ka ka16 ka-zoom latest-icon"></i>
 			<p class="latest-title">
-				big black dick
+				malayalam oru vadakkan selfie
 			</p>
 		</a>
 				<span class="explanation">just&nbsp;now</span>
 	</li>
 
 	<li>
-		<a href="/search/ten%2Byears%2Bafter%2Bstonedhenge/">
+		<a href="/search/the%2Bcup%202011/">
 			<i class="ka ka16 ka-zoom latest-icon"></i>
 			<p class="latest-title">
-				ten+years+after+stonedhenge
+				the+cup 2011
 			</p>
 		</a>
 				<span class="explanation">just&nbsp;now</span>
 	</li>
 
 	<li>
-		<a href="/search/klixen/">
+		<a href="/search/sasha%20royce/">
 			<i class="ka ka16 ka-zoom latest-icon"></i>
 			<p class="latest-title">
-				klixen
+				sasha royce
 			</p>
 		</a>
 				<span class="explanation">just&nbsp;now</span>
@@ -1590,6 +1048,10 @@
 		</td>
 	</tr>
 </table>
+<div class="rightcell">
+</div><!-- div class="rightcell" -->
+<div class="leftcell">
+</div>
 </div>
 <div id="translate_site" style="display:none">
     <h3>Select Your Language</h3>
@@ -1671,12 +1133,14 @@
 <a class="feedbackButton eventsButtons" href="/issue/create/" id="feedback"><span>Report a bug</span></a>
     <div id="_673e31f53f8166159b8e996c4124765b"></div>
         <div id="_e7050fb15fd39b3e4e99a5be4a57b6ea"></div>
-<script type="text/javascript" charset="utf-8">$(document).ready(function() {  $("#contentSearch").focus(); });</script><script type="text/javascript">
+<script type="text/javascript">
 _scq.push(['setHost', 'a.kickass.to']);
 _scq.push(['setAccount', '_b894d6cb1e370fb9ad89f8d6d99eeb33']);
-_scq.push(['addGlobal', 'pagetype', 'front']);
+_scq.push(['addGlobal', 'category', 'Movies']);
+_scq.push(['addGlobal', 'pagetype', 'other']);
 _scq.push(['addSlot', '_60318cd4e8d28f6fb76fe34e9bd9c498']);
 _scq.push(['addSlot', '_39ecb76dd457e5ac33776fdf11500d56']);
+_scq.push(['addSlot', '_b77c3599a877a4e9d6097b83ec9f23bb', { 'searchQuery': '' }]);
 _scq.push(['addSlot', '_119b0a17fab5493361a252d04bf527db']);
 _scq.push(['addSlot', '_7063408f1c01d50e0dc2d833186ce962', { 'searchQuery': '' }]);
 _scq.push(['addSlot', '_673e31f53f8166159b8e996c4124765b']);
@@ -1684,7 +1148,7 @@ _scq.push(['addSlot', '_e7050fb15fd39b3e4e99a5be4a57b6ea']);
 _scq.push(['load']);
 (function() {
     var sc = document.createElement('script'); sc.type = 'text/javascript'; sc.async = true;
-    sc.src = document.location.protocol + '//a.kickass.to/sc-5facf2d.js';
+    sc.src = document.location.protocol + '//a.kickass.to/sc-f3274ce.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sc, s);
 })();
 </script>

@@ -1,22 +1,21 @@
-import urllib.request
+import urllib
 import gzip, zlib
+from scrapy import Spider, Item, Field
 
-url = "https://kickass.to/"
+url = "https://kickass.to/movies/"
 
 #make a request to the url
-handle = urllib.request.urlopen(url)
+handle = urllib.urlopen(url)
 
+#Hex output of request to kickass
 byteOutput =  handle.read()
 
 #Decompress gzip content
 htmltxt = zlib.decompress(byteOutput, 15+32)
 
-#Decode bytes into string
-htmltxt = str(htmltxt.decode("utf-8"))
+outputFilename = "kickass.txt"
 
-#Save to a txt file
-outputfilename = "kickass.txt"
-f = open(outputfilename, "w")
+f = open(outputFilename, "w")
 
 f.write(htmltxt)
 f.close()

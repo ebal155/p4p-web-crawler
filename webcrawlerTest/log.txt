@@ -7,32 +7,32 @@ date: 2015-03-24 00:00:00
 --------------------------------------------------
 title: [FRESH] 50 Tyson - Hot Nigga - (Official Music Video) (youtube.com)
 link: https://www.youtube.com/watch?v=LFboWVRTTeY
-date: 2015-03-24 00:00:00
+date: 2015-03-23 00:00:00
 --------------------------------------------------
 --------------------------------------------------
 title: [Fresh] Earl Sweatshirt - Grown Ups Ft. Dash (I Don't Like Shit, I Don't Go Outside) (youtube.com)
 link: https://www.youtube.com/watch?v=LS5-K6esqoA
-date: 2015-03-24 00:00:00
+date: 2015-03-23 00:00:00
 --------------------------------------------------
 --------------------------------------------------
 title: [FRESH] Chief Keef & Andy Milonakis - My House (youtube.com)
 link: https://www.youtube.com/watch?v=-eh7gi6tnVA&list=UU5e0xSqwDGlRg3sdvGQh7lg
-date: 2015-03-24 00:00:00
+date: 2015-03-23 00:00:00
 --------------------------------------------------
 --------------------------------------------------
 title: [FRESH] Chief Keef - Dipset (youtube.com)
 link: https://www.youtube.com/watch?v=PNJcjwjeCQA
-date: 2015-03-24 00:00:00
+date: 2015-03-23 00:00:00
 --------------------------------------------------
 --------------------------------------------------
 title: [FRESH] XV - Squarian Radio Vol. 3: March Madness (soundcloud.com)
 link: https://soundcloud.com/squarianradio/squarian-radio-vol-3-march-madness?utm_source=soundcloud&utm_campaign=share&utm_medium=twitter
-date: 2015-03-24 00:00:00
+date: 2015-03-23 00:00:00
 --------------------------------------------------
 --------------------------------------------------
 title: [FRESH] Ludacris - This Has Been My World (hiphopearly.com)
 link: http://www.hiphopearly.com/Ludacris-This-Has-Been-My-World-t27542.html
-date: 2015-03-24 00:00:00
+date: 2015-03-23 00:00:00
 --------------------------------------------------
 --------------------------------------------------
 title: [FRESH] Blaque Keyz - Let It Run (Produced by Raw Materials) (soundcloud.com)
@@ -132,7 +132,7 @@ date: 2015-03-22 00:00:00
 --------------------------------------------------
 title: [FRESH] Antwon & Wiki - Squad Deep ft. Lee Spielman (Prod. Skywlkr) (soundcloud.com)
 link: https://soundcloud.com/xskywlkr/squad-deep
-date: 2015-03-23 00:00:00
+date: 2015-03-22 00:00:00
 --------------------------------------------------
 --------------------------------------------------
 title: [FRESH] Yelawolf - American You - [4:00] (youtube.com)
@@ -150,7 +150,7 @@ link: https://www.youtube.com/watch?v=xleP2SDeFqU
 date: 2015-03-23 00:00:00
 --------------------------------------------------
 --------------------------------------------------
-title: [FRESH] REMY BOYZ - NEUMAN MARCUS¬Æ (soundcloud.com)
+title: [FRESH] REMY BOYZ - NEUMAN MARCUSÆ (soundcloud.com)
 link: https://soundcloud.com/harlem_fetty/remy-boyz-neuman-marcus
 date: 2015-03-22 00:00:00
 --------------------------------------------------
@@ -400,7 +400,7 @@ link: https://soundcloud.com/jimmyfromthe6/winters-end#t=0:00
 date: 2015-03-19 00:00:00
 --------------------------------------------------
 --------------------------------------------------
-title: [FRESH] Gunplay ‚Äì ‚ÄúTell Em Daddy‚Äù (2dopeboyz.com)
+title: [FRESH] Gunplay ñ ìTell Em Daddyî (2dopeboyz.com)
 link: http://2dopeboyz.com/2015/03/19/gunplay-tell-em-daddy/?utm_campaign=350724&utm_medium=twitter&utm_source=twitter
 date: 2015-03-19 00:00:00
 --------------------------------------------------
