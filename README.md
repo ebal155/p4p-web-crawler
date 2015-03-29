@@ -6,5 +6,5 @@ Go to top level webcrawler directory in command line
 
 scrapy crawl spider -o items.json 
 
-eg. for kickass_spider
+eg. for kickass_spider, 
 scrapy crawl kickass -o items.json 
