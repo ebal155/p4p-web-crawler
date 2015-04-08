@@ -13,8 +13,3 @@ class KickassItem(scrapy.Item):
     # name = scrapy.Field()
     title = scrapy.Field()
     link = scrapy.Field()
-
-class warezbbItem(scrapy.Item):
-    title = scrapy.Field()
-    link = scrapy.Field()
-
