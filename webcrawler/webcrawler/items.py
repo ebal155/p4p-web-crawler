@@ -15,6 +15,11 @@ class KickassItem(scrapy.Item):
     link = scrapy.Field()
 
 class warezbbItem(scrapy.Item):
+    author = scrapy.Field()
+    replies = scrapy.Field()
+    views = scrapy.Field()
+    post_date = scrapy.Field()
     title = scrapy.Field()
     link = scrapy.Field()
+
 
