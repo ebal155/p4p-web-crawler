@@ -14,7 +14,8 @@ class KickassItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
 
-class warezbbItem(scrapy.Item):
+class WarezbbItem(scrapy.Item):
+    catalog_id = scrapy.Field()
     author = scrapy.Field()
     replies = scrapy.Field()
     views = scrapy.Field()
