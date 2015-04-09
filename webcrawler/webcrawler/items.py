@@ -9,10 +9,11 @@ import scrapy
 
 
 class KickassItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
     title = scrapy.Field()
-    link = scrapy.Field()
+    author = scrapy.Field()
+    downloads = scrapy.Field()
+    post_date = scrapy.Field()
+    replies = scrapy.Field()
 
 class WarezbbItem(scrapy.Item):
     catalog_id = scrapy.Field()

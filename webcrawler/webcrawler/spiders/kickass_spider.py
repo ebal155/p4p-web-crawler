@@ -1,19 +1,39 @@
+
 import scrapy
 from webcrawler.items import KickassItem
+#KANyezus
 
-class kickassSpider(scrapy.Spider):
+class WarezbbSpider(scrapy.Spider):
     name = "kickass"
-    allowed_domains = ["kickass.to"]
+    allowed_domains = ["https://kickass.to/"]
+
     start_urls = [
-       "https://kickass.to/movies/"
+       "https://kickass.to/fast-and-furious-7-2015-hd-ts-xvid-ac3-hq-hive-cm8-t10472303.html"
     ]
 
     def parse(self, response):
-        for sel in response.xpath('//div[@class="markeredBlock torType filmType"]'):
-            item = KickassItem()
+        item = KickassItem()
+        sel = response.body
 
-            item['title'] = sel.xpath('a/text()').extract()
-            item['link'] = sel.xpath('a/@href').extract()
+        title = response.xpath(".//div[@class='torrentMediaInfo']/div/ul/li/a/span/text()").extract()
+        title = title[0]
 
-            yield item
+        author = response.xpath(".//div[@class='font11px lightgrey line160perc']/span/span/a/text()").extract()
+        author = author[0]
 
+        downloads = response.xpath(".//div[@class='font11px lightgrey line160perc']/text()").extract()
+        downloads = downloads[3].split("Downloaded")[1].split("times")[0].strip()
+
+        post_date = response.xpath(".//div[@class='font11px lightgrey line160perc']/text()").extract()
+        post_date = post_date[0].split("Added on")[1].split("by")[0].strip()
+
+        replies = response.xpath(".//div[@class='tabs tabSwitcher']/ul[@class='tabNavigation']/li/a/span/i/text()").extract()
+        replies = replies[0]
+
+        item["title"] = title
+        item["author"] = author
+        item["downloads"] = downloads
+        item["post_date"] = post_date
+        item["replies"] = replies
+
+        yield item
