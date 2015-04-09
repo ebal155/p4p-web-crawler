@@ -29,13 +29,14 @@ class warezbbSpider(scrapy.Spider):
             return
         else:
             print "Logged in"
-            yield scrapy.Request(url=self.forum_links["movies"], callback=self.parse_movies, dont_filter=True)
+            yield scrapy.Request(url=self.forum_links["movies"],
+                callback=self.parse_items, dont_filter=True)
 
-    def parse_movies(self, response):
+    def parse_items(self, response):
         """This method goes through the sub forum movies and gets the link on the page"""
 
         if self.pages_parsed > 25:
-            sys.exit("25 pages_parsed");
+            sys.exit("25 pages_parsed")
         # get all list rows
         # for each row, if it starts with a [ following the [RG...] format, go inside
         # else ignore

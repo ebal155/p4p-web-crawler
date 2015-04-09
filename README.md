@@ -8,3 +8,8 @@ scrapy crawl spider -o items.json
 
 eg. for kickass_spider, 
 scrapy crawl kickass -o items.json 
+
+Current spiders:
+kickass (kickass_spider)
+warezbb (warezbb_spider)
+
