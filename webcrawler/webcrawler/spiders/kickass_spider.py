@@ -24,8 +24,8 @@ class WarezbbSpider(scrapy.Spider):
     def parse_movie(self,response):
         item = KickassItem()
 
-        title = response.xpath(".//div[@class='torrentMediaInfo']/div/ul/li/a/span/text()").extract()
-        title = title[0]
+        title = response.xpath(".//h1[@class='novertmarg']/a/span/text()").extract()
+        title[0]
 
         author = response.xpath(".//div[@class='font11px lightgrey line160perc']/span/span/a/text()").extract()
         author = author[0]
