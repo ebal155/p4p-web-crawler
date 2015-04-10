@@ -3,7 +3,7 @@ import scrapy
 from webcrawler.items import KickassItem
 #KANyezus
 
-class WarezbbSpider(scrapy.Spider):
+class KickassSpider(scrapy.Spider):
     name = "kickass"
     allowed_domains = ["https://kickass.to/"]
 
