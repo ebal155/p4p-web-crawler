@@ -8,12 +8,21 @@ class WarezbbSpider(scrapy.Spider):
     allowed_domains = ["https://kickass.to/"]
 
     start_urls = [
-       "https://kickass.to/fast-and-furious-7-2015-hd-ts-xvid-ac3-hq-hive-cm8-t10472303.html"
+       "https://kickass.to/movies"
     ]
 
     def parse(self, response):
+        
+        list_movies_url = response.xpath(".//div[@class='markeredBlock torType filmType']/a/@href").extract()
+
+        for url in list_movies_url:
+            movie_page = "https://kickass.to" + url
+            yield scrapy.Request(url=movie_page,callback=self.parse_movie,dont_filter=True)
+
+
+
+    def parse_movie(self,response):
         item = KickassItem()
-        sel = response.body
 
         title = response.xpath(".//div[@class='torrentMediaInfo']/div/ul/li/a/span/text()").extract()
         title = title[0]
