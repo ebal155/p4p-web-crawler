@@ -1,9 +1,11 @@
-
 import scrapy
 from webcrawler.items import WarezbbItem
-#KANyezus
+
 
 class WarezbbSpider(scrapy.Spider):
+    """ This class is a spider which crawls the warezbb subforum and gets
+        data from 4 subforums. 
+    """
     name = "warezbb"
     allowed_domains = ["https://www.warez-bb.org/"]
 
@@ -27,8 +29,8 @@ class WarezbbSpider(scrapy.Spider):
     }
 
     # keeps track of how many pages each sub forum
-    # was parsed
-    INeedABetterName = {
+    # have been parsed
+    pages_parsed = {
     "0": 0,
     "1" : 0,
     "2"  : 0,
@@ -37,14 +39,21 @@ class WarezbbSpider(scrapy.Spider):
     }
 
     def parse(self, response):
+        """ Makes request to login onto warezbb
+            with after_login as a callback 
+        """
         return scrapy.FormRequest.from_response(
             response,
             formdata={'username': 'nzgangster', 'password': 'KANyezus'},
             callback=self.after_login, dont_filter=True
         )
 
+    
     def after_login(self, response):
-        # check login succeed before going on
+        """ Checks that the spider has logged on
+            and makes a number of requests to 
+            warez-bb sub-forums. 
+        """
         if "authentication failed" in response.body:
             print "Failed to Log in, exiting now"
             return
@@ -55,13 +64,19 @@ class WarezbbSpider(scrapy.Spider):
                     callback=self.parse_items, dont_filter=True)
 
 
+
     def parse_items(self, response):
+        """ Parses the current page and gets relevant info.     
+            Will also make a request to next page if there is 
+            a next page and the spider hasn't gone over the limit
+        """
         link_title = response.xpath("//title/text()").extract()
         catalog_id = self.get_catalog_id(link_title[0])
-        
-        # checks how many pages parsed, if more than 25
-        # exit. 
-        if self.INeedABetterName[catalog_id] > 25:
+    
+        # checks how many pages parsed for current subforum
+        # if more than 25 exit.
+        if self.pages_parsed[catalog_id] > 25:
+            print self.pages_parsed
             return
 
         # get all list rows
@@ -76,12 +91,26 @@ class WarezbbSpider(scrapy.Spider):
             title = row.xpath(".//div/span/span[@class='title']/a/text()")
             title = title.extract()[0].strip()
             if title[0] == "[":
-                
-                author = row.xpath(".//div[@class='posts']/span/a/text()").extract()
-                replies = row.xpath(".//div[@class='topics']/span/text()").extract()
-                views = row.xpath(".//div[@class='views']/span/text()").extract()
-                post_date = row.xpath(".//div[@class='last-post']/span/a/text()").extract()
-                link = row.xpath(".//div/span/span[@class='title']/a/@href").extract()
+
+                author = row.xpath(".//div[@class='posts']/span/a/text()")
+                author = author.extract()
+                author = author[0]
+
+                replies = row.xpath(".//div[@class='topics']/span/text()")
+                replies = replies.extract()
+                replies = replies[0]
+
+                views = row.xpath(".//div[@class='views']/span/text()")
+                views = views.extract()
+                views = views[0]
+
+                post_date = row.xpath(".//div[@class='last-post']/span/a/text()")
+                post_date = post_date.extract()
+                post_date = post_date[0]
+
+                link = row.xpath(".//div/span/span[@class='title']/a/@href")
+                link = link.extract()
+                link = "https://www.warez-bb.org/" + link[0]
 
                 item["catalog_id"] = catalog_id
                 item["author"] = author
@@ -93,7 +122,7 @@ class WarezbbSpider(scrapy.Spider):
 
                 yield item
 
-        self.INeedABetterName[catalog_id] = self.INeedABetterName[catalog_id] + 1
+        self.pages_parsed[catalog_id] = self.pages_parsed[catalog_id] + 1
 
         current_page = response.xpath("//b[@class='active-button']")
         current_page = current_page[0].xpath('text()').extract()[0]
@@ -105,6 +134,7 @@ class WarezbbSpider(scrapy.Spider):
             callback=self.parse_items, dont_filter=True)
 
     def get_catalog_id(self, string):
+        """ Gets the correct id for each item type """
         for key in self.catalog_ids:
             if key in string.lower():
                 return self.catalog_ids[key]

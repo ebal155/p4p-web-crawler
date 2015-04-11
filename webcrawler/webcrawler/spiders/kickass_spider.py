@@ -1,7 +1,6 @@
 
 import scrapy
 from webcrawler.items import KickassItem
-#KANyezus
 
 class KickassSpider(scrapy.Spider):
     name = "kickass"
@@ -34,7 +33,7 @@ class KickassSpider(scrapy.Spider):
         item = KickassItem()
 
         title = response.xpath(".//h1[@class='novertmarg']/a/span/text()").extract()
-        title[0]
+        title = title[0]
 
         author = response.xpath(".//div[@class='font11px lightgrey line160perc']/span/span/a/text()").extract()
         author = author[0]
