@@ -28,7 +28,7 @@ class KickassSpider(scrapy.Spider):
             movie_page = "https://kickass.to" + url
             yield scrapy.Request(url=movie_page,callback=self.parse_movie,dont_filter=True)
     
-    #Make a request to a movie page, and parse the relevant information
+    #Make a request to a movie page, and scrape the relevant information
     def parse_movie(self,response):
         item = KickassItem()
 
@@ -65,6 +65,28 @@ class KickassSpider(scrapy.Spider):
         imdb_rating = response.xpath("//*[@id='tab-main']/div[2]/div/ul[1]/li[4]/text()").extract()
         imdb_rating = imdb_rating[0]
 
+        #rotten_tomatoes = response.xpath("//*[@id='tab-main']/div[2]/div/ul[1]/li[5]/span[1]").extract()
+        #rotten_tomatoes = rotten_tomatoes[0]
+
+        detected_quality = response.xpath(".//div[@class='dataList']/ul[@class='block overauto botmarg0']/li[2]/span/text()").extract()
+        detected_quality = detected_quality[0]
+
+        movie_release_date = response.xpath("//*[@id='tab-main']/div[2]/div/ul[2]/li[2]/text()").extract()
+        movie_release_date = movie_release_date[0]
+
+        #language = response.xpath(".//div[@class='dataList']/ul[2]/li[4]/span/text()").extract()
+        #language = language[0].strip()
+
+        genre = response.xpath(".//div[@class='dataList']/ul[@class='block overauto botmarg0']/li[6]/a[@class='plain']/span/text()").extract()
+
+        #Getting the unit of file_size, e.g. GB,MB,etc.
+        file_size_unit = response.xpath("//*[@id='tab-main']/div[5]/div[1]/div[1]/strong/span/text()").extract()
+
+        file_size = response.xpath("//*[@id='tab-main']/div[5]/div[1]/div[1]/strong/text()").extract()
+        file_size = file_size[0] + file_size_unit[0]
+
+        cast = response.xpath("//*[@id='tab-main']/div[2]/div/div[1]/span/a/text()").extract()
+
         item["title"] = title
         item["author"] = author
         item["author_reputation"] = author_reputation
@@ -76,9 +98,12 @@ class KickassSpider(scrapy.Spider):
         item["seeders"] = seeders
         item["leechers"] = leechers
         item["imdb_rating"] = imdb_rating
+        #item["rotten_tomatoes"] = rotten_tomatoes
+        item["detected_quality"] = detected_quality
+        item["movie_release_date"] = movie_release_date
+        #item["language"] = language
+        item["genre"] = genre
+        item["file_size"] = file_size
+        item["cast"] = cast
 
         yield item
-
-    #Clean up the fields from list format and store as a string
-    def clean_fields(self):
-        print("hello")

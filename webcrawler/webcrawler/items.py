@@ -20,6 +20,13 @@ class KickassItem(scrapy.Item):
     seeders = scrapy.Field()
     leechers = scrapy.Field()
     imdb_rating = scrapy.Field()
+    rotten_tomatoes = scrapy.Field()
+    detected_quality = scrapy.Field()
+    movie_release_date = scrapy.Field()
+    language = scrapy.Field()
+    genre = scrapy.Field()
+    file_size = scrapy.Field()
+    cast = scrapy.Field()
 
 class WarezbbItem(scrapy.Item):
     catalog_id = scrapy.Field()
