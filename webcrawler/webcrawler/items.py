@@ -11,9 +11,15 @@ import scrapy
 class KickassItem(scrapy.Item):
     title = scrapy.Field()
     author = scrapy.Field()
+    author_reputation = scrapy.Field()
     downloads = scrapy.Field()
     post_date = scrapy.Field()
     replies = scrapy.Field()
+    likes = scrapy.Field()
+    dislikes = scrapy.Field()
+    seeders = scrapy.Field()
+    leechers = scrapy.Field()
+    imdb_rating = scrapy.Field()
 
 class WarezbbItem(scrapy.Item):
     catalog_id = scrapy.Field()
@@ -23,5 +29,6 @@ class WarezbbItem(scrapy.Item):
     post_date = scrapy.Field()
     title = scrapy.Field()
     link = scrapy.Field()
+
 
 
