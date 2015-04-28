@@ -1,5 +1,6 @@
 
 import scrapy
+import sys, traceback
 from webcrawler.items import KickassItem
 
 class KickassSpider(scrapy.Spider):
@@ -12,9 +13,9 @@ class KickassSpider(scrapy.Spider):
 
     #Make request to a number of pages of movies with parse_movie_page as a callback
     def parse(self, response):
-        num_pages = 11
+        num_pages = 400
 
-        for x in range(0,11):
+        for x in range(0, num_pages):
             if (x == 0):
                 yield scrapy.Request(url="https://kickass.to/movies/",callback=self.parse_movie_page,dont_filter=True)
             else:
@@ -42,13 +43,19 @@ class KickassSpider(scrapy.Spider):
         author_reputation = author_reputation[0]
 
         downloads = response.xpath(".//div[@class='font11px lightgrey line160perc']/text()").extract()
-        downloads = downloads[3].split("Downloaded")[1].split("times")[0].strip()
+        for x in range(0,len(downloads)):
+            if("Downloaded" in downloads[x]):
+                downloads = downloads[x].split("Downloaded")[1].split("times")[0].strip()
 
         post_date = response.xpath(".//div[@class='font11px lightgrey line160perc']/text()").extract()
         post_date = post_date[0].split("Added on")[1].split("by")[0].strip()
 
-        replies = response.xpath(".//div[@class='tabs tabSwitcher']/ul[@class='tabNavigation']/li/a/span/i/text()").extract()
-        replies = replies[0]
+        replies = response.xpath(".//div[@class='tabs tabSwitcher']/ul[@class='tabNavigation']/li/a/span/i/text()").extract()   
+        if len(replies) != 0:
+            replies = replies[0]
+        else:
+            replies = "No replies"
+
 
         likes = response.xpath(".//span[@id='thnxCount']/span/text()").extract()
         likes = likes[0]
@@ -63,27 +70,47 @@ class KickassSpider(scrapy.Spider):
         leechers = leechers[0]
 
         imdb_rating = response.xpath("//*[@id='tab-main']/div[2]/div/ul[1]/li[4]/text()").extract()
-        imdb_rating = imdb_rating[0]
+        if len(imdb_rating) != 0:
+            imdb_rating = imdb_rating[0]
+        else:
+            imdb_rating = "No rating"
 
-        #rotten_tomatoes = response.xpath("//*[@id='tab-main']/div[2]/div/ul[1]/li[5]/span[1]").extract()
-        #rotten_tomatoes = rotten_tomatoes[0]
-
+        # rotten_tomatoes = response.xpath("//*[@id='tab-main']/div[2]/div/ul[1]/li[5]/span[1]").extract()
+        # rotten_tomatoes = rotten_tomatoes[0] #43 exceptions
+        # except:
+        #     f = open('test','a')
+        #     exc_type, exc_value, exc_traceback = sys.exc_info()
+        #     f.write(title + "\n" + str(language) + "\n")
+        #     f.close()
+        
         detected_quality = response.xpath(".//div[@class='dataList']/ul[@class='block overauto botmarg0']/li[2]/span/text()").extract()
-        detected_quality = detected_quality[0]
+        if len(detected_quality) != 0:
+            detected_quality = detected_quality[0]
+        else:
+            detected_quality = "N/A"
 
         movie_release_date = response.xpath("//*[@id='tab-main']/div[2]/div/ul[2]/li[2]/text()").extract()
-        movie_release_date = movie_release_date[0]
+        if len(movie_release_date) != 0:
+            movie_release_date = movie_release_date[0]
+        else:
+            movie_release_date = "N/A"
 
-        #language = response.xpath(".//div[@class='dataList']/ul[2]/li[4]/span/text()").extract()
-        #language = language[0].strip()
+        language = response.xpath(".//div[@class='dataList']/ul[2]/li[4]/span/text()").extract()
+        if len(language) != 0:
+            language = language[0].strip()
+        else:
+            language = "N/A"
 
         genre = response.xpath(".//div[@class='dataList']/ul[@class='block overauto botmarg0']/li[6]/a[@class='plain']/span/text()").extract()
 
         #Getting the unit of file_size, e.g. GB,MB,etc.
         file_size_unit = response.xpath("//*[@id='tab-main']/div[5]/div[1]/div[1]/strong/span/text()").extract()
-
         file_size = response.xpath("//*[@id='tab-main']/div[5]/div[1]/div[1]/strong/text()").extract()
-        file_size = file_size[0] + file_size_unit[0]
+
+        if (len(file_size_unit) and len(file_size_unit)) != 0:
+            file_size = file_size[0] + file_size_unit[0]
+        else:
+            file_size = "N/A"
 
         cast = response.xpath("//*[@id='tab-main']/div[2]/div/div[1]/span/a/text()").extract()
 
@@ -101,7 +128,7 @@ class KickassSpider(scrapy.Spider):
         #item["rotten_tomatoes"] = rotten_tomatoes
         item["detected_quality"] = detected_quality
         item["movie_release_date"] = movie_release_date
-        #item["language"] = language
+        item["language"] = language
         item["genre"] = genre
         item["file_size"] = file_size
         item["cast"] = cast
