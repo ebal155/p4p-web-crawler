@@ -1,17 +1,19 @@
 import scrapy
 import sys
 from webcrawler.items import WarezbbItem
-
+import time
 
 class WarezbbSpider(scrapy.Spider):
     name = "warezMovies"
     allowed_domains = ["https://www.warez-bb.org/"]
 
-    download_delay = 0.2
+    download_delay = 4
 
     start_urls = [
        "https://www.warez-bb.org/login.php"
     ]
+    failCount = 0
+
 
     forumPage = "https://www.warez-bb.org/viewforum.php?f=4"
 
@@ -58,7 +60,7 @@ class WarezbbSpider(scrapy.Spider):
 
     def parse_outside_post(self, response):
         print "outside a post " + str(self.numberOfPages) 
-        if self.numberOfPages > 1:
+        if self.numberOfPages > 10:
             sys.exit()
         else:
             self.numberOfPages = self.numberOfPages + 1
@@ -84,11 +86,11 @@ class WarezbbSpider(scrapy.Spider):
 
                 link = row.xpath(".//div/span/span[@class='title']/a/@href")
                 link = link.extract()
-                link = str(link[0])
-                link_id = link[link.index("=")+1:]
+                link_string = str(link[0])
+                link_id = link_string[link_string.index("=")+1:]
                 if link_id not in self.stickedTitlesId:
                     link = "https://www.warez-bb.org/" + link[0]
-                    item['link'] = link
+                    item['link'] = link[0]
                     yield scrapy.Request(url=link,
                         meta={'item': item},
                         callback=self.parse_inside_post, dont_filter=True)
@@ -106,18 +108,20 @@ class WarezbbSpider(scrapy.Spider):
     def parse_inside_post(self, response):
         item = response.meta['item']
         #//*[@id="84577963"]/div[1]/div/div[1]/strong
+        try:
+            author = response.xpath(".//div[@class='author']/strong")
+            author = author.extract()
+            item['author'] = author
 
-        # author = response.xpath(".//div[@class='author']/strong")
-        # author = author.extract()
-        # item['author'] = author
+            post_date = response.xpath(".//div[@class='date']/a/text()").extract()
+            post_date = post_date[0]
+            item['post_date'] = post_date
 
-        # post_date = response.xpath(".//div[@class='date']/a/text()").extract()
-        # post_date = post_date[0]
-        # item['post_date'] = post_date
-
-        code = response.xpath(".//div[@class='code']/span/text()")
-        with open("test.txt", "a") as myfile:
-            myfile.write("\n")
-            myfile.write(str(code.extract()))
-            myfile.write("\n")
-        # yield item
+            codes = response.xpath(".//div[@class='code']/span/text()")
+            codes = codes.extract()
+            item['code_fields'] = codes
+            yield item
+        except Exception:
+            f = open("./testFile", 'w+')
+            self.failCount += 1
+            f.write(str(self.failCount) + "/" + str(self.numberOfPages * 50))

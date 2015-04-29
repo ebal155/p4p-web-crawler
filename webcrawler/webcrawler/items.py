@@ -36,6 +36,7 @@ class WarezbbItem(scrapy.Item):
     post_date = scrapy.Field()
     title = scrapy.Field()
     link = scrapy.Field()
+    code_fields = scrapy.Field()
 
 
 
