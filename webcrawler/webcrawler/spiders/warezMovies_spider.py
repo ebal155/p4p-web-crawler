@@ -7,13 +7,27 @@ class WarezbbSpider(scrapy.Spider):
     name = "warezMovies"
     allowed_domains = ["https://www.warez-bb.org/"]
 
-    download_delay = 5
+    download_delay = 0.2
 
     start_urls = [
        "https://www.warez-bb.org/login.php"
     ]
 
     forumPage = "https://www.warez-bb.org/viewforum.php?f=4"
+
+    stickedTitlesId = [
+        "21537617",
+        "21451815",
+        "21626981",
+        "15678",
+        "21399630",
+        "6000413",
+        "4170791",
+        "2538913",
+        "589688",
+        "16040260"
+    ]
+
     numberOfPages = 0
     catalog_id = 0
 
@@ -44,10 +58,9 @@ class WarezbbSpider(scrapy.Spider):
 
     def parse_outside_post(self, response):
         print "outside a post " + str(self.numberOfPages) 
-        if self.numberOfPages > 1000:
+        if self.numberOfPages > 1:
             sys.exit()
         else:
-
             self.numberOfPages = self.numberOfPages + 1
             rows = response.xpath("//div[@class='list-rows']")
             for row in rows:
@@ -55,6 +68,7 @@ class WarezbbSpider(scrapy.Spider):
 
                 title = row.xpath(".//div/span/span[@class='title']/a/text()")
                 title = title.extract()[0].strip()
+
 
                 item['title'] = title
 
@@ -70,11 +84,14 @@ class WarezbbSpider(scrapy.Spider):
 
                 link = row.xpath(".//div/span/span[@class='title']/a/@href")
                 link = link.extract()
-                link = "https://www.warez-bb.org/" + link[0]
-                item['link'] = link
-                yield scrapy.Request(url=link,
-                    meta={'item': item},
-                    callback=self.parse_inside_post, dont_filter=True)
+                link = str(link[0])
+                link_id = link[link.index("=")+1:]
+                if link_id not in self.stickedTitlesId:
+                    link = "https://www.warez-bb.org/" + link[0]
+                    item['link'] = link
+                    yield scrapy.Request(url=link,
+                        meta={'item': item},
+                        callback=self.parse_inside_post, dont_filter=True)
 
             current_page = response.xpath("//b[@class='active-button']")
             current_page = current_page[0].xpath('text()').extract()[0]
@@ -90,19 +107,17 @@ class WarezbbSpider(scrapy.Spider):
         item = response.meta['item']
         #//*[@id="84577963"]/div[1]/div/div[1]/strong
 
-        author = response.xpath(".//div[@class='author']/strong")
-        author = author.extract()
-       
-        try:
-            author = author[0]
-        except Exception:
-            f1 = open('./testfile', 'a')
-            f1.write("\n" + str(response.body))
-            return
-        item['author'] = author
+        # author = response.xpath(".//div[@class='author']/strong")
+        # author = author.extract()
+        # item['author'] = author
 
-        post_date = response.xpath(".//div[@class='date']/a/text()").extract()
-        post_date = post_date[0]
-        item['post_date'] = post_date
+        # post_date = response.xpath(".//div[@class='date']/a/text()").extract()
+        # post_date = post_date[0]
+        # item['post_date'] = post_date
 
-        yield item
+        code = response.xpath(".//div[@class='code']/span/text()")
+        with open("test.txt", "a") as myfile:
+            myfile.write("\n")
+            myfile.write(str(code.extract()))
+            myfile.write("\n")
+        # yield item
