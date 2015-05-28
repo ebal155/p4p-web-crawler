@@ -13,9 +13,23 @@ class WarezbbSpider(scrapy.Spider):
        "https://www.warez-bb.org/login.php"
     ]
     fail_count = 0
+    catalog_id = { 
+        "movie":0,
+        "app":1,
+        "music":2,
+        "tv":3,
+        "game":4,
+        "anime":5 
+    }
 
+    #Topic  type :  0 -Movie,  1- Software APP, 2- Music
 
-    forum_page = "https://www.warez-bb.org/viewforum.php?f=4"
+    movie_forum_page = "https://www.warez-bb.org/viewforum.php?f=4"
+    tv_forum_page = "https://www.warez-bb.org/viewforum.php?f=57"
+    game_forum_page = "https://www.warez-bb.org/viewforum.php?f=5"
+    console_game_forum_page = "https://www.warez-bb.org/viewforum.php?f=28"
+    app_forum_page = "https://www.warez-bb.org/viewforum.php?f=3"
+    anime_forum_page = "https://www.warez-bb.org/viewforum.php?f=88"
 
     sticked_titles_id = [
         "21537617",
@@ -26,12 +40,14 @@ class WarezbbSpider(scrapy.Spider):
         "6000413",
         "4170791",
         "2538913",
+        "2538871",
         "589688",
         "16040260",
+        "589689",
+        "21793204"
     ]
 
     number_of_pages = 0
-    catalog_id = 0
 
     def parse(self, response):
         """ Makes request to login onto warezbb
@@ -54,14 +70,31 @@ class WarezbbSpider(scrapy.Spider):
             return
         else:
             print "Logged in"
-            yield scrapy.Request(url=self.forum_page,
+            yield scrapy.Request(url=self.movie_forum_page,
+                meta={'id': self.catalog_id["movie"]},
+                callback=self.parse_outside_post, dont_filter=True)
+            yield scrapy.Request(url=self.tv_forum_page,
+                meta={'id': self.catalog_id["tv"]},
+                callback=self.parse_outside_post, dont_filter=True)
+            yield scrapy.Request(url=self.console_game_forum_page,
+                meta={'id': self.catalog_id["game"]},
+                callback=self.parse_outside_post, dont_filter=True)
+            yield scrapy.Request(url=self.game_forum_page,
+                meta={'id': self.catalog_id["game"]},
+                callback=self.parse_outside_post, dont_filter=True)
+            yield scrapy.Request(url=self.app_forum_page,
+                meta={'id': self.catalog_id["app"]},
+                callback=self.parse_outside_post, dont_filter=True)
+            yield scrapy.Request(url=self.anime_forum_page,
+                meta={'id': self.catalog_id["anime"]},
                 callback=self.parse_outside_post, dont_filter=True)
 
     def parse_outside_post(self, response):
-        if self.number_of_pages > 1:
+        if self.number_of_pages > 20:
             sys.exit()
         else:
             self.number_of_pages += 1
+            catalog_id = response.meta['id']
             rows = response.xpath("//div[@class='list-rows']")
             for row in rows:
 
@@ -84,7 +117,7 @@ class WarezbbSpider(scrapy.Spider):
                 views = views.extract()
                 item['views'] = views[0]
 
-                item['catalog_id'] = 0
+                item['catalog_id'] = catalog_id
 
                 link = row.xpath(".//div/span/span[@class='title']/a/@href")
                 link = link.extract()
@@ -103,7 +136,7 @@ class WarezbbSpider(scrapy.Spider):
             next_link = response.xpath("//a[@title='Page " + str(next_page) + "']/@href")
             next_link = "https://www.warez-bb.org/" + next_link[0].extract()
 
-            yield scrapy.Request(url=next_link,
+            yield scrapy.Request(url=next_link, meta={'id' : catalog_id},
                 callback=self.parse_outside_post, dont_filter=True)
 
 
@@ -134,6 +167,8 @@ class WarezbbSpider(scrapy.Spider):
                 char_to_spilt_by = "\\"
             elif "|" in sources:
                 char_to_spilt_by = "|"
+            elif "-" in sources:
+                char_to_spilt_by = "-"
             else:
                 char_to_spilt_by = None
         else: 
@@ -154,7 +189,8 @@ class WarezbbSpider(scrapy.Spider):
             "vodrip", "workprint",
             "screener", "hdrip",
             "720p", "web-dl",
-            "1080p"
+            "1080p", "hdtv",
+            "480p", "web dl"
             ]
         title = title.lower()
         movie_quality_array = []

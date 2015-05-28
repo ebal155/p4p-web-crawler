@@ -39,5 +39,3 @@ class WarezbbItem(scrapy.Item):
     code_fields = scrapy.Field()
     sources = scrapy.Field()
     detected_quality = scrapy.Field()
-
-
