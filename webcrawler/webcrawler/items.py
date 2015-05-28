@@ -37,6 +37,7 @@ class WarezbbItem(scrapy.Item):
     title = scrapy.Field()
     link = scrapy.Field()
     code_fields = scrapy.Field()
-
+    sources = scrapy.Field()
+    detected_quality = scrapy.Field()
 
 
