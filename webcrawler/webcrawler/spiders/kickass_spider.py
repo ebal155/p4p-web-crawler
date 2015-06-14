@@ -11,36 +11,44 @@ class KickassSpider(scrapy.Spider):
        "https://kickass.to"
     ]
 
-    #Make request to a number of pages of movies with parse_movie_page as a callback
+    # grep -c \|Movies\| "dailydump.txt"
+
+    #Read off the dump made with dumpseparator and parse all the links with parse_movie_page as a callback
     def parse(self, response):
-        num_pages = 400
 
-        for x in range(0, num_pages):
-            if (x == 0):
-                yield scrapy.Request(url="https://kickass.to/movies/",callback=self.parse_movie_page,dont_filter=True)
-            else:
-                yield scrapy.Request(url="https://kickass.to/movies/" + str(x) + "/",callback=self.parse_movie_page,dont_filter=True)
+        list_links = []
+        filename = "moviedump.txt"
 
-    #Parse and make a request to each movie link inside a page of page of movies with parse_movie as a callback
-    def parse_movie_page(self,response):
-        list_movies_url = response.xpath(".//div[@class='markeredBlock torType filmType']/a/@href").extract()
+        with open(filename) as f:
 
-        for url in list_movies_url:
-            movie_page = "https://kickass.to" + url
-            yield scrapy.Request(url=movie_page,callback=self.parse_movie,dont_filter=True)
-    
+            for line in f:
+                line = line.split("|")
+                list_links.append(line[3])
+                # make an item and store the data
+                # pass it in
+
+            for link in list_links:
+                yield scrapy.Request(url=link, callback=self.parse_movie, dont_filter=True)
+
+
     #Make a request to a movie page, and scrape the relevant information
-    def parse_movie(self,response):
+    def parse_movie(self, response):
         item = KickassItem()
 
         title = response.xpath(".//h1[@class='novertmarg']/a/span/text()").extract()
         title = title[0]
 
         author = response.xpath(".//div[@class='font11px lightgrey line160perc']/span/span/a/text()").extract()
-        author = author[0]
+        if len(author) != 0:
+            author = author[0]
+        else:
+            author = "N/A"
 
         author_reputation = response.xpath(".//div[@class='font11px lightgrey line160perc']/span[@class='badgeInline']/span[@class='repValue positive']/text()").extract()
-        author_reputation = author_reputation[0]
+        if len(author_reputation) != 0:
+            author_reputation = author_reputation[0]
+        else:
+            author_reputation = "N/A"
 
         downloads = response.xpath(".//div[@class='font11px lightgrey line160perc']/text()").extract()
         for x in range(0,len(downloads)):
@@ -50,25 +58,39 @@ class KickassSpider(scrapy.Spider):
         post_date = response.xpath(".//div[@class='font11px lightgrey line160perc']/text()").extract()
         post_date = post_date[0].split("Added on")[1].split("by")[0].strip()
 
-        replies = response.xpath(".//div[@class='tabs tabSwitcher']/ul[@class='tabNavigation']/li/a/span/i/text()").extract()   
+        replies = response.xpath(".//div[@class='tabs tabSwitcher']/ul[@class='tabNavigation']/li/a/span/i/text()").extract()
         if len(replies) != 0:
             replies = replies[0]
         else:
-            replies = "No replies"
+            replies = "0"
 
 
         likes = response.xpath(".//span[@id='thnxCount']/span/text()").extract()
-        likes = likes[0]
+        if len(likes) != 0:
+            likes = likes[0]
+        else:
+            likes = "0"
 
         dislikes = response.xpath(".//*[@id='fakeCount']/span/text()").extract()
-        dislikes = dislikes[0]
+        if len(dislikes) != 0:
+            dislikes = dislikes[0]
+        else:
+            dislikes = "0"
 
         seeders = response.xpath("//div[@class='seedLeachContainer']/div[@class='seedBlock']/strong/text()").extract()
-        seeders = seeders[0]
+        if len(seeders) != 0:   
+            seeders = seeders[0]
+        else:
+            seeders = "0"
 
         leechers = response.xpath("//div[@class='seedLeachContainer']/div[@class='leechBlock']/strong/text()").extract()
-        leechers = leechers[0]
+        if len(leechers) != 0:
+            leechers = leechers[0]
+        else:
+            leechers = "0"
 
+
+        #Non - common metadta
         imdb_rating = response.xpath("//*[@id='tab-main']/div[2]/div/ul[1]/li[4]/text()").extract()
         if len(imdb_rating) != 0:
             imdb_rating = imdb_rating[0]
