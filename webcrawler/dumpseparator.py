@@ -16,7 +16,7 @@ def get_movies(newfile):
 
 def main():
 	get_movies("moviedump.txt")
-	print(file_len("appdump.txt"))
+	print(file_len("moviedump.txt"))
 
 
 def file_len(fname):
