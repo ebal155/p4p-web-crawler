@@ -4,9 +4,10 @@ import re
 from webcrawler.items import WarezbbItem
 
 class WarezbbSpider(scrapy.Spider):
+    start_page = 0
+    end_page = 500
     name = "warezMovies"
     allowed_domains = ["https://www.warez-bb.org/"]
-
     download_delay = 4
 
     start_urls = [
@@ -47,7 +48,7 @@ class WarezbbSpider(scrapy.Spider):
         "21793204"
     ]
 
-    number_of_pages = 0
+    curr_page = 0
 
     def parse(self, response):
         """ Makes request to login onto warezbb
@@ -73,27 +74,27 @@ class WarezbbSpider(scrapy.Spider):
             yield scrapy.Request(url=self.movie_forum_page,
                 meta={'id': self.catalog_id["movie"]},
                 callback=self.parse_outside_post, dont_filter=True)
-            yield scrapy.Request(url=self.tv_forum_page,
-                meta={'id': self.catalog_id["tv"]},
-                callback=self.parse_outside_post, dont_filter=True)
-            yield scrapy.Request(url=self.console_game_forum_page,
-                meta={'id': self.catalog_id["game"]},
-                callback=self.parse_outside_post, dont_filter=True)
-            yield scrapy.Request(url=self.game_forum_page,
-                meta={'id': self.catalog_id["game"]},
-                callback=self.parse_outside_post, dont_filter=True)
-            yield scrapy.Request(url=self.app_forum_page,
-                meta={'id': self.catalog_id["app"]},
-                callback=self.parse_outside_post, dont_filter=True)
-            yield scrapy.Request(url=self.anime_forum_page,
-                meta={'id': self.catalog_id["anime"]},
-                callback=self.parse_outside_post, dont_filter=True)
+            # yield scrapy.Request(url=self.tv_forum_page,
+            #     meta={'id': self.catalog_id["tv"]},
+            #     callback=self.parse_outside_post, dont_filter=True)
+            # yield scrapy.Request(url=self.console_game_forum_page,
+            #     meta={'id': self.catalog_id["game"]},
+            #     callback=self.parse_outside_post, dont_filter=True)
+            # yield scrapy.Request(url=self.game_forum_page,
+            #     meta={'id': self.catalog_id["game"]},
+            #     callback=self.parse_outside_post, dont_filter=True)
+            # yield scrapy.Request(url=self.app_forum_page,
+            #     meta={'id': self.catalog_id["app"]},
+            #     callback=self.parse_outside_post, dont_filter=True)
+            # yield scrapy.Request(url=self.anime_forum_page,
+            #     meta={'id': self.catalog_id["anime"]},
+            #     callback=self.parse_outside_post, dont_filter=True)
 
     def parse_outside_post(self, response):
-        if self.number_of_pages > 20:
+        if self.curr_page > self.end_page:
             sys.exit()
         else:
-            self.number_of_pages += 1
+            self.curr_page += 1
             catalog_id = response.meta['id']
             rows = response.xpath("//div[@class='list-rows']")
             for row in rows:
@@ -126,9 +127,10 @@ class WarezbbSpider(scrapy.Spider):
                 if link_id[:-2] not in self.sticked_titles_id:
                     link = "https://www.warez-bb.org/" + link[0]
                     item['link'] = link
-                    yield scrapy.Request(url=link,
-                        meta={'item': item},
-                        callback=self.parse_inside_post, dont_filter=True)
+                    if self.curr_page >= self.start_page:
+                        yield scrapy.Request(url=link,
+                            meta={'item': item},
+                            callback=self.parse_inside_post, dont_filter=True)
 
             current_page = response.xpath("//b[@class='active-button']")
             current_page = current_page[0].xpath('text()').extract()[0]
