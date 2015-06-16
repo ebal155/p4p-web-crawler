@@ -1,3 +1,5 @@
+import sys
+
 dump = "dailydump.txt"
 
 #TV
@@ -15,6 +17,10 @@ def get_movies(newfile):
 						myfile.write(line)
 
 def main():
+
+	# kickass_dump_filename
+	# movie_dump_filename
+
 	get_movies("moviedump.txt")
 	print(file_len("moviedump.txt"))
 
