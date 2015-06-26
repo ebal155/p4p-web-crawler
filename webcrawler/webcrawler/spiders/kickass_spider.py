@@ -20,19 +20,24 @@ class KickassSpider(scrapy.Spider):
         filename = "moviedump.txt"
 
         with open(filename) as f:
-
             for line in f:
                 line = line.split("|")
-                list_links.append(line[3])
+                list_links.append((line[3],line[5],line[10]))
                 # make an item and store the data
                 # pass it in
 
             for link in list_links:
-                yield scrapy.Request(url=link, callback=self.parse_movie, dont_filter=True)
+                request = scrapy.Request(url=link[0], callback=self.parse_movie, dont_filter=True)
+
+                request.meta['file_size'] = link[1] # bytes
+                request.meta['post_date'] = link[2] # UNIX timestamp
+
+                yield request
 
 
-    #Make a request to a movie page, and scrape the relevant information
+    #Make a request to a movie page, and scrape the relevant information    1
     def parse_movie(self, response):
+
         item = KickassItem()
 
         title = response.xpath(".//h1[@class='novertmarg']/a/span/text()").extract()
@@ -55,8 +60,9 @@ class KickassSpider(scrapy.Spider):
             if("Downloaded" in downloads[x]):
                 downloads = downloads[x].split("Downloaded")[1].split("times")[0].strip()
 
-        post_date = response.xpath(".//div[@class='font11px lightgrey line160perc']/text()").extract()
-        post_date = post_date[0].split("Added on")[1].split("by")[0].strip()
+        # post_date = response.xpath(".//div[@class='font11px lightgrey line160perc']/text()").extract()
+        # post_date = post_date[0].split("Added on")[1].split("by")[0].strip()
+        post_date = response.meta['post_date']
 
         replies = response.xpath(".//div[@class='tabs tabSwitcher']/ul[@class='tabNavigation']/li/a/span/i/text()").extract()
         if len(replies) != 0:
@@ -126,13 +132,14 @@ class KickassSpider(scrapy.Spider):
         genre = response.xpath(".//div[@class='dataList']/ul[@class='block overauto botmarg0']/li[6]/a[@class='plain']/span/text()").extract()
 
         #Getting the unit of file_size, e.g. GB,MB,etc.
-        file_size_unit = response.xpath("//*[@id='tab-main']/div[5]/div[1]/div[1]/strong/span/text()").extract()
-        file_size = response.xpath("//*[@id='tab-main']/div[5]/div[1]/div[1]/strong/text()").extract()
+        # file_size_unit = response.xpath("//*[@id='tab-main']/div[5]/div[1]/div[1]/strong/span/text()").extract()
+        # file_size = response.xpath("//*[@id='tab-main']/div[5]/div[1]/div[1]/strong/text()").extract()
+        file_size = response.meta['file_size']
 
-        if (len(file_size_unit) and len(file_size_unit)) != 0:
-            file_size = file_size[0] + file_size_unit[0]
-        else:
-            file_size = "N/A"
+        # if (len(file_size_unit) and len(file_size_unit)) != 0:
+        #     file_size = file_size[0] + file_size_unit[0]
+        # else:
+        #     file_size = "N/A"
 
         cast = response.xpath("//*[@id='tab-main']/div[2]/div/div[1]/span/a/text()").extract()
 
