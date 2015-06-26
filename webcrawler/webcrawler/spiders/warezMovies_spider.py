@@ -5,10 +5,11 @@ from webcrawler.items import WarezbbItem
 
 class WarezbbSpider(scrapy.Spider):
     start_page = 0
-    end_page = 500
+    end_page = 100000000 # well...
     name = "warezMovies"
-    allowed_domains = ["https://www.warez-bb.org/"]
-    download_delay = 4
+
+    allowed_domains = ["https://www.warez-bb.org/*"]
+    download_delay = 6
 
     start_urls = [
        "https://www.warez-bb.org/login.php"
@@ -74,31 +75,21 @@ class WarezbbSpider(scrapy.Spider):
             yield scrapy.Request(url=self.movie_forum_page,
                 meta={'id': self.catalog_id["movie"]},
                 callback=self.parse_outside_post, dont_filter=True)
-            # yield scrapy.Request(url=self.tv_forum_page,
-            #     meta={'id': self.catalog_id["tv"]},
-            #     callback=self.parse_outside_post, dont_filter=True)
-            # yield scrapy.Request(url=self.console_game_forum_page,
-            #     meta={'id': self.catalog_id["game"]},
-            #     callback=self.parse_outside_post, dont_filter=True)
-            # yield scrapy.Request(url=self.game_forum_page,
-            #     meta={'id': self.catalog_id["game"]},
-            #     callback=self.parse_outside_post, dont_filter=True)
-            # yield scrapy.Request(url=self.app_forum_page,
-            #     meta={'id': self.catalog_id["app"]},
-            #     callback=self.parse_outside_post, dont_filter=True)
-            # yield scrapy.Request(url=self.anime_forum_page,
-            #     meta={'id': self.catalog_id["anime"]},
-            #     callback=self.parse_outside_post, dont_filter=True)
 
-    def parse_outside_post(self, response):
+
+    def parse_outside_post(self, response): 
+        catalog_id = response.meta['id']
         if self.curr_page > self.end_page:
-            sys.exit()
-        else:
-            self.curr_page += 1
+           # raise CloseSpider("crawled " + str(self.end_page))
+           print "!@! last time inside parse_outside_post"
+           pass
+        elif self.curr_page >= self.start_page:
+            print "collect threads from " + str(self.curr_page)
+            f = open("numberOfPagesWarezMovies.txt","w")
+            f.write(str(self.curr_page))
             catalog_id = response.meta['id']
             rows = response.xpath("//div[@class='list-rows']")
             for row in rows:
-
                 # creating an item for storing
                 item = WarezbbItem()
 
@@ -127,20 +118,23 @@ class WarezbbSpider(scrapy.Spider):
                 if link_id[:-2] not in self.sticked_titles_id:
                     link = "https://www.warez-bb.org/" + link[0]
                     item['link'] = link
-                    if self.curr_page >= self.start_page:
-                        yield scrapy.Request(url=link,
-                            meta={'item': item},
-                            callback=self.parse_inside_post, dont_filter=True)
+                    yield scrapy.Request(url=link,
+                        meta={'item': item},
+                        callback=self.parse_inside_post, dont_filter=True)
 
+        try:
+            self.curr_page = self.curr_page + 1
+            print "!@! going to page " +  str(self.curr_page)
             current_page = response.xpath("//b[@class='active-button']")
             current_page = current_page[0].xpath('text()').extract()[0]
             next_page = int(current_page) + 1
             next_link = response.xpath("//a[@title='Page " + str(next_page) + "']/@href")
             next_link = "https://www.warez-bb.org/" + next_link[0].extract()
-
             yield scrapy.Request(url=next_link, meta={'id' : catalog_id},
                 callback=self.parse_outside_post, dont_filter=True)
-
+        except:
+            print "no next page"
+            pass
 
     def parse_inside_post(self, response):
         item = response.meta['item']
@@ -152,9 +146,13 @@ class WarezbbSpider(scrapy.Spider):
         post_date = post_date[0]
         item['post_date'] = post_date
 
-        #codes = response.xpath(".//div[@class='code']/span/text()")
-        #codes = codes.extract()
-       # item['code_fields'] = codes
+        codes = response.xpath(".//div[@class='code']/span/text()")
+        codes = codes.extract()
+        codes_to_add = []
+        for code in codes:
+            if ("http" in code) and ( "imdb" not in code):
+                codes_to_add.append(code)
+        item['code_fields'] = codes_to_add
         yield item
 
     def get_movie_sources(self, title):
@@ -192,7 +190,8 @@ class WarezbbSpider(scrapy.Spider):
             "screener", "hdrip",
             "720p", "web-dl",
             "1080p", "hdtv",
-            "480p", "web dl"
+            "480p", "web dl",
+            "brrip", "mp4"
             ]
         title = title.lower()
         movie_quality_array = []
