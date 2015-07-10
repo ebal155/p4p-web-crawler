@@ -32,11 +32,11 @@ class warezbb_link_spider(scrapy.Spider):
         "game":4,
         "anime":5 
     }
-    curr_page = 2699
+    curr_page = 0
     start_page = 0
     end_page = 100000
 
-    movie_forum_page = "https://www.warez-bb.org/viewforum.php?f=4&topicdays=0&start=134900"
+    movie_forum_page = "https://www.warez-bb.org/viewforum.php?f=4"
     def parse(self, response):
         """ Makes request to login onto warezbb
             with after_login as a callback
@@ -65,18 +65,26 @@ class warezbb_link_spider(scrapy.Spider):
            print "!@! last time inside parse_outside_post"
         else:
             if self.curr_page >= self.start_page:
-                f = open("numberOfPagesWarezMovies.txt","w")
+                f = open("numberOfPagesWarezMovies2.txt","w")
                 f.write(str(self.curr_page))
                 rows = response.xpath("//div[@class='list-rows']")
                 for row in rows:
+                    replies = row.xpath(".//div[@class='topics']/span/text()")
+                    replies = replies.extract()
+                    replies = replies[0]
+
+                    views = row.xpath(".//div[@class='views']/span/text()")
+                    views = views.extract()
+                    views = views[0]
+
                     link = row.xpath(".//div/span/span[@class='title']/a/@href")
                     link = link.extract()
                     link_string = str(link)
                     link_id = link_string[link_string.index("=")+1:]
                     if link_id[:-2] not in self.sticked_titles_id:
                         link = "https://www.warez-bb.org/" + link[0]
-                        f = open("linksWarezbb2.txt","a")
-                        f.write((str(link)) +"\n")
+                        f = open("linksWarezbb3.txt", "a")
+                        f.write((str(link)) + " " + str(replies) + " " + str(views) +"\n")
             try:
                 self.curr_page = self.curr_page + 1
                 print "!@! going to page " +  str(self.curr_page)
