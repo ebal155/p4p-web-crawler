@@ -17,7 +17,7 @@ class KickassSpider(scrapy.Spider):
     def parse(self, response):
 
         list_links = []
-        filename = "moviedump.txt"
+        filename = "moviedumpblocks/test6.txt"
 
         with open(filename) as f:
             for line in f:
