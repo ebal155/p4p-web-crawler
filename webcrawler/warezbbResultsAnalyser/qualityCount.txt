@@ -1,0 +1,27 @@
+quality: occurence
+720p: 53325
+bluray: 30965
+brrip: 24508
+1080p: 18226
+dvdrip: 17533
+web-dl: 9204
+bdrip: 8393
+: 7958
+hdrip: 5868
+480p: 2919
+webrip: 2133
+tc: 1265
+cam: 1112
+hdtv: 935
+mp4: 432
+hdts: 275
+screener: 134
+web dl: 96
+telesync: 83
+ppv: 18
+detected_quality: 9
+workprint: 7
+vodrip: 4
+20: 3
+telecine: 1
+28: 1
