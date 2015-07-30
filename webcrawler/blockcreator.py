@@ -4,10 +4,10 @@ def separate_blocks(block_size, index, num_file):
 
 	count = index
 
-	with open('moviedump.txt') as f:
+	with open('dumps-TOBEBLOCKED/TVdump.txt') as f:
 		lines = f.readlines()
 
-	n = open('./moviedumpblocks/test' + str(num_file) + '.txt','a')
+	n = open('./TVdumpblocks/test' + str(num_file) + '.txt','a')
 
 	for i in range (index, index+block_size):
 		if not i > len(lines):
@@ -21,7 +21,7 @@ def separate_blocks(block_size, index, num_file):
 	n.close()	
 
 def main():
-	directory = 'moviedumpblocks'
+	directory = 'TVdumpblocks'
 
 	if not os.path.exists(directory):
 		os.mkdir(directory)
@@ -29,7 +29,7 @@ def main():
 	block_size = 250000
 	current_index = 0
 	current_num_file = 1
-	num_lines = file_len('moviedump.txt')
+	num_lines = file_len('dumps-TOBEBLOCKED/TVdump.txt')
 
 	print('Number of lines: ' + str(num_lines))
 
