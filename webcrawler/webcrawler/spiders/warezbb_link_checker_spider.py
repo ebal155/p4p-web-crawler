@@ -11,8 +11,8 @@ class warezbb_link_checker_spider(scrapy.Spider):
        "https://www.warez-bb.org/login.php"
     ]
     curr_page = 0
-    start_page = 65094
-    end_thread = 81367.5 #130186
+    start_page = 30001
+    end_thread = 40000 #60009 #TODO 40-60
 
     def parse(self, response):
         """ Makes request to login onto warezbb
@@ -33,7 +33,7 @@ class warezbb_link_checker_spider(scrapy.Spider):
             return
         else:
             print "Logged in"
-            with open("linksWarezbb_noDupilcates2.txt","r") as f:
+            with open("linksToVisitWithData.txt","r") as f:
                 count = 0
                 for line in f:
                     if count >= self.start_page and count <= self.end_thread:
