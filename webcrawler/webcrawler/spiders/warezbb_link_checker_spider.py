@@ -11,8 +11,8 @@ class warezbb_link_checker_spider(scrapy.Spider):
        "https://www.warez-bb.org/login.php"
     ]
     curr_page = 0
-    start_page = 65094
-    end_thread = 81367.5 #130186
+    start_page = 125001
+    end_thread = 130186 #130186
 
     def parse(self, response):
         """ Makes request to login onto warezbb
