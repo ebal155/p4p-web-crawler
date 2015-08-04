@@ -41,7 +41,8 @@ class analyser():
 
             sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
             # f1=open('results.csv', 'wb')
-            writer = csv.writer(open('results2.csv', 'wb'))
+            writer = csv.writer(open('results.csv', 'wb'))
+
             # f1.write(col_name + ': occurence\n')
             # for field in sorted_dict:
             #     f1.write(field[0] + ": " + str(field[1]) + "\n")
@@ -51,6 +52,12 @@ class analyser():
 
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     my_analyser = analyser('kickass_movies_new.csv')
     field_name = "post_date"
     my_analyser.count_field(field_name , split_by_comma=False)
+=======
+    my_analyser = analyser('processedWarezbbMovieFile.csv')
+    field_name = "hour"
+    my_analyser.count_field(field_name , split_by_comma=True)
+>>>>>>> 0b4910c463b3a27bb988ee339f456e58593f1495
