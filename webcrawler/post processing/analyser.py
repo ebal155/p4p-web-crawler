@@ -5,7 +5,12 @@ class analyser():
     def __init__(self, filename):
         self.filename = filename
 
-    def count_field(self, col_name, split_by_comma=False):
+    def print_dict_to_csv(self, myDict, filename):
+        writer = csv.writer(open(filename), 'wb'))
+        for field in my_dict:
+            writer.writerow([field[0],str(field[1])])
+
+    def count_field(self, col_name, split_by_comma=False, print_to_file=True):
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
             column_names = reader.next()
@@ -40,17 +45,12 @@ class analyser():
                     rownum += 1
 
             sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
-            # f1=open('results.csv', 'wb')
-            writer = csv.writer(open('num_posts_per_year.csv', 'wb'))
-
-            # f1.write(col_name + ': occurence\n')
-            # for field in sorted_dict:
-            #     f1.write(field[0] + ": " + str(field[1]) + "\n")
-            for key, value in count_dict.items():
-                writer.writerow([key, value])
+            if print_to_file:
+                self.print_dict_to_csv(sorted_dict, col_name + '_count.csv')
+            return sorted_dict
 
 
-    def count_two_fields(self, col_1, col_2, split_by_comma=False):
+    def count_two_fields(self, col_1, col_2, split_by_comma=False, print_to_file=False):
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
             column_names = reader.next()
@@ -96,15 +96,13 @@ class analyser():
                     #Search the next row
                     rownum += 1
 
-            sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
-            writer = csv.writer(open('num_author_per_day.csv', 'wb'))
-
-            for key, value in count_dict.items():
-                writer.writerow([key, len(value)])
+            if print_to_file:
+                self.print_dict_to_csv(sorted_dict, col1 + "_" + col2 + '_count.csv')
+            return sort_dict
 
 if __name__ == "__main__":
     my_analyser = analyser('kickass_movies_new.csv')
     field_name1 = "post_date"
     field_name2 = "author"
-    my_analyser.count_two_fields(field_name1, field_name2, split_by_comma=False)
+    my_analyser.count_two_fields(field_name1, field_name2, split_by_comma=False,print_to_file=True)
     # my_analyser.count_field(field_name , split_by_comma=False)
