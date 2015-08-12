@@ -10,11 +10,14 @@ class warezbb_data_analyser():
         author_views = self.get_author_total_views()
         author_average_views = {}
         for author in author_views:
-            author_average_views[author] = author_views[author] / author_count[author]
+            try:
+                author_average_views[author] = author_views[author] / author_count[author]
+            except:
+                pass
         return author_average_views
 
     def get_author_counts(self):
-        return self.myAnalyser.count_field('author', print_to_file=False)
+        return self.myAnalyser.count_field('author', print_to_file=False, return_as_dict=True)
 
     def get_author_total_views(self):
         author_views = self.myAnalyser.count_two_fields('author', 'views')
@@ -29,4 +32,4 @@ class warezbb_data_analyser():
 
 if "__main__" == __name__:
     jay = warezbb_data_analyser()
-    jay.caculate_author_view_averages()
+    return jay.caculate_author_view_averages()
