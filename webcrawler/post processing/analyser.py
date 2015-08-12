@@ -10,7 +10,7 @@ class analyser():
         for field in my_dict:
             writer.writerow([field[0],str(field[1])])
 
-    def count_field(self, col_name, split_by_comma=False, print_to_file=True):
+    def count_field(self, col_name, split_by_comma=False, print_to_file=False):
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
             column_names = reader.next()
@@ -51,55 +51,37 @@ class analyser():
 
 
     def count_two_fields(self, col_1, col_2, split_by_comma=False, print_to_file=False):
+         """ gets all cols for certain field"""
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
             column_names = reader.next()
-            col_num1 = -1
-            col_num2 = -1
+            first_col_num = -1
+            second_col_num = -1
 
-            #Do something here if the same fields were passed
-            if col_1 == col_2:
-                pass #TODO
-
-            #Get the column index of both fields that is trying to be found
             for i in range(0, len(column_names)):
-                if column_names[i] == col_1:
-                    col_num1 = i
-                if column_names[i] == col_2:
-                    col_num2 = i
+                if column_names[i] == first_col:
+                    first_col_num = i
+                if column_names[i] == second_col:
+                    second_col_num = i
 
             count_dict = {}
             rownum = 1
 
-
-            if col_num1 != -1 and col_num2 != -1:
-
-                #For every row in the csv file, fetch the data for post_date and author
+            if first_col_num is not -1 and second_col_num is not -1:
                 for row in reader:
                     try:
-                        post_date = row[col_num1]
-                        author = row[col_num2]
+                        first_field = row[first_col_num]
+                        second_field = row[second_col_num]
                     except IndexError as e:
                         print rownum
-
-                    #Logic if the entries in the field is seperated by a comma (e.g. "120p,240p,360p")
-                    if (split_by_comma):
-                        pass
+                    if first_field in count_dict:
+                        count_dict[first_field].append(second_field)
                     else:
-                        #If the post_date is already in the dictionary, add the author to the set inside it.
-                        if post_date in count_dict:
-                            count_dict[post_date].add(author)
-                        #If the post_date is not yet in the dictionary, create a new set and add the author to it
-                        else:
-                            count_dict[post_date] =  set()
-                            count_dict[post_date].add(author)
-                    #Search the next row
-                    rownum += 1
+                        count_dict[first_field] = [second_field]
 
             if print_to_file:
-                self.print_dict_to_csv(sorted_dict, col1 + "_" + col2 + '_count.csv')
-            return sort_dict
-
+                self.print_dict_to_csv(count_dict, str(first_col) + '_' + str(second_col) + '_' + 'Count.csv')
+            return count_dict
 if __name__ == "__main__":
     my_analyser = analyser('kickass_movies_new.csv')
     field_name1 = "post_date"
