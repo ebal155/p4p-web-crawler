@@ -8,8 +8,8 @@ class analyser():
     def print_dict_to_csv(self, myDict, filename):
         f = open(filename, "wb")
         writer = csv.writer(f)
-        for field in myDict:
-            writer.writerow([field[0],str(field[1])])
+        for key in myDict:
+            writer.writerow([key, myDict[key]]) 
 
     def count_field(self, col_name, split_by_comma=False, print_to_file=False, return_as_dict=False):
         with open(self.filename, 'rb') as f:
@@ -47,7 +47,7 @@ class analyser():
 
                 sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
                 if print_to_file:
-                    self.print_dict_to_csv(sorted_dict, col_name + '_count.csv')
+                    self.print_dict_to_csv(count_dict, col_name + '_count.csv')
                 if return_as_dict:
                     return count_dict
                 return sorted_dict
