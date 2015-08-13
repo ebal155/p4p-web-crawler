@@ -6,8 +6,9 @@ class analyser():
         self.filename = filename
 
     def print_dict_to_csv(self, myDict, filename):
-        writer = csv.writer(open(filename), 'wb')
-        for field in my_dict:
+        f = open(filename, "wb")
+        writer = csv.writer(f)
+        for field in myDict:
             writer.writerow([field[0],str(field[1])])
 
     def count_field(self, col_name, split_by_comma=False, print_to_file=False, return_as_dict=False):
@@ -87,8 +88,8 @@ class analyser():
 
 
 if __name__ == "__main__":
-    my_analyser = analyser('kickass_movies_new.csv')
+    my_analyser = analyser('allWarezbbBlockResults.csv')
     field_name1 = "post_date"
     field_name2 = "author"
-    my_analyser.count_two_fields(field_name1, field_name2, split_by_comma=False,print_to_file=True)
+    my_analyser.count_field("author", split_by_comma=False, print_to_file=True)
     # my_analyser.count_field(field_name , split_by_comma=False)
