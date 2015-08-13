@@ -6,9 +6,10 @@ class analyser():
         self.filename = filename
 
     def print_dict_to_csv(self, myDict, filename):
-        writer = csv.writer(open(filename), 'wb'))
-        for field in my_dict:
-            writer.writerow([field[0],str(field[1])])
+        f = open(filename, "wb")
+        writer = csv.writer(f)
+        for field in myDict:
+            writer.writerow([str(field),str(myDict[field])])
 
     def count_field(self, col_name, split_by_comma=False, print_to_file=False):
         with open(self.filename, 'rb') as f:
@@ -26,7 +27,7 @@ class analyser():
             if col_num != -1:
                 for row in reader:
                     try:
-                        field = row[col_num].split("-")[0]
+                        field = row[col_num]
                     except IndexError as e:
                         print rownum
 
@@ -47,11 +48,11 @@ class analyser():
             sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
             if print_to_file:
                 self.print_dict_to_csv(sorted_dict, col_name + '_count.csv')
-            return sorted_dict
+            return count_dict
 
 
-    def count_two_fields(self, col_1, col_2, split_by_comma=False, print_to_file=False):
-         """ gets all cols for certain field"""
+    def count_two_fields(self, first_col, second_col, split_by_comma=False, print_to_file=False):
+        """ gets all cols for certain field"""
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
             column_names = reader.next()
@@ -82,9 +83,3 @@ class analyser():
             if print_to_file:
                 self.print_dict_to_csv(count_dict, str(first_col) + '_' + str(second_col) + '_' + 'Count.csv')
             return count_dict
-if __name__ == "__main__":
-    my_analyser = analyser('kickass_movies_new.csv')
-    field_name1 = "post_date"
-    field_name2 = "author"
-    my_analyser.count_two_fields(field_name1, field_name2, split_by_comma=False,print_to_file=True)
-    # my_analyser.count_field(field_name , split_by_comma=False)
