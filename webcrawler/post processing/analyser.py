@@ -85,6 +85,77 @@ class analyser():
                 self.print_dict_to_csv(count_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
             return count_dict
 
+    def count_two_fields_matching_value(self, col_1, col_2, value, print_to_file=False):
+        """ gets all cols for certain field that match input"""
+        with open(self.filename, 'rb') as f:
+            reader = csv.reader(f)
+            column_names = reader.next()
+            first_col_num = -1
+            second_col_num = -1
+
+            for i in range(0, len(column_names)):
+                if column_names[i] == col_1:
+                    first_col_num = i
+                if column_names[i] == col_2:
+                    second_col_num = i
+
+            count_dict = {}
+
+            if first_col_num is not -1 and second_col_num is not -1:
+                for row in reader:
+                    try:
+                        first_field = row[first_col_num]
+                        second_field = row[second_col_num]
+                    except IndexError:
+                        pass
+                    if second_field == value:
+                        if first_field in count_dict:
+                            count_dict[first_field] += 1
+                        else:
+                            count_dict[first_field] = 1
+
+            if print_to_file:
+                self.print_dict_to_csv(count_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
+            return count_dict
+
+    def count_two_fields_matching_third_field(self, col_1, col_2, col_3, value,
+        print_to_file=False):
+        """ gets all cols for certain field that match input"""
+        with open(self.filename, 'rb') as f:
+            reader = csv.reader(f)
+            column_names = reader.next()
+            first_col_num = -1
+            second_col_num = -1
+            third_col_num = -1
+
+            for i in range(0, len(column_names)):
+                if column_names[i] == col_1:
+                    first_col_num = i
+                if column_names[i] == col_2:
+                    second_col_num = i
+                if column_names[i] == col_3:
+                    third_col_num = i
+
+            count_dict = {}
+
+            if first_col_num is not -1 and second_col_num is not -1 and third_col_num is not -1:
+                for row in reader:
+                    try:
+                        first_field = row[first_col_num]
+                        second_field = row[second_col_num]
+                        third_field = row[third_col_num]
+                    except IndexError:
+                        pass
+                    if third_field == value:
+                        if first_field in count_dict:
+                            count_dict[first_field].append(second_field)
+                        else:
+                            count_dict[first_field] = [second_field]
+
+            if print_to_file:
+                self.print_dict_to_csv(count_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
+            return count_dict
+
     def get_rows_by_field(self, field):
         """returns a dict of rows sorted by a 
         given field """
