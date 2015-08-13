@@ -68,7 +68,6 @@ class analyser():
                     second_col_num = i
 
             count_dict = {}
-            rownum = 1
 
             if first_col_num is not -1 and second_col_num is not -1:
                 for row in reader:
@@ -85,6 +84,34 @@ class analyser():
             if print_to_file:
                 self.print_dict_to_csv(count_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
             return count_dict
+
+    def get_rows_by_field(self, field):
+        """returns a list of rows sorted by a 
+        given field """
+
+        with open(self.filename, 'rb') as f:
+            reader = csv.reader(f)
+            column_names = reader.next()
+            col_num = -1
+
+            count_dict = {}
+            rownum = 1
+
+            for i in range(0, len(column_names)):
+                    if column_names[i] == col_num:
+                        col_num = i
+            if col_num is not -1:
+                for row in reader:
+                    try:
+                        field_input = row[col_num]
+                    except IndexError:
+                        print rownum
+                if field_input in count_dict:
+                    count_dict[field_input].append(row)
+                else:
+                    count_dict[field_input] = [row]
+            return count_dict
+
 
 
 if __name__ == "__main__":
