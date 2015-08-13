@@ -28,7 +28,7 @@ class analyser():
                 for row in reader:
                     try:
                         field = row[col_num].split("-")[0]
-                    except IndexError as e:
+                    except IndexError:
                         print rownum
 
                     if (split_by_comma):
@@ -75,7 +75,7 @@ class analyser():
                     try:
                         first_field = row[first_col_num]
                         second_field = row[second_col_num]
-                    except IndexError as e:
+                    except IndexError:
                         print rownum
                     if first_field in count_dict:
                         count_dict[first_field].append(second_field)
