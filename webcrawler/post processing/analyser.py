@@ -75,7 +75,7 @@ class analyser():
                         first_field = row[first_col_num]
                         second_field = row[second_col_num]
                     except IndexError:
-                        print rownum
+                        pass
                     if first_field in count_dict:
                         count_dict[first_field].append(second_field)
                     else:
@@ -86,7 +86,7 @@ class analyser():
             return count_dict
 
     def get_rows_by_field(self, field):
-        """returns a list of rows sorted by a 
+        """returns a dict of rows sorted by a 
         given field """
 
         with open(self.filename, 'rb') as f:
@@ -98,7 +98,7 @@ class analyser():
             rownum = 1
 
             for i in range(0, len(column_names)):
-                    if column_names[i] == col_num:
+                    if column_names[i] == field:
                         col_num = i
             if col_num is not -1:
                 for row in reader:
@@ -106,12 +106,43 @@ class analyser():
                         field_input = row[col_num]
                     except IndexError:
                         print rownum
-                if field_input in count_dict:
-                    count_dict[field_input].append(row)
-                else:
-                    count_dict[field_input] = [row]
-            return count_dict
+                    if field_input in count_dict:
+                        count_dict[field_input].append(row)
+                    else:
+                        count_dict[field_input] = [row]
+                return count_dict
 
+    def get_rows_by_field_that_have_given_value(self, field_to_sort,
+        field_to_match, value):
+        """returns a dict of rows sorted by a given field that match an input"""
+
+        with open(self.filename, 'rb') as f:
+            reader = csv.reader(f)
+            column_names = reader.next()
+            col_1 = -1
+            col_2 = 1
+            count_dict = {}
+
+
+            for i in range(0, len(column_names)):
+                    if column_names[i] == field_to_sort:
+                        col_1 = i
+                    if column_names[i] == field_to_match:
+                        col_2 = i
+
+            if col_1 is not -1 and col_2 is not -1:
+                for row in reader:
+                    try:
+                        field_to_sort = row[col_1]
+                        field_to_match = row[col_2]
+                    except IndexError:
+                        pass
+                    if row[field_to_match] == row[value]:
+                        if field_to_sort in count_dict:
+                            count_dict[field_to_sort].append(row)
+                        else:
+                            count_dict[field_to_sort] = [row]
+                return count_dict
 
 
 if __name__ == "__main__":
