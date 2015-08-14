@@ -9,7 +9,7 @@ class analyser():
         f = open(filename, "wb")
         writer = csv.writer(f)
         for key in myDict:
-            writer.writerow([key, myDict[key]]) 
+            writer.writerow([key, myDict[key]])
 
     def count_field(self, col_name, split_by_comma=False, print_to_file=False, return_as_dict=False):
         with open(self.filename, 'rb') as f:
@@ -27,7 +27,7 @@ class analyser():
             if col_num != -1:
                 for row in reader:
                     try:
-                        field = row[col_num].split("-")[0]
+                        field = row[col_num]
                     except IndexError:
                         print rownum
 
