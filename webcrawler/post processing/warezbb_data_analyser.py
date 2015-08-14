@@ -19,8 +19,16 @@ class warezbb_data_analyser():
 
     def get_post_dates(self):
         """get all the posts dates"""
-        return self.myAnalyser.count_field('post_date', print_to_file=False,
+        myDict = self.myAnalyser.count_field('post_date', print_to_file=False,
             return_as_dict=True)
+        newDict = {}
+        for date  in myDict:
+            newDate = date[:16]
+            if newDate in newDict:
+                newDict[newDate] += myDict[date]
+            else:
+                newDict[newDate] = myDict[date]
+        return newDict
 
     def get_posts_dates_by_year(self):
         """"gets all the posts sorted by year"""
@@ -143,4 +151,4 @@ class warezbb_data_analyser():
 
 if "__main__" == __name__:
     jay = warezbb_data_analyser()
-    jay.print_all()
+    jay.print_total_post_dates()
