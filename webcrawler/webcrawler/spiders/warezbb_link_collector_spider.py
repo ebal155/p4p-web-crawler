@@ -1,6 +1,4 @@
 import scrapy
-import sys
-import re
 
 class warezbb_link_spider(scrapy.Spider):
     name = "warezLink"
