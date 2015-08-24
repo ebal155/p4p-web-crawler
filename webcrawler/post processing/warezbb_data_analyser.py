@@ -173,9 +173,24 @@ class kickass_data_analyser():
 
         return author_view_dictionary
 
-    #author reputation to downloads ratio
-    #file size to downloads ratio
-    #file quality to downloads
+    def total_number_of_posts_per_author(self, newfilename):
+        author_post_dictionary = self.kickass_analyser.count_field('author', return_as_dict=True)
+
+        self.kickass_analyser.print_dict_to_csv(author_post_dictionary, newfilename)
+
+    def count_qualities(self, newfilename):
+
+        list_of_qualities = ('DVD', 'VCD', 'HDRiP', 'WEB-DL', 'TeleSync', 'DVD', 'BDRip', '720p', 'N/A', 'Telecine'
+                            , 'VHSRip', 'DVDRip', 'TVRip', 'Unknown', 'iPhone', 'Cam', 'Blu-Ray', 'x264', 'Screener', 'MPEG-4'
+                            , '1080p', 'Workprint')
+
+        for quality in list_of_qualities:
+            newdict = self.kickass_analyser.count_two_fields_matching_value('title', 'detected_quality', quality)
+
+            if quality == "N/A":
+                quality = "NA"
+            else:
+                self.kickass_analyser.print_dict_to_csv(newdict, newfilename + quality + ".csv")
 
 if "__main__" == __name__:
     # jay = warezbb_data_analyser()
@@ -185,3 +200,5 @@ if "__main__" == __name__:
     # kickass_analyser.get_number_of_authors("number_authors_per_year.csv")
     # kickass_analyser.get_number_of_posts("number_posts_per_day.csv")
     # kickass_analyser.total_number_of_downloads_per_author("test111.csv")
+    # kickass_analyser.total_number_of_posts_per_author("number_posts_per_author.csv")
+    kickass_analyser.count_qualities("./qualities/movie")
