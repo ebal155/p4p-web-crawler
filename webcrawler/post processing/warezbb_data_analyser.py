@@ -178,7 +178,17 @@ class kickass_data_analyser():
 
         self.kickass_analyser.print_dict_to_csv(author_post_dictionary, newfilename)
 
+
+    def reputation_per_author(self,newfilename):
+
+
     def count_qualities(self, newfilename):
+
+        #CAM telesync, cam,
+        #DVD dvd, dvdrip,telecine, workprint, screener, bdrip
+        #HD 1080p, blu-ray, hdrip, 720p
+        #Web Web-dl
+        #unkown N/A, Unknown
 
         list_of_qualities = ('DVD', 'VCD', 'HDRiP', 'WEB-DL', 'TeleSync', 'DVD', 'BDRip', '720p', 'N/A', 'Telecine'
                             , 'VHSRip', 'DVDRip', 'TVRip', 'Unknown', 'iPhone', 'Cam', 'Blu-Ray', 'x264', 'Screener', 'MPEG-4'
