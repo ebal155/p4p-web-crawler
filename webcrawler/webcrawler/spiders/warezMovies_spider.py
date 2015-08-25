@@ -1,5 +1,4 @@
 import scrapy
-import sys
 import re
 from webcrawler.items import WarezbbItem
 

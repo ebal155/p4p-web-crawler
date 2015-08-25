@@ -39,3 +39,17 @@ class WarezbbItem(scrapy.Item):
     code_fields = scrapy.Field()
     sources = scrapy.Field()
     detected_quality = scrapy.Field()
+
+
+class WarezbbAuthorItem(scrapy.Item):
+    username = scrapy.Field()
+    link = scrapy.Field()
+    join_date = scrapy.Field()
+    post_count = scrapy.Field()
+    percentage_of_total_warez_posts = scrapy.Field()
+    posts_per_day = scrapy.Field()
+    location = scrapy.Field()
+    occupation = scrapy.Field()
+    intrests = scrapy.Field()
+    poster_rank = scrapy.Field()
+

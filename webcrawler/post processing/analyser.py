@@ -28,7 +28,7 @@ class analyser():
                 for row in reader:
                     try:
                         field = row[col_num]
-                    except IndexError as e:
+                    except IndexError:
                         print rownum
 
                     if (split_by_comma):

@@ -20,8 +20,16 @@ class warezbb_data_analyser():
 
     def get_post_dates(self):
         """get all the posts dates"""
-        return self.myAnalyser.count_field('post_date', print_to_file=False,
+        myDict = self.myAnalyser.count_field('post_date', print_to_file=False,
             return_as_dict=True)
+        newDict = {}
+        for date  in myDict:
+            newDate = date[:16]
+            if newDate in newDict:
+                newDict[newDate] += myDict[date]
+            else:
+                newDict[newDate] = myDict[date]
+        return newDict
 
     def get_posts_dates_by_year(self):
         """"gets all the posts sorted by year"""
@@ -140,6 +148,7 @@ class warezbb_data_analyser():
             year + "_author_replies_total.csv")
 
 
+<<<<<<< HEAD
 class kickass_data_analyser():
     def __init__(self):
         self.filename = "kickass_movies_no_na.csv"
@@ -212,3 +221,13 @@ if "__main__" == __name__:
     # kickass_analyser.total_number_of_downloads_per_author("test111.csv")
     # kickass_analyser.total_number_of_posts_per_author("number_posts_per_author.csv")
     kickass_analyser.count_qualities("./qualities/movie")
+=======
+
+    #author reputation to downloads ratio
+    #file size to downloads ratio
+    #file quality to downloads
+
+if "__main__" == __name__:
+    jay = warezbb_data_analyser()
+    jay.print_total_post_dates()
+>>>>>>> 3c9572f03b78a9b6068e41343a4124c1c2eddfea
