@@ -32,7 +32,8 @@ class Warezbb_top_100_posters_Spider(scrapy.Spider):
         else:
             yield scrapy.Request(url=self.member_list_page_1,
                 callback=self.parse_outside_post, dont_filter=True)
-
+            yield scrapy.Request(url=self.member_list_page_2,
+                callback=self.parse_outside_post, dont_filter=True)
     def parse_outside_post(self, response):
         """ goes through member list getting info"""
         # get the list_rows div, contains all members on this page
@@ -56,8 +57,7 @@ class Warezbb_top_100_posters_Spider(scrapy.Spider):
             item['post_count'] = post_count[0]
             yield scrapy.Request(url=link, meta={'item': item},
                  callback=self.parse_inside_post, dont_filter=True)
-        yield scrapy.Request(url=self.member_list_page_2,
-                callback=self.parse_outside_post, dont_filter=True)
+
 
     def parse_inside_post(self, response):
         """get remaining user info"""

@@ -1,4 +1,5 @@
 from analyser import analyser
+import operator
 
 
 class warezbb_data_analyser():
@@ -65,6 +66,39 @@ class warezbb_data_analyser():
                 pass
         return author_average_views
 
+    def caculate_author_rank_by_no_of_views(self):
+        """caculates the rank of the authors
+        rank 1 = author with most threads
+        rank n = author with least threads"""
+        count_dict = self.get_author_total_views()
+        sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
+        myArray = []
+        for author in sorted_dict:
+            myArray.append(author[1])
+        return myArray
+
+    def caculate_author_rank_by_no_of_replies(self):
+        """caculates the rank of the authors
+        rank 1 = author with most threads
+        rank n = author with least threads"""
+        count_dict= self.get_author_total_replies()
+        sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
+        myArray = []
+        for author in sorted_dict:
+            myArray.append(author[1])
+        return myArray
+
+    def caculate_author_rank_by_no_of_threads(self):
+        """caculates the rank of the authors
+        rank 1 = author with most threads
+        rank n = author with least threads"""
+        count_dict= self.get_author_counts()
+        sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
+        myArray = []
+        for author in sorted_dict:
+            myArray.append(author[1])
+        return myArray
+
     def get_author_total_replies(self):
         """get all the replies an author has ever had"""
         author_replies = self.myAnalyser.count_two_fields('author', 'replies')
@@ -119,6 +153,18 @@ class warezbb_data_analyser():
         self.myAnalyser.print_dict_to_csv(self.caculate_author_view_averages(), 
             'alltime_author_view_averages.csv')
 
+    def print_author_rank_by_no_of_views(self):
+        ranks = self.caculate_author_rank_by_no_of_views()
+        self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbyviews.csv")
+
+    def print_author_rank_by_no_of_replies(self):
+        ranks = self.caculate_author_rank_by_no_of_replies()
+        self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbyreplies.csv")
+
+    def print_author_rank_by_no_of_threads(self):
+        ranks = self.caculate_author_rank_by_no_of_threads()
+        self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbythreads.csv")
+
     def print_author_total_views(self):
         self.myAnalyser.print_dict_to_csv(self.get_author_total_views(),
             'alltime_author_views_total.csv')
@@ -148,11 +194,12 @@ class warezbb_data_analyser():
             year + "_author_replies_total.csv")
 
 
-
     #author reputation to downloads ratio
     #file size to downloads ratio
     #file quality to downloads
 
 if "__main__" == __name__:
     jay = warezbb_data_analyser()
-    jay.print_total_post_dates()
+    jay.print_author_rank_by_no_of_replies()
+    jay.print_author_rank_by_no_of_threads()
+    #jay.print_author_rank_by_no_of_views()
