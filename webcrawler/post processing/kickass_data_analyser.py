@@ -2,7 +2,7 @@ from analyser import analyser
 
 class kickass_data_analyser():
     def __init__(self):
-        self.filename = "COMPLETELEYNEWKICKASS.csv"
+        self.filename = "TESTMOVIENAMESKICKASS.csv"
         self.kickass_analyser = analyser(self.filename)
 
     def get_number_of_authors(self, newfilename):
@@ -48,29 +48,18 @@ class kickass_data_analyser():
         self.kickass_analyser.print_dict_to_csv(author_reputation_dictionary, newfilename)
 
     def count_qualities(self, newfilename):
+        movietitle_quality_dictionary = self.kickass_analyser.count_two_fields('title','detected_quality')
 
-        #CAM telesync, cam,
-        #DVD dvd, dvdrip,telecine, workprint, screener, bdrip
-        #HD 1080p, blu-ray, hdrip, 720p
-        #Web Web-dl
-        #unkown N/A, Unknown
+        for field in movietitle_quality_dictionary:
+            print field + ": " + str(movietitle_quality_dictionary[field])
 
-        list_of_qualities = ('DVD', 'VCD', 'HDRiP', 'WEB-DL', 'TeleSync', 'DVD', 'BDRip', '720p', 'N/A', 'Telecine'
-                            , 'VHSRip', 'DVDRip', 'TVRip', 'Unknown', 'iPhone', 'Cam', 'Blu-Ray', 'x264', 'Screener', 'MPEG-4'
-                            , '1080p', 'Workprint')
 
-        for quality in list_of_qualities:
-            newdict = self.kickass_analyser.count_two_fields_matching_value('title', 'detected_quality', quality)
-
-            if quality == "N/A":
-                quality = "NA"
-            else:
-                self.kickass_analyser.print_dict_to_csv(newdict, newfilename + quality + ".csv")
-
+if "__main__" == __name__:
     kickass_analyser = kickass_data_analyser()
     # kickass_analyser.get_number_of_authors("number_authors_per_year.csv")
     # kickass_analyser.get_number_of_posts("number_posts_per_day.csv")
     # kickass_analyser.total_number_of_downloads_per_author("test111.csv")
     # kickass_analyser.total_number_of_posts_per_author("number_posts_per_author.csv")
     # kickass_analyser.count_qualities("./qualities/movie")
-    kickass_analyser.get_reputation_per_author("reputation_per_author.csv");
+    # kickass_analyser.get_reputation_per_author("reputation_per_author.csv");
+    kickass_analyser.count_qualities("balblabla")

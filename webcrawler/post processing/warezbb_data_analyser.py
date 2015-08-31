@@ -117,6 +117,10 @@ class warezbb_data_analyser():
     #                     t = get_quality_type(q)
     #                     for 
 
+
+
+
+
     def get_author_total_replies(self):
         """get all the replies an author has ever had"""
         author_replies = self.myAnalyser.count_two_fields('author', 'replies')
