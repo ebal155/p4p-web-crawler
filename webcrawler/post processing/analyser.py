@@ -53,6 +53,38 @@ class analyser():
                 return sorted_dict
 
 
+    def count_field_unique(self, col_1, col_2, split_by_comma=False, print_to_file=False):
+        """ gets all cols for certain field"""
+        with open(self.filename, 'rb') as f:
+            reader = csv.reader(f)
+            column_names = reader.next()
+            first_col_num = -1
+            second_col_num = -1
+
+            for i in range(0, len(column_names)):
+                if column_names[i] == col_1:
+                    first_col_num = i
+                if column_names[i] == col_2:
+                    second_col_num = i
+
+            unique_dict = {}
+
+            if first_col_num is not -1 and second_col_num is not -1:
+                for row in reader:
+                    try:
+                        first_field = row[first_col_num]
+                        second_field = row[second_col_num]
+                    except IndexError:
+                        pass
+                    if first_field in unique_dict:
+                        pass
+                    else:
+                        unique_dict[first_field] = second_field
+
+            if print_to_file:
+                self.print_dict_to_csv(unique_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
+            return unique_dict
+
     def count_two_fields(self, col_1, col_2, split_by_comma=False, print_to_file=False):
         """ gets all cols for certain field"""
         with open(self.filename, 'rb') as f:

@@ -147,11 +147,9 @@ class warezbb_data_analyser():
         self.myAnalyser.print_dict_to_csv(self.get_author_total_replies_in_year(year),
             year + "_author_replies_total.csv")
 
-
-<<<<<<< HEAD
 class kickass_data_analyser():
     def __init__(self):
-        self.filename = "kickass_movies_no_na.csv"
+        self.filename = "COMPLETELEYNEWKICKASS.csv"
         self.kickass_analyser = analyser(self.filename)
 
     def get_number_of_authors(self, newfilename):
@@ -188,8 +186,14 @@ class kickass_data_analyser():
         self.kickass_analyser.print_dict_to_csv(author_post_dictionary, newfilename)
 
 
-    def reputation_per_author(self,newfilename):
+    def get_reputation_per_author(self, newfilename):
+        author_reputation_dictionary = self.kickass_analyser.count_field_unique('author', 'author_reputation')
 
+        for reputation in author_reputation_dictionary:
+            if author_reputation_dictionary[reputation] == "N/A":
+                author_reputation_dictionary[reputation] = "0"
+
+        self.kickass_analyser.print_dict_to_csv(author_reputation_dictionary, newfilename)
 
     def count_qualities(self, newfilename):
 
@@ -220,14 +224,6 @@ if "__main__" == __name__:
     # kickass_analyser.get_number_of_posts("number_posts_per_day.csv")
     # kickass_analyser.total_number_of_downloads_per_author("test111.csv")
     # kickass_analyser.total_number_of_posts_per_author("number_posts_per_author.csv")
-    kickass_analyser.count_qualities("./qualities/movie")
-=======
+    # kickass_analyser.count_qualities("./qualities/movie")
+    kickass_analyser.get_reputation_per_author("reputation_per_author.csv");
 
-    #author reputation to downloads ratio
-    #file size to downloads ratio
-    #file quality to downloads
-
-if "__main__" == __name__:
-    jay = warezbb_data_analyser()
-    jay.print_total_post_dates()
->>>>>>> 3c9572f03b78a9b6068e41343a4124c1c2eddfea
