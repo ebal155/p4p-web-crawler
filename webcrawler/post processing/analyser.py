@@ -120,8 +120,9 @@ class analyser():
             if first_col_num is not -1 and second_col_num is not -1:
                 for row in reader:
                     try:
-                        first_field = row[first_col_num]
+                        first_field = row[first_col_num].split("-")[0]
                         second_field = row[second_col_num]
+                        
                     except IndexError:
                         pass
                     if first_field in count_dict:
@@ -281,7 +282,7 @@ class analyser():
                         pass
         return col
 
-    def  get_quality_type(quality):
+    def get_quality_type(self, quality):
         """qualities is a list of all the qualities that appear"""
 
         #CAM telesync, cam, hdts, iphone
@@ -290,6 +291,8 @@ class analyser():
         #HD 1080p, blu-ray, hdrip, 720p, bdrip, brrip, hdtv, 'x264'
         #Web web-dl, bdrip, webrip, vodrip, web dl, mp4, "MPEG-4"
         #unkown N/A, Unknown
+
+        quality = quality.lower()
 
         cam_dict = {"telesync": 0, "cam": 0, "hdts": 0, "iphone": 0}
         vhs_dict = {"vcd": 0, "vhs": 0, "vhsrip": 0}
