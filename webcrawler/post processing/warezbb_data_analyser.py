@@ -19,6 +19,9 @@ class warezbb_data_analyser():
         self.print_author_posts_all_years()
         self.print_author_replies_all_years()
 
+    def get_col(self, col_name):
+        return self.myAnalyser.get_col(col_name)
+
     def get_post_dates(self):
         """get all the posts dates"""
         myDict = self.myAnalyser.count_field('post_date', print_to_file=False,
@@ -63,6 +66,7 @@ class warezbb_data_analyser():
             try:
                 author_average_views[author] = author_views[author] / author_count[author]
             except:
+
                 pass
         return author_average_views
 
@@ -99,6 +103,20 @@ class warezbb_data_analyser():
             myArray.append(author[1])
         return myArray
 
+    # def caculate_movies_by_quality(self):
+    #     movie_quality = self.myAnalyser.count_two_fields("movie title", "detected_quality")
+    #     hd_movie = {}
+    #     cam_movie = {}
+    #     vhs_movie = {}
+    #     web_movie = {}
+    #     dvd_movie = {}
+    #     for movie in movie_quality:
+    #         for quality in movie_quality[movie]:
+    #             for qua in quality:
+    #                 for q in qua.split(","):
+    #                     t = get_quality_type(q)
+    #                     for 
+
     def get_author_total_replies(self):
         """get all the replies an author has ever had"""
         author_replies = self.myAnalyser.count_two_fields('author', 'replies')
@@ -122,6 +140,22 @@ class warezbb_data_analyser():
                 pass
         return author_average_replies
 
+    def get_qualities(self):
+        qualities = self.get_col("detected_quality")
+        formated_list = []
+        for quality in qualities:
+            for q in quality.split(","):
+                formated_list.append(q)
+        quality_dict = {}
+        for quality in formated_list:
+            quality_type = get_quality_type(quality)
+            if quality_type in quality_dict:
+                quality_dict[quality_type] += 1
+            else:
+                quality_dict[quality_type] = 1
+        return quality_dict
+
+
     def get_author_posts_in_year(self, year):
         author_count = self.myAnalyser.count_two_fields_matching_value('author',
             'year', year)
@@ -136,6 +170,10 @@ class warezbb_data_analyser():
                 sum += int(view.replace(',',''))
             author_total_replies[author] = sum
         return author_total_replies
+
+    def print_qualities(self):
+        self.myAnalyser.print_dict_to_csv(self.get_qualities(),
+            'total_quality_types.csv')
 
     def print_total_post_dates(self):
         self.myAnalyser.print_dict_to_csv(self.get_post_dates(),
