@@ -146,10 +146,6 @@ class warezbb_data_analyser():
         self.myAnalyser.print_dict_to_csv(dvd_movie, "dvd_movies.csv")
 
 
-
-
-
-
     def get_author_total_replies(self):
         """get all the replies an author has ever had"""
         author_replies = self.myAnalyser.count_two_fields('author', 'replies')
@@ -264,87 +260,6 @@ class warezbb_data_analyser():
         self.myAnalyser.print_dict_to_csv(self.get_author_total_replies_in_year(year),
             year + "_author_replies_total.csv")
 
-class kickass_data_analyser():
-    def __init__(self):
-        self.filename = "COMPLETELEYNEWKICKASS.csv"
-        self.kickass_analyser = analyser(self.filename)
-
-    def get_number_of_authors(self, newfilename):
-        date_dictionary = self.kickass_analyser.count_two_fields('post_date', 'author')
-        for date in date_dictionary:
-            date_dictionary[date] = len(set(date_dictionary[date]))
-
-        self.kickass_analyser.print_dict_to_csv(date_dictionary, newfilename)
-
-    def get_number_of_posts(self, newfilename):
-        date_dictionary = self.kickass_analyser.count_field('post_date')
-
-        self.kickass_analyser.print_dict_to_csv(date_dictionary, newfilename)
-
-    def total_number_of_downloads_per_author(self, newfilename):
-        author_view_dictionary = self.kickass_analyser.count_two_fields('author', 'downloads')
-        for author in author_view_dictionary:
-            sum = 0
-            for item in author_view_dictionary[author]:
-                if item == 'once.':
-                    sum += 1
-                else:
-                    sum += int(item.replace(",", ''))
-                author_view_dictionary[author] = sum
-
-        self.kickass_analyser.print_dict_to_csv(author_view_dictionary, newfilename)
-        # print str(author) + " " + str(author_view_dictionary[author])
-
-        return author_view_dictionary
-
-    def total_number_of_posts_per_author(self, newfilename):
-        author_post_dictionary = self.kickass_analyser.count_field('author', return_as_dict=True)
-
-        self.kickass_analyser.print_dict_to_csv(author_post_dictionary, newfilename)
-
-    def get_reputation_per_author(self, newfilename):
-        author_reputation_dictionary = self.kickass_analyser.count_field_unique('author', 'author_reputation')
-
-        for reputation in author_reputation_dictionary:
-            if author_reputation_dictionary[reputation] == "N/A":
-                author_reputation_dictionary[reputation] = "0"
-
-        self.kickass_analyser.print_dict_to_csv(author_reputation_dictionary, newfilename)
-
-        
-def  get_quality_type(quality):
-    """qualities is a list of all the qualities that appear"""
-
-    #CAM telesync, cam, hdts, iphone
-    # VHS vcd, vhs, vhsrip, 
-    #DVD dvd, dvdrip,telecine, workprint, screener, tc, ppv, 480p, tvrip, "dvdsrc"
-    #HD 1080p, blu-ray, hdrip, 720p, bdrip, brrip, hdtv, 'x264'
-    #Web web-dl, bdrip, webrip, vodrip, web dl, mp4, "MPEG-4"
-    #unkown N/A, Unknown
-
-    cam_dict = {"telesync": 0, "cam": 0, "hdts": 0, "iphone": 0}
-    vhs_dict = {"vcd": 0, "vhs": 0, "vhsrip": 0}
-    dvd_dict = {"dvd": 0, "dvdrip": 0, "telecine": 0, "workprint": 0,
-    "screener": 0, "dvdsrc": 0, "tc": 0, "ppv": 0, "480p": 0}
-    web_dict = {"web-dl": 0, "bdrip": 0, "webrip": 0, "vodrip": 0, "web dl": 0, "mp4": 0, "MPEG-4": 0}
-    hd_dict = {"1080p": 0,"blu-ray": 0,"hdrip": 0,"720p": 0,"bdrip": 0, "brrip": 0, "hdtv": 0, 'x264': 0,"bluray":0}
-
-    if quality in cam_dict:
-        return "cam"
-    if quality in vhs_dict:
-        return "vhs"
-    if quality in dvd_dict:
-        return "dvd"
-    if quality in web_dict:
-        return "web"
-    if quality in hd_dict:
-        return "hd"
-    if quality.strip() is "":
-        return "not given"
-    return "n/a"
-
-
 if "__main__" == __name__:
-        jay = warezbb_data_analyser()
-        jay.caculate_movies_by_quality()
-
+    jay = warezbb_data_analyser()
+    jay.caculate_movies_by_quality()
