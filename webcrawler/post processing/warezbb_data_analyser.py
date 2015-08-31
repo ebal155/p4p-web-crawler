@@ -113,7 +113,7 @@ class warezbb_data_analyser():
         for movie in movie_quality:
             for quality in movie_quality[movie]:
                 for qua in quality.split(","):
-                    t = get_quality_type(qua)
+                    t = self.myAnalyser.get_quality_type(qua)
                     if t == "hd":
                         if movie in hd_movie:
                             hd_movie[movie] += 1
