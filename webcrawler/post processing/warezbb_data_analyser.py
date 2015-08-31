@@ -103,19 +103,48 @@ class warezbb_data_analyser():
             myArray.append(author[1])
         return myArray
 
-    # def caculate_movies_by_quality(self):
-    #     movie_quality = self.myAnalyser.count_two_fields("movie title", "detected_quality")
-    #     hd_movie = {}
-    #     cam_movie = {}
-    #     vhs_movie = {}
-    #     web_movie = {}
-    #     dvd_movie = {}
-    #     for movie in movie_quality:
-    #         for quality in movie_quality[movie]:
-    #             for qua in quality:
-    #                 for q in qua.split(","):
-    #                     t = get_quality_type(q)
-    #                     for 
+    def caculate_movies_by_quality(self):
+        movie_quality = self.myAnalyser.count_two_fields("movie title", "detected_quality")
+        hd_movie = {}
+        cam_movie = {}
+        vhs_movie = {}
+        web_movie = {}
+        dvd_movie = {}
+        for movie in movie_quality:
+            for quality in movie_quality[movie]:
+                for qua in quality.split(","):
+                    t = get_quality_type(qua)
+                    if t == "hd":
+                        if movie in hd_movie:
+                            hd_movie[movie] += 1
+                        else:
+                            hd_movie[movie] = 1
+                    if t == "cam":
+                        if movie in cam_movie:
+                            cam_movie[movie] += 1
+                        else:
+                            cam_movie[movie] = 1
+                    if t == "vhs":
+                        if movie in vhs_movie:
+                            vhs_movie[movie] += 1
+                        else:
+                            vhs_movie[movie] = 1
+                    if t == "web":
+                        if movie in web_movie:
+                            web_movie[movie] += 1
+                        else:
+                            web_movie[movie] = 1
+                    if t == "dvd":
+                        if movie in dvd_movie:
+                            dvd_movie[movie] += 1
+                        else:
+                            dvd_movie[movie] = 1
+        self.myAnalyser.print_dict_to_csv(hd_movie, "hd_movies.csv")
+        self.myAnalyser.print_dict_to_csv(cam_movie, "cam_movies.csv")
+        self.myAnalyser.print_dict_to_csv(vhs_movie, "vhs_movies.csv")
+        self.myAnalyser.print_dict_to_csv(web_movie, "web_movies.csv")
+        self.myAnalyser.print_dict_to_csv(dvd_movie, "dvd_movies.csv")
+
 
 
 
@@ -316,13 +345,6 @@ def  get_quality_type(quality):
 
 
 if "__main__" == __name__:
-    # jay = warezbb_data_analyser()
-    # jay.caculate_author_view_averages()
+        jay = warezbb_data_analyser()
+        jay.caculate_movies_by_quality()
 
-    kickass_analyser = kickass_data_analyser()
-    # kickass_analyser.get_number_of_authors("number_authors_per_year.csv")
-    # kickass_analyser.get_number_of_posts("number_posts_per_day.csv")
-    # kickass_analyser.total_number_of_downloads_per_author("test111.csv")
-    # kickass_analyser.total_number_of_posts_per_author("number_posts_per_author.csv")
-    # kickass_analyser.count_qualities("./qualities/movie")
-    kickass_analyser.get_reputation_per_author("reputation_per_author.csv");
