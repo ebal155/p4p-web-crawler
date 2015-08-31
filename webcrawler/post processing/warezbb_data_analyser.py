@@ -145,11 +145,45 @@ class warezbb_data_analyser():
         self.myAnalyser.print_dict_to_csv(web_movie, "web_movies.csv")
         self.myAnalyser.print_dict_to_csv(dvd_movie, "dvd_movies.csv")
 
+    def print_table(self):
+        """Year, # of authors, # of posts, # of movies, # of verions"""
+        # self.get_author_posts_in_year
+        myDict = {}
+        for year in self.years:
+            myDict[year] = [year]
+            author_posts = self.get_author_posts_in_year(year)
+            myDict[year].append(len(author_posts))
+            sum = 0
+            for author in author_posts:
+                sum += author_posts[author]
+            myDict[year].append(sum)
+            movies = self.get_total_movies_in_year(year)
+            myDict[year].append(len(movies))
+            movie_quality = self.get_movies_with_detected_quality_in_year(year)
+            for movie in movie_quality:
+                if len(movie_quality[movie]) > 1:
+                    movie_quality[movie] = set(movie_quality[movie].split(","))
+                    quality_list = []
+                    for quality in movie_quality[movie]:
+                        t = self.myAnalyser.get_quality_type(quality)
+                        if t not in quality_list:
+                            quality_list.append(t)
+                    movie_quality[movie] = len(quality_list)
+            sum = 0
+            for movie in movie_quality:
+                if type(movie_quality[movie]) is int: 
+                    sum += movie_quality[movie]
+            myDict[year].append(sum)
+        self.myAnalyser.make_table(myDict, "warezbbTable.csv")
 
-
-
-
-
+    def get_movies_with_detected_quality_in_year(self, year):
+        movie_quality = self.myAnalyser.count_two_fields_matching_third_field('movie title', 'detected_quality', 'year', year)
+        myDict = {}
+        for movie in movie_quality:
+            myDict[movie] = movie_quality[movie][0]
+            for i in range(1,len(movie_quality[movie])):
+                myDict[movie] = myDict[movie] + "," + movie_quality[movie][i]           
+        return myDict
     def get_author_total_replies(self):
         """get all the replies an author has ever had"""
         author_replies = self.myAnalyser.count_two_fields('author', 'replies')
@@ -193,6 +227,11 @@ class warezbb_data_analyser():
         author_count = self.myAnalyser.count_two_fields_matching_value('author',
             'year', year)
         return author_count
+
+    def get_total_movies_in_year(self, year):
+        movie_count = self.myAnalyser.count_two_fields_matching_value('movie title',
+            'year', year)
+        return movie_count
 
     def get_author_total_replies_in_year(self, year):
         author_replies = self.myAnalyser.count_two_fields_matching_third_field('author', 'replies', 'year', year) 
@@ -266,4 +305,4 @@ class warezbb_data_analyser():
 
 if "__main__" == __name__:
     jay = warezbb_data_analyser()
-    jay.caculate_movies_by_quality()
+    print len(jay.get_author_counts())
