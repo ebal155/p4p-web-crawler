@@ -1,5 +1,6 @@
 import csv
 import operator
+import math
 
 class analyser():
     def __init__(self, filename):
@@ -10,6 +11,21 @@ class analyser():
         writer = csv.writer(f)
         for key in myDict:
             writer.writerow([key, myDict[key]])
+
+    def print_array_to_csv(self, myArray, filename):
+        f = open(filename, "wb")
+        writer = csv.writer(f)
+        for x in range(0,len(myArray)):
+            writer.writerow([x,myArray[x]])
+
+    def print_logged_array_to_csv(self, myArray, filename):
+        f = open(filename, "wb")
+        writer = csv.writer(f)
+        for x in range(0,len(myArray)):
+            print 0
+            print math.log(x+1)
+            print math.log(myArray[x])
+            writer.writerow([math.log(x+1),math.log(myArray[x])])
 
     def count_field(self, col_name, split_by_comma=False, print_to_file=False, return_as_dict=False):
         with open(self.filename, 'rb') as f:

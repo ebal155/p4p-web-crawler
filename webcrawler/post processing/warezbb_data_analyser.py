@@ -1,4 +1,5 @@
 from analyser import analyser
+import operator
 
 
 class warezbb_data_analyser():
@@ -65,6 +66,39 @@ class warezbb_data_analyser():
                 pass
         return author_average_views
 
+    def caculate_author_rank_by_no_of_views(self):
+        """caculates the rank of the authors
+        rank 1 = author with most threads
+        rank n = author with least threads"""
+        count_dict = self.get_author_total_views()
+        sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
+        myArray = []
+        for author in sorted_dict:
+            myArray.append(author[1])
+        return myArray
+
+    def caculate_author_rank_by_no_of_replies(self):
+        """caculates the rank of the authors
+        rank 1 = author with most threads
+        rank n = author with least threads"""
+        count_dict= self.get_author_total_replies()
+        sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
+        myArray = []
+        for author in sorted_dict:
+            myArray.append(author[1])
+        return myArray
+
+    def caculate_author_rank_by_no_of_threads(self):
+        """caculates the rank of the authors
+        rank 1 = author with most threads
+        rank n = author with least threads"""
+        count_dict= self.get_author_counts()
+        sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
+        myArray = []
+        for author in sorted_dict:
+            myArray.append(author[1])
+        return myArray
+
     def get_author_total_replies(self):
         """get all the replies an author has ever had"""
         author_replies = self.myAnalyser.count_two_fields('author', 'replies')
@@ -118,6 +152,18 @@ class warezbb_data_analyser():
     def print_author_view_averages(self):
         self.myAnalyser.print_dict_to_csv(self.caculate_author_view_averages(), 
             'alltime_author_view_averages.csv')
+
+    def print_author_rank_by_no_of_views(self):
+        ranks = self.caculate_author_rank_by_no_of_views()
+        self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbyviews.csv")
+
+    def print_author_rank_by_no_of_replies(self):
+        ranks = self.caculate_author_rank_by_no_of_replies()
+        self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbyreplies.csv")
+
+    def print_author_rank_by_no_of_threads(self):
+        ranks = self.caculate_author_rank_by_no_of_threads()
+        self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbythreads.csv")
 
     def print_author_total_views(self):
         self.myAnalyser.print_dict_to_csv(self.get_author_total_views(),
@@ -185,7 +231,6 @@ class kickass_data_analyser():
 
         self.kickass_analyser.print_dict_to_csv(author_post_dictionary, newfilename)
 
-
     def get_reputation_per_author(self, newfilename):
         author_reputation_dictionary = self.kickass_analyser.count_field_unique('author', 'author_reputation')
 
@@ -226,4 +271,3 @@ if "__main__" == __name__:
     # kickass_analyser.total_number_of_posts_per_author("number_posts_per_author.csv")
     # kickass_analyser.count_qualities("./qualities/movie")
     kickass_analyser.get_reputation_per_author("reputation_per_author.csv");
-
