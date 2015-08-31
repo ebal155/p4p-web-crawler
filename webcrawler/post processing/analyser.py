@@ -281,10 +281,36 @@ class analyser():
                         pass
         return col
 
+    def  get_quality_type(quality):
+        """qualities is a list of all the qualities that appear"""
 
+        #CAM telesync, cam, hdts, iphone
+        # VHS vcd, vhs, vhsrip, 
+        #DVD dvd, dvdrip,telecine, workprint, screener, tc, ppv, 480p, tvrip, "dvdsrc"
+        #HD 1080p, blu-ray, hdrip, 720p, bdrip, brrip, hdtv, 'x264'
+        #Web web-dl, bdrip, webrip, vodrip, web dl, mp4, "MPEG-4"
+        #unkown N/A, Unknown
 
+        cam_dict = {"telesync": 0, "cam": 0, "hdts": 0, "iphone": 0}
+        vhs_dict = {"vcd": 0, "vhs": 0, "vhsrip": 0}
+        dvd_dict = {"dvd": 0, "dvdrip": 0, "telecine": 0, "workprint": 0,
+        "screener": 0, "dvdsrc": 0, "tc": 0, "ppv": 0, "480p": 0}
+        web_dict = {"web-dl": 0, "bdrip": 0, "webrip": 0, "vodrip": 0, "web dl": 0, "mp4": 0, "MPEG-4": 0}
+        hd_dict = {"1080p": 0,"blu-ray": 0,"hdrip": 0,"720p": 0,"bdrip": 0, "brrip": 0, "hdtv": 0, 'x264': 0,"bluray":0}
 
-
+        if quality in cam_dict:
+            return "cam"
+        if quality in vhs_dict:
+            return "vhs"
+        if quality in dvd_dict:
+            return "dvd"
+        if quality in web_dict:
+            return "web"
+        if quality in hd_dict:
+            return "hd"
+        if quality.strip() is "":
+            return "not given"
+        return "n/a"
 
 if __name__ == "__main__":
     my_analyser = analyser('allWarezbbBlockResults.csv')

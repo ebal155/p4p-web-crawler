@@ -146,6 +146,10 @@ class warezbb_data_analyser():
         self.myAnalyser.print_dict_to_csv(dvd_movie, "dvd_movies.csv")
 
 
+
+
+
+
     def get_author_total_replies(self):
         """get all the replies an author has ever had"""
         author_replies = self.myAnalyser.count_two_fields('author', 'replies')
