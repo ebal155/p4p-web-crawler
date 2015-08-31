@@ -207,7 +207,7 @@ class analyser():
             reader = csv.reader(f)
             column_names = reader.next()
             col_1 = -1
-            col_2 = 1
+            col_2 = -1
             count_dict = {}
 
 
@@ -230,6 +230,28 @@ class analyser():
                         else:
                             count_dict[field_to_sort] = [row]
                 return count_dict
+
+    def get_col(self, col_name):
+        col = []
+        with open(self.filename, 'rb') as f:
+            reader = csv.reader(f)
+            column_names = reader.next()
+            col_no = -1
+            for i in range(0, len(column_names)):
+                if column_names[i] == col_name:
+                    col_no = i
+            if col_no is not -1:
+                for row in reader:
+                    try:
+                        field = row[col_no]
+                        col.append(field)
+                    except IndexError:
+                        pass
+        return col
+
+
+
+
 
 
 if __name__ == "__main__":

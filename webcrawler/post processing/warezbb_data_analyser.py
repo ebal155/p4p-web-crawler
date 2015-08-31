@@ -19,6 +19,9 @@ class warezbb_data_analyser():
         self.print_author_posts_all_years()
         self.print_author_replies_all_years()
 
+    def get_col(self, col_name):
+        return self.myAnalyser.get_col(col_name)
+
     def get_post_dates(self):
         """get all the posts dates"""
         myDict = self.myAnalyser.count_field('post_date', print_to_file=False,
@@ -63,6 +66,7 @@ class warezbb_data_analyser():
             try:
                 author_average_views[author] = author_views[author] / author_count[author]
             except:
+
                 pass
         return author_average_views
 
@@ -99,6 +103,24 @@ class warezbb_data_analyser():
             myArray.append(author[1])
         return myArray
 
+    # def caculate_movies_by_quality(self):
+    #     movie_quality = self.myAnalyser.count_two_fields("movie title", "detected_quality")
+    #     hd_movie = {}
+    #     cam_movie = {}
+    #     vhs_movie = {}
+    #     web_movie = {}
+    #     dvd_movie = {}
+    #     for movie in movie_quality:
+    #         for quality in movie_quality[movie]:
+    #             for qua in quality:
+    #                 for q in qua.split(","):
+    #                     t = get_quality_type(q)
+    #                     for 
+
+
+
+
+
     def get_author_total_replies(self):
         """get all the replies an author has ever had"""
         author_replies = self.myAnalyser.count_two_fields('author', 'replies')
@@ -122,6 +144,22 @@ class warezbb_data_analyser():
                 pass
         return author_average_replies
 
+    def get_qualities(self):
+        qualities = self.get_col("detected_quality")
+        formated_list = []
+        for quality in qualities:
+            for q in quality.split(","):
+                formated_list.append(q)
+        quality_dict = {}
+        for quality in formated_list:
+            quality_type = get_quality_type(quality)
+            if quality_type in quality_dict:
+                quality_dict[quality_type] += 1
+            else:
+                quality_dict[quality_type] = 1
+        return quality_dict
+
+
     def get_author_posts_in_year(self, year):
         author_count = self.myAnalyser.count_two_fields_matching_value('author',
             'year', year)
@@ -136,6 +174,10 @@ class warezbb_data_analyser():
                 sum += int(view.replace(',',''))
             author_total_replies[author] = sum
         return author_total_replies
+
+    def print_qualities(self):
+        self.myAnalyser.print_dict_to_csv(self.get_qualities(),
+            'total_quality_types.csv')
 
     def print_total_post_dates(self):
         self.myAnalyser.print_dict_to_csv(self.get_post_dates(),
@@ -232,33 +274,41 @@ class kickass_data_analyser():
 
         self.kickass_analyser.print_dict_to_csv(author_post_dictionary, newfilename)
 
-    def count_qualities(self, newfilename):
 
-        #CAM telesync, cam,
-        #DVD dvd, dvdrip,telecine, workprint, screener, bdrip
-        #HD 1080p, blu-ray, hdrip, 720p
-        #Web Web-dl
-        #unkown N/A, Unknown
+        
+def  get_quality_type(quality):
+    """qualities is a list of all the qualities that appear"""
 
-        list_of_qualities = ('DVD', 'VCD', 'HDRiP', 'WEB-DL', 'TeleSync', 'DVD', 'BDRip', '720p', 'N/A', 'Telecine'
-                            , 'VHSRip', 'DVDRip', 'TVRip', 'Unknown', 'iPhone', 'Cam', 'Blu-Ray', 'x264', 'Screener', 'MPEG-4'
-                            , '1080p', 'Workprint')
+    #CAM telesync, cam, hdts, iphone
+    # VHS vcd, vhs, vhsrip, 
+    #DVD dvd, dvdrip,telecine, workprint, screener, tc, ppv, 480p, tvrip, "dvdsrc"
+    #HD 1080p, blu-ray, hdrip, 720p, bdrip, brrip, hdtv, 'x264'
+    #Web web-dl, bdrip, webrip, vodrip, web dl, mp4, "MPEG-4"
+    #unkown N/A, Unknown
 
-        for quality in list_of_qualities:
-            newdict = self.kickass_analyser.count_two_fields_matching_value('title', 'detected_quality', quality)
+    cam_dict = {"telesync": 0, "cam": 0, "hdts": 0, "iphone": 0}
+    vhs_dict = {"vcd": 0, "vhs": 0, "vhsrip": 0}
+    dvd_dict = {"dvd": 0, "dvdrip": 0, "telecine": 0, "workprint": 0,
+    "screener": 0, "dvdsrc": 0, "tc": 0, "ppv": 0, "480p": 0}
+    web_dict = {"web-dl": 0, "bdrip": 0, "webrip": 0, "vodrip": 0, "web dl": 0, "mp4": 0, "MPEG-4": 0}
+    hd_dict = {"1080p": 0,"blu-ray": 0,"hdrip": 0,"720p": 0,"bdrip": 0, "brrip": 0, "hdtv": 0, 'x264': 0,"bluray":0}
 
-            if quality == "N/A":
-                quality = "NA"
-            else:
-                self.kickass_analyser.print_dict_to_csv(newdict, newfilename + quality + ".csv")
+    if quality in cam_dict:
+        return "cam"
+    if quality in vhs_dict:
+        return "vhs"
+    if quality in dvd_dict:
+        return "dvd"
+    if quality in web_dict:
+        return "web"
+    if quality in hd_dict:
+        return "hd"
+    if quality.strip() is "":
+        return "not given"
+    return "n/a"
+
 
 if "__main__" == __name__:
-    # jay = warezbb_data_analyser()
-    # jay.caculate_author_view_averages()
+    jay = warezbb_data_analyser()
+    print jay.caculate_movies_by_quality()
 
-    kickass_analyser = kickass_data_analyser()
-    # kickass_analyser.get_number_of_authors("number_authors_per_year.csv")
-    # kickass_analyser.get_number_of_posts("number_posts_per_day.csv")
-    # kickass_analyser.total_number_of_downloads_per_author("test111.csv")
-    # kickass_analyser.total_number_of_posts_per_author("number_posts_per_author.csv")
-    kickass_analyser.count_qualities("./qualities/movie")
