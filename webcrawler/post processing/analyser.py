@@ -16,7 +16,14 @@ class analyser():
         f = open(filename, "wb")
         writer = csv.writer(f)
         for x in range(0,len(myArray)):
-            writer.writerow([x,myArray[x]])
+            writer.writerow([x] + myArray[x])
+
+    def print_array_to_csv_with_header(self, myArray, header, filename):
+        f = open(filename, "wb")
+        writer = csv.writer(f)
+        writer.writerow(header)
+        for x in range(0,len(myArray)):
+            writer.writerow(myArray[x])
 
     def print_logged_array_to_csv(self, myArray, filename):
         f = open(filename, "wb")
@@ -101,7 +108,7 @@ class analyser():
                 self.print_dict_to_csv(unique_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
             return unique_dict
 
-    def count_two_fields(self, col_1, col_2, split_by_comma=False, print_to_file=False):
+    def count_two_fields(self, col_1, col_2, split_by_comma=True, print_to_file=False):
         """ gets all cols for certain field"""
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
@@ -120,8 +127,13 @@ class analyser():
             if first_col_num is not -1 and second_col_num is not -1:
                 for row in reader:
                     try:
-                        first_field = row[first_col_num]
-                        second_field = row[second_col_num]
+                        if (split_by_comma):
+                            first_field = row[first_col_num].replace(",","")
+                            second_field = row[second_col_num].replace(",","")
+                        else:
+                            first_field = row[first_col_num]
+                            second_field = row[second_col_num]
+
                     except IndexError:
                         pass
                     if first_field in count_dict:
@@ -231,6 +243,27 @@ class analyser():
                         count_dict[field_input] = [row]
                 return count_dict
 
+    def get_row_matching_field(self, field_to_match, value):
+        with open(self.filename, 'rb') as f:
+            reader = csv.reader(f)
+            column_names = reader.next()
+            col_1 = -1
+            arrayOfRows = []
+
+
+            for i in range(0, len(column_names)):
+                    if column_names[i] == field_to_match:
+                        col_1 = i
+            if col_1 is not -1:
+                for row in reader:
+                    try:
+                        field_to_check = row[col_1]
+                    except IndexError:
+                        pass
+                    if field_to_check == value:
+                        arrayOfRows.append(row)
+            return arrayOfRows        
+
     def get_rows_by_field_that_have_given_value(self, field_to_sort,
         field_to_match, value):
         """returns a dict of rows sorted by a given field that match an input"""
@@ -293,6 +326,7 @@ class analyser():
         writer.writerow(["Year", "# of authors", "# of posts", "# of movies", "# of verions"])
         for key in myDict:
             writer.writerow(myDict[key]);
+
         
     def  get_quality_type(self, quality):
         """qualities is a list of all the qualities that appear"""
@@ -323,7 +357,7 @@ class analyser():
             return "hd"
         if quality.strip() is "":
             return "not given"
-        return "n/a"
+        return "not given"
 
 if __name__ == "__main__":
     my_analyser = analyser('allWarezbbBlockResults.csv')

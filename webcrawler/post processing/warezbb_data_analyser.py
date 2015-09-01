@@ -66,7 +66,7 @@ class warezbb_data_analyser():
             try:
                 author_average_views[author] = author_views[author] / author_count[author]
             except:
-
+                author_average_views[author] = 0
                 pass
         return author_average_views
 
@@ -78,8 +78,44 @@ class warezbb_data_analyser():
         sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
         myArray = []
         for author in sorted_dict:
-            myArray.append(author[1])
+            myArray.append([author[1],author[0]])
         return myArray
+
+    def caculate_author_rank(self):
+        total_views = self.get_author_total_views()
+        total_replies = self.get_author_total_replies()
+        total_threads = self.get_author_counts()
+        average_views = self.caculate_author_replies_averages()
+        average_replies = self.caculate_author_view_averages()
+        qualities = self.get_author_qualities_count()
+        #rank 1 = author with most threads
+        # quality_dict = {"cam":0,"vhs":0,"dvd":0,"web":0,"hd":0,"not given":0}
+
+        sorted_dict = sorted(total_threads.items(), key=operator.itemgetter(1), reverse=True)
+        myArray = []
+        for x in range(0,len(sorted_dict)):
+            # [author, rank, total_threads, total views
+            # total_replies, average_replies, average_views ]
+            author = sorted_dict[x][0]
+            if author =="][,o0k~":
+                print "fuck this nigga"
+            else :
+                myArray.append([
+                    sorted_dict[x][0],
+                    x,
+                    sorted_dict[x][1],
+                    total_views[author],
+                    total_replies[author],
+                    average_views[author],
+                    average_replies[author],
+                    qualities[author]["hd"],
+                    qualities[author]["web"],
+                    qualities[author]["dvd"],
+                    qualities[author]["cam"],
+                    qualities[author]["vhs"],
+                    qualities[author]["not given"]])
+        return myArray
+
 
     def caculate_author_rank_by_no_of_replies(self):
         """caculates the rank of the authors
@@ -89,7 +125,7 @@ class warezbb_data_analyser():
         sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
         myArray = []
         for author in sorted_dict:
-            myArray.append(author[1])
+            myArray.append([author[1],author[0]])
         return myArray
 
     def caculate_author_rank_by_no_of_threads(self):
@@ -100,7 +136,7 @@ class warezbb_data_analyser():
         sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
         myArray = []
         for author in sorted_dict:
-            myArray.append(author[1])
+            myArray.append([author[1],author[0]])
         return myArray
 
     def caculate_movies_by_quality(self):
@@ -173,6 +209,8 @@ class warezbb_data_analyser():
             for movie in movie_quality:
                 if type(movie_quality[movie]) is int: 
                     sum += movie_quality[movie]
+                else:
+                    sum += 1
             myDict[year].append(sum)
         self.myAnalyser.make_table(myDict, "warezbbTable.csv")
 
@@ -184,6 +222,7 @@ class warezbb_data_analyser():
             for i in range(1,len(movie_quality[movie])):
                 myDict[movie] = myDict[movie] + "," + movie_quality[movie][i]           
         return myDict
+
     def get_author_total_replies(self):
         """get all the replies an author has ever had"""
         author_replies = self.myAnalyser.count_two_fields('author', 'replies')
@@ -204,8 +243,31 @@ class warezbb_data_analyser():
             try:
                 author_average_replies[author] = author_replies[author] / author_count[author]
             except:
+                author_average_replies[author] = 0
                 pass
         return author_average_replies
+
+    def get_author_qualities_count(self):
+        quality_dict = {"cam":0,"vhs":0,"dvd":0,"web":0,"hd":0,"not given":0}
+        myArray = self.myAnalyser.count_two_fields('author','detected_quality',split_by_comma=False)
+        authorDict = {}
+        for author in myArray:
+            array_of_qua = myArray[author]
+            for qua in array_of_qua:
+                qualities = qua.split(",")
+                for q in qualities:
+                    q_dict = {}
+                    if author in authorDict:
+                        q_dict = authorDict[author]
+                    else:
+                        q_dict = {"cam":0,"vhs":0,"dvd":0,"web":0,"hd":0,"not given":0}
+                    t = self.myAnalyser.get_quality_type(q)
+                    q_dict[t] += 1
+                    authorDict[author] = q_dict
+        return authorDict
+
+
+
 
     def get_qualities(self):
         qualities = self.get_col("detected_quality")
@@ -263,17 +325,29 @@ class warezbb_data_analyser():
         self.myAnalyser.print_dict_to_csv(self.caculate_author_view_averages(), 
             'alltime_author_view_averages.csv')
 
-    def print_author_rank_by_no_of_views(self):
+    def print_logged_author_rank_by_no_of_views(self):
         ranks = self.caculate_author_rank_by_no_of_views()
         self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbyviews.csv")
 
-    def print_author_rank_by_no_of_replies(self):
+    def print_logged_author_rank_by_no_of_replies(self):
         ranks = self.caculate_author_rank_by_no_of_replies()
         self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbyreplies.csv")
 
-    def print_author_rank_by_no_of_threads(self):
+    def print_logged_author_rank_by_no_of_threads(self):
         ranks = self.caculate_author_rank_by_no_of_threads()
         self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbythreads.csv")
+
+    def print_author_rank_by_no_of_views(self):
+        ranks = self.caculate_author_rank_by_no_of_views()
+        self.myAnalyser.print_array_to_csv(ranks, "authorRankbyviews.csv")
+
+    def print_author_rank_by_no_of_replies(self):
+        ranks = self.caculate_author_rank_by_no_of_replies()
+        self.myAnalyser.print_array_to_csv(ranks, "authorRankbyreplies.csv")
+
+    def print_author_rank_by_no_of_threads(self):
+        ranks = self.caculate_author_rank_by_no_of_threads()
+        self.myAnalyser.print_array_to_csv(ranks, "authorRankbythreads.csv")
 
     def print_author_total_views(self):
         self.myAnalyser.print_dict_to_csv(self.get_author_total_views(),
@@ -303,6 +377,14 @@ class warezbb_data_analyser():
         self.myAnalyser.print_dict_to_csv(self.get_author_total_replies_in_year(year),
             year + "_author_replies_total.csv")
 
+    def print_author_rank(self):
+        header = ['author', 'rank', 'total_threads',
+        'total_views', 'total_replies', 'average_replies'
+        , 'average_views', "hd", "web", "dvd", "cam", "vhs", "not given"]
+        myArray = self.caculate_author_rank()
+        self.myAnalyser.print_array_to_csv_with_header(myArray,
+            header, "author_rank.csv")
+
 if "__main__" == __name__:
     jay = warezbb_data_analyser()
-    print len(jay.get_author_counts())
+    jay.print_author_rank()
