@@ -133,7 +133,6 @@ class analyser():
                         else:
                             first_field = row[first_col_num]
                             second_field = row[second_col_num]
-
                     except IndexError:
                         pass
                     if first_field in count_dict:
@@ -178,8 +177,7 @@ class analyser():
                 self.print_dict_to_csv(count_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
             return count_dict
 
-    def count_two_fields_matching_third_field(self, col_1, col_2, col_3, value,
-        print_to_file=False):
+    def count_two_fields_matching_value_in_third_field(self, col_1, col_2, col_3, value, print_to_file=False):
         """ gets all cols for certain field that match input"""
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
@@ -203,7 +201,43 @@ class analyser():
                     try:
                         first_field = row[first_col_num]
                         second_field = row[second_col_num]
-                        third_field = row[third_col_num]
+                    except IndexError:
+                        pass
+                    if third_col_num == value:
+                        if first_field in count_dict:
+                            count_dict[first_field].append(second_field)
+                        else:
+                            count_dict[first_field] = [second_field]
+
+            if print_to_file:
+                self.print_dict_to_csv(count_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
+            return count_dict
+        
+    def count_two_fields_matching_third_field(self, col_1, col_2, col_3, value, print_to_file=False):
+        """ gets all cols for certain field that match input"""
+        with open(self.filename, 'rb') as f:
+            reader = csv.reader(f)
+            column_names = reader.next()
+            first_col_num = -1
+            second_col_num = -1
+            third_col_num = -1
+
+            for i in range(0, len(column_names)):
+                if column_names[i] == col_1:
+                    first_col_num = i
+                if column_names[i] == col_2:
+                    second_col_num = i
+                if column_names[i] == col_3:
+                    third_col_num = i
+
+            count_dict = {}
+
+            if first_col_num is not -1 and second_col_num is not -1 and third_col_num is not -1:
+                for row in reader:
+                    try:
+                        first_field = row[first_col_num]
+                        second_field = row[second_col_num]
+                        third_field = row[third_col_num].split("-")[0] ##HARD-CODED TO FORMAT POST DATES
                     except IndexError:
                         pass
                     if third_field == value:
@@ -313,7 +347,7 @@ class analyser():
                     except IndexError:
                         pass
         return col
-
+        
     def make_table(self, myDict, filename):
         """
         dict = {year: [year, # of authors,
@@ -338,12 +372,15 @@ class analyser():
         #Web web-dl, bdrip, webrip, vodrip, web dl, mp4, "MPEG-4"
         #unkown N/A, Unknown
 
+        quality = quality.lower()
+
         cam_dict = {"telesync": 0, "cam": 0, "hdts": 0, "iphone": 0}
         vhs_dict = {"vcd": 0, "vhs": 0, "vhsrip": 0}
         dvd_dict = {"dvd": 0, "dvdrip": 0, "telecine": 0, "workprint": 0,
         "screener": 0, "dvdsrc": 0, "tc": 0, "ppv": 0, "480p": 0}
         web_dict = {"web-dl": 0, "bdrip": 0, "webrip": 0, "vodrip": 0, "web dl": 0, "mp4": 0, "MPEG-4": 0}
         hd_dict = {"1080p": 0,"blu-ray": 0,"hdrip": 0,"720p": 0,"bdrip": 0, "brrip": 0, "hdtv": 0, 'x264': 0,"bluray":0}
+        na_dict = {"":0, "n/a":0, "unknown":0}
 
         if quality in cam_dict:
             return "cam"
@@ -355,9 +392,8 @@ class analyser():
             return "web"
         if quality in hd_dict:
             return "hd"
-        if quality.strip() is "":
-            return "not given"
-        return "not given"
+        if quality in na_dict:
+            return "n/a"
 
 if __name__ == "__main__":
     my_analyser = analyser('allWarezbbBlockResults.csv')

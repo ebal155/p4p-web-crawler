@@ -290,11 +290,6 @@ class warezbb_data_analyser():
             'year', year)
         return author_count
 
-    def get_total_movies_in_year(self, year):
-        movie_count = self.myAnalyser.count_two_fields_matching_value('movie title',
-            'year', year)
-        return movie_count
-
     def get_author_total_replies_in_year(self, year):
         author_replies = self.myAnalyser.count_two_fields_matching_third_field('author', 'replies', 'year', year) 
         author_total_replies = {}
