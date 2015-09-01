@@ -316,8 +316,21 @@ class analyser():
                     except IndexError:
                         pass
         return col
-
-    def get_quality_type(self, quality):
+        
+    def make_table(self, myDict, filename):
+        """
+        dict = {year: [year, # of authors,
+        # of posts,
+        # of content(i.e number of movies)
+        # of verions (i.e quality count)]}
+        """
+        f = open(filename, "wb")
+        writer = csv.writer(f)
+        writer.writerow(["Year", "# of authors", "# of posts", "# of movies", "# of verions"])
+        for key in myDict:
+            writer.writerow(myDict[key]);
+        
+    def  get_quality_type(self, quality):
         """qualities is a list of all the qualities that appear"""
 
         #CAM telesync, cam, hdts, iphone
