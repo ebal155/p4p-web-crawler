@@ -2,13 +2,11 @@ import scrapy
 import sys
 import re
 
-class warezbb_link_spider(scrapy.Spider):
+class warezbb_thread_link_collector_spider(scrapy.Spider):
     name = "warezLink"
     allowed_domains = ["https://www.warez-bb.org/*"]
     download_delay = 6
-    start_urls = [
-       "https://www.warez-bb.org/login.php"
-    ]
+    start_urls = ["https://www.warez-bb.org/login.php"]
     sticked_titles_id = [
         "21537617",
         "21451815",
@@ -24,19 +22,11 @@ class warezbb_link_spider(scrapy.Spider):
         "589689",
         "21793204"
     ]
-    catalog_id = { 
-        "movie":0,
-        "app":1,
-        "music":2,
-        "tv":3,
-        "game":4,
-        "anime":5 
-    }
     curr_page = 0
     start_page = 0
     end_page = 100000
-
     movie_forum_page = "https://www.warez-bb.org/viewforum.php?f=4"
+
     def parse(self, response):
         """ Makes request to login onto warezbb
             with after_login as a callback
@@ -46,6 +36,7 @@ class warezbb_link_spider(scrapy.Spider):
             formdata={'username': 'nzgangster', 'password': 'KANyezus'},
             callback=self.after_login, dont_filter=True
         )
+
     def after_login(self, response):
         """ Checks that the spider has logged on
             and makes a number of requests to
@@ -55,14 +46,14 @@ class warezbb_link_spider(scrapy.Spider):
             print "Failed to Log in, exiting now"
             return
         else:
-            print "Logged in"
             yield scrapy.Request(url=self.movie_forum_page,
                 meta={'id': self.catalog_id["movie"]},
                 callback=self.parse_outside_post, dont_filter=True)
+
     def parse_outside_post(self, response):
         if self.curr_page > self.end_page:
            # raise CloseSpider("crawled " + str(self.end_page))
-           print "!@! last time inside parse_outside_post"
+           pass
         else:
             if self.curr_page >= self.start_page:
                 f = open("numberOfPagesWarezMovies2.txt","w")
@@ -87,7 +78,6 @@ class warezbb_link_spider(scrapy.Spider):
                         f.write((str(link)) + " " + str(replies) + " " + str(views) +"\n")
             try:
                 self.curr_page = self.curr_page + 1
-                print "!@! going to page " +  str(self.curr_page)
                 current_page = response.xpath("//b[@class='active-button']")
                 current_page = current_page[0].xpath('text()').extract()[0]
                 next_page = int(current_page) + 1
@@ -99,6 +89,4 @@ class warezbb_link_spider(scrapy.Spider):
                 print type(e)
                 print e.args
                 print e
-                print "no next page"
                 pass
-

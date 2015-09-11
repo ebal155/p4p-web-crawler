@@ -34,13 +34,11 @@ class Warezbb_top_100_posters_Spider(scrapy.Spider):
                 callback=self.parse_outside_post, dont_filter=True)
             yield scrapy.Request(url=self.member_list_page_2,
                 callback=self.parse_outside_post, dont_filter=True)
+
     def parse_outside_post(self, response):
         """ goes through member list getting info"""
         # get the list_rows div, contains all members on this page
-        rows = response.xpath('//div[@class="list-rows"]') 
-
-
-
+        rows = response.xpath('//div[@class="list-rows"]')
         for row in rows.xpath('div'):
             item = WarezbbAuthorItem()
             divs = row.xpath('div')
@@ -80,6 +78,3 @@ class Warezbb_top_100_posters_Spider(scrapy.Spider):
         item['poster_rank'] = poster_rank[0].strip()
 
         yield item
-
-
-

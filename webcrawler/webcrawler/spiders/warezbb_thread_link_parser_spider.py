@@ -3,8 +3,8 @@ import sys
 import re
 from webcrawler.items import WarezbbItem
 
-class warezbb_link_checker_spider(scrapy.Spider):
-    name = "warezLink_checker"
+class warezbb_thread_parser_spider(scrapy.Spider):
+    name = "warez_thread_parser"
     allowed_domains = ["https://www.warez-bb.org/*"]
     download_delay = 6
     start_urls = [
@@ -78,7 +78,7 @@ class warezbb_link_checker_spider(scrapy.Spider):
 
     def get_movie_sources(self, title):
         found = re.search('^\[(.*?)\]', title)
-        if found: 
+        if found:
             sources = found.group(1)
             if "/" in sources:
                 char_to_spilt_by = "/"
@@ -92,7 +92,7 @@ class warezbb_link_checker_spider(scrapy.Spider):
                 char_to_spilt_by = "-"
             else:
                 char_to_spilt_by = None
-        else: 
+        else:
             return None
         if char_to_spilt_by is not None:
             return sources.split(char_to_spilt_by)
@@ -100,7 +100,7 @@ class warezbb_link_checker_spider(scrapy.Spider):
             return [sources]
 
     def get_movie_quality(self, title):
-        quality_types = [ 
+        quality_types = [
             "dvdrip", "bdrip",
             "dvdsrc", "telesync",
             "bluray", "dbd",
