@@ -1,3 +1,4 @@
+"""Makes blocks from the dumpfile"""
 import os
 
 def separate_blocks(block_size, index, num_file):
@@ -18,7 +19,7 @@ def separate_blocks(block_size, index, num_file):
 				n.write(lines[i])
 
 	print(count)
-	n.close()	
+	n.close()
 
 def main():
 	directory = 'TVdumpblocks'
@@ -49,4 +50,4 @@ def file_len(fname):
 			pass
 	return i + 1
 
-if __name__ == "__main__": main()	
+if __name__ == "__main__": main()

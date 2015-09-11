@@ -1,3 +1,5 @@
+"""This file seperates the movie torrents out of the full kickass torrent file
+list"""
 import sys
 
 dump = "dailydump.txt"
@@ -9,7 +11,7 @@ dump = "dailydump.txt"
 def get_movies(newfile):
 	with open(dump) as f:
 		for line in f:
-			list_line = line.split("|")	
+			list_line = line.split("|")
 
 			if len(list_line) == 11:
 				if 'Movies' in list_line[2]:
