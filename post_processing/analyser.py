@@ -6,35 +6,7 @@ class analyser():
     def __init__(self, filename):
         self.filename = filename
 
-    def print_dict_to_csv(self, myDict, filename):
-        f = open(filename, "wb")
-        writer = csv.writer(f)
-        for key in myDict:
-            writer.writerow([key, myDict[key]])
-
-    def print_array_to_csv(self, myArray, filename):
-        f = open(filename, "wb")
-        writer = csv.writer(f)
-        for x in range(0,len(myArray)):
-            writer.writerow([x] + myArray[x])
-
-    def print_array_to_csv_with_header(self, myArray, header, filename):
-        f = open(filename, "wb")
-        writer = csv.writer(f)
-        writer.writerow(header)
-        for x in range(0,len(myArray)):
-            writer.writerow(myArray[x])
-
-    def print_logged_array_to_csv(self, myArray, filename):
-        f = open(filename, "wb")
-        writer = csv.writer(f)
-        for x in range(0,len(myArray)):
-            print 0
-            print math.log(x+1)
-            print math.log(myArray[x])
-            writer.writerow([math.log(x+1),math.log(myArray[x])])
-
-    def count_field(self, col_name, split_by_comma=False, print_to_file=False, return_as_dict=False):
+    def count_field(self, col_name, split_by_comma=False, return_as_dict=False):
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
             column_names = reader.next()
@@ -69,14 +41,11 @@ class analyser():
                     rownum += 1
 
                 sorted_dict = sorted(count_dict.items(), key=operator.itemgetter(1), reverse=True)
-                if print_to_file:
-                    self.print_dict_to_csv(count_dict, col_name + '_count.csv')
                 if return_as_dict:
                     return count_dict
                 return sorted_dict
 
-
-    def count_field_unique(self, col_1, col_2, split_by_comma=False, print_to_file=False):
+    def count_field_unique(self, col_1, col_2, split_by_comma=False):
         """ gets all cols for certain field"""
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
@@ -104,11 +73,9 @@ class analyser():
                     else:
                         unique_dict[first_field] = second_field
 
-            if print_to_file:
-                self.print_dict_to_csv(unique_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
             return unique_dict
 
-    def count_two_fields(self, col_1, col_2, split_by_comma=True, print_to_file=False):
+    def count_two_fields(self, col_1, col_2, split_by_comma=True):
         """ gets all cols for certain field"""
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
@@ -140,11 +107,9 @@ class analyser():
                     else:
                         count_dict[first_field] = [second_field]
 
-            if print_to_file:
-                self.print_dict_to_csv(count_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
             return count_dict
 
-    def count_two_fields_matching_value(self, col_1, col_2, value, print_to_file=False):
+    def count_two_fields_matching_value(self, col_1, col_2, value):
         """ gets all cols for certain field that match input"""
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
@@ -173,11 +138,9 @@ class analyser():
                         else:
                             count_dict[first_field] = 1
 
-            if print_to_file:
-                self.print_dict_to_csv(count_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
             return count_dict
 
-    def count_two_fields_matching_value_in_third_field(self, col_1, col_2, col_3, value, print_to_file=False):
+    def count_two_fields_matching_value_in_third_field(self, col_1, col_2, col_3, value):
         """ gets all cols for certain field that match input"""
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
@@ -209,11 +172,9 @@ class analyser():
                         else:
                             count_dict[first_field] = [second_field]
 
-            if print_to_file:
-                self.print_dict_to_csv(count_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
             return count_dict
-        
-    def count_two_fields_matching_third_field(self, col_1, col_2, col_3, value, print_to_file=False):
+
+    def count_two_fields_matching_third_field(self, col_1, col_2, col_3, value):
         """ gets all cols for certain field that match input"""
         with open(self.filename, 'rb') as f:
             reader = csv.reader(f)
@@ -246,12 +207,10 @@ class analyser():
                         else:
                             count_dict[first_field] = [second_field]
 
-            if print_to_file:
-                self.print_dict_to_csv(count_dict, str(col_1) + '_' + str(col_2) + '_' + 'Count.csv')
             return count_dict
 
     def get_rows_by_field(self, field):
-        """returns a dict of rows sorted by a 
+        """returns a dict of rows sorted by a
         given field """
 
         with open(self.filename, 'rb') as f:
@@ -296,7 +255,7 @@ class analyser():
                         pass
                     if field_to_check == value:
                         arrayOfRows.append(row)
-            return arrayOfRows        
+            return arrayOfRows
 
     def get_rows_by_field_that_have_given_value(self, field_to_sort,
         field_to_match, value):
@@ -347,7 +306,7 @@ class analyser():
                     except IndexError:
                         pass
         return col
-        
+
     def make_table(self, myDict, filename):
         """
         dict = {year: [year, # of authors,
@@ -361,12 +320,12 @@ class analyser():
         for key in myDict:
             writer.writerow(myDict[key]);
 
-        
+
     def  get_quality_type(self, quality):
         """qualities is a list of all the qualities that appear"""
 
         #CAM telesync, cam, hdts, iphone
-        # VHS vcd, vhs, vhsrip, 
+        # VHS vcd, vhs, vhsrip,
         #DVD dvd, dvdrip,telecine, workprint, screener, tc, ppv, 480p, tvrip, "dvdsrc"
         #HD 1080p, blu-ray, hdrip, 720p, bdrip, brrip, hdtv, 'x264'
         #Web web-dl, bdrip, webrip, vodrip, web dl, mp4, "MPEG-4"
@@ -399,5 +358,5 @@ if __name__ == "__main__":
     my_analyser = analyser('allWarezbbBlockResults.csv')
     field_name1 = "post_date"
     field_name2 = "author"
-    my_analyser.count_field("author", split_by_comma=False, print_to_file=True)
+    my_analyser.count_field("author", split_by_comma=False)
     # my_analyser.count_field(field_name , split_by_comma=False)

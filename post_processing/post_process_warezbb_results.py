@@ -102,14 +102,14 @@ class analyser():
             return date[4:7]
         except:
             return None
-    
+
     def get_year(self, row):
         try:
             date = row[3]
             return date[12:16]
         except:
             return None
-    
+
     def get_hour(self, row):
         try:
             date = row[3]
@@ -122,7 +122,7 @@ class analyser():
             else:
                 if '12' not in hour:
                     hour = int(hour) + 12
-                else: 
+                else:
                     hour = int(hour)
             return hour
         except:

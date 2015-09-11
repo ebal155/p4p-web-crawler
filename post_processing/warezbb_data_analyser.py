@@ -1,11 +1,13 @@
 from analyser import analyser
+from my_printer import my_printer
 import operator
 
 
 class warezbb_data_analyser():
     def __init__(self):
-        self.filename = "processedWarezbbMovieFile.csv"
+        self.filename = "data/processedWarezbbMovieFile.csv"
         self.myAnalyser = analyser(self.filename)
+        self.my_printer = my_printer()
         self.years = ['2015', '2014', '2013', '2012', '2011', '2010', '2009']
 
     def print_all(self):
@@ -24,7 +26,7 @@ class warezbb_data_analyser():
 
     def get_post_dates(self):
         """get all the posts dates"""
-        myDict = self.myAnalyser.count_field('post_date', print_to_file=False,
+        myDict = self.myAnalyser.count_field('post_date',
             return_as_dict=True)
         newDict = {}
         for date  in myDict:
@@ -37,13 +39,13 @@ class warezbb_data_analyser():
 
     def get_posts_dates_by_year(self):
         """"gets all the posts sorted by year"""
-        return self.myAnalyser.count_field('year', print_to_file=False,
+        return self.myAnalyser.count_field('year',
             return_as_dict=True)
 
 
     def get_author_counts(self):
         """get all the author counts"""
-        return self.myAnalyser.count_field('author', print_to_file=False,
+        return self.myAnalyser.count_field('author',
             return_as_dict=True)
 
     def get_author_total_views(self):
@@ -113,7 +115,7 @@ class warezbb_data_analyser():
                     qualities[author]["dvd"],
                     qualities[author]["cam"],
                     qualities[author]["vhs"],
-                    qualities[author]["not given"]])
+                    qualities[author]["n/a"]])
         return myArray
 
 
@@ -175,11 +177,11 @@ class warezbb_data_analyser():
                             dvd_movie[movie] += 1
                         else:
                             dvd_movie[movie] = 1
-        self.myAnalyser.print_dict_to_csv(hd_movie, "hd_movies.csv")
-        self.myAnalyser.print_dict_to_csv(cam_movie, "cam_movies.csv")
-        self.myAnalyser.print_dict_to_csv(vhs_movie, "vhs_movies.csv")
-        self.myAnalyser.print_dict_to_csv(web_movie, "web_movies.csv")
-        self.myAnalyser.print_dict_to_csv(dvd_movie, "dvd_movies.csv")
+        self.my_printer.print_dict_to_csv(hd_movie, "hd_movies.csv")
+        self.my_printer.print_dict_to_csv(cam_movie, "cam_movies.csv")
+        self.my_printer.print_dict_to_csv(vhs_movie, "vhs_movies.csv")
+        self.my_printer.print_dict_to_csv(web_movie, "web_movies.csv")
+        self.my_printer.print_dict_to_csv(dvd_movie, "dvd_movies.csv")
 
     def print_table(self):
         """Year, # of authors, # of posts, # of movies, # of verions"""
@@ -207,7 +209,7 @@ class warezbb_data_analyser():
                     movie_quality[movie] = len(quality_list)
             sum = 0
             for movie in movie_quality:
-                if type(movie_quality[movie]) is int: 
+                if type(movie_quality[movie]) is int:
                     sum += movie_quality[movie]
                 else:
                     sum += 1
@@ -220,7 +222,7 @@ class warezbb_data_analyser():
         for movie in movie_quality:
             myDict[movie] = movie_quality[movie][0]
             for i in range(1,len(movie_quality[movie])):
-                myDict[movie] = myDict[movie] + "," + movie_quality[movie][i]           
+                myDict[movie] = myDict[movie] + "," + movie_quality[movie][i]
         return myDict
 
     def get_author_total_replies(self):
@@ -248,7 +250,7 @@ class warezbb_data_analyser():
         return author_average_replies
 
     def get_author_qualities_count(self):
-        quality_dict = {"cam":0,"vhs":0,"dvd":0,"web":0,"hd":0,"not given":0}
+        quality_dict = {"cam":0,"vhs":0,"dvd":0,"web":0,"hd":0,"n/a":0}
         myArray = self.myAnalyser.count_two_fields('author','detected_quality',split_by_comma=False)
         authorDict = {}
         for author in myArray:
@@ -260,7 +262,7 @@ class warezbb_data_analyser():
                     if author in authorDict:
                         q_dict = authorDict[author]
                     else:
-                        q_dict = {"cam":0,"vhs":0,"dvd":0,"web":0,"hd":0,"not given":0}
+                        q_dict = {"cam":0,"vhs":0,"dvd":0,"web":0,"hd":0,"n/a":0}
                     t = self.myAnalyser.get_quality_type(q)
                     q_dict[t] += 1
                     authorDict[author] = q_dict
@@ -291,7 +293,7 @@ class warezbb_data_analyser():
         return author_count
 
     def get_author_total_replies_in_year(self, year):
-        author_replies = self.myAnalyser.count_two_fields_matching_third_field('author', 'replies', 'year', year) 
+        author_replies = self.myAnalyser.count_two_fields_matching_third_field('author', 'replies', 'year', year)
         author_total_replies = {}
         for author in author_replies:
             sum = 0
@@ -301,59 +303,59 @@ class warezbb_data_analyser():
         return author_total_replies
 
     def print_qualities(self):
-        self.myAnalyser.print_dict_to_csv(self.get_qualities(),
+        self.my_printer.print_dict_to_csv(self.get_qualities(),
             'total_quality_types.csv')
 
     def print_total_post_dates(self):
-        self.myAnalyser.print_dict_to_csv(self.get_post_dates(),
+        self.my_printer.print_dict_to_csv(self.get_post_dates(),
             'alltime_posts.csv')
 
     def print_total_posts_by_year(self):
-        self.myAnalyser.print_dict_to_csv(self.get_posts_dates_by_year(),
+        self.my_printer.print_dict_to_csv(self.get_posts_dates_by_year(),
             'alltime_posts_by_year.csv')
 
     def print_total_author_count(self):
-        self.myAnalyser.print_dict_to_csv(self.get_author_counts(),
+        self.my_printer.print_dict_to_csv(self.get_author_counts(),
             'alltime_author_count.csv')
 
     def print_author_view_averages(self):
-        self.myAnalyser.print_dict_to_csv(self.caculate_author_view_averages(), 
+        self.my_printer.print_dict_to_csv(self.caculate_author_view_averages(),
             'alltime_author_view_averages.csv')
 
     def print_logged_author_rank_by_no_of_views(self):
         ranks = self.caculate_author_rank_by_no_of_views()
-        self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbyviews.csv")
+        self.my_printer.print_logged_array_to_csv(ranks, "loggedauthorRankbyviews.csv")
 
     def print_logged_author_rank_by_no_of_replies(self):
         ranks = self.caculate_author_rank_by_no_of_replies()
-        self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbyreplies.csv")
+        self.my_printer.print_logged_array_to_csv(ranks, "loggedauthorRankbyreplies.csv")
 
     def print_logged_author_rank_by_no_of_threads(self):
         ranks = self.caculate_author_rank_by_no_of_threads()
-        self.myAnalyser.print_logged_array_to_csv(ranks, "loggedauthorRankbythreads.csv")
+        self.my_printer.print_logged_array_to_csv(ranks, "loggedauthorRankbythreads.csv")
 
     def print_author_rank_by_no_of_views(self):
         ranks = self.caculate_author_rank_by_no_of_views()
-        self.myAnalyser.print_array_to_csv(ranks, "authorRankbyviews.csv")
+        self.my_printer.print_array_to_csv(ranks, "authorRankbyviews.csv")
 
     def print_author_rank_by_no_of_replies(self):
         ranks = self.caculate_author_rank_by_no_of_replies()
-        self.myAnalyser.print_array_to_csv(ranks, "authorRankbyreplies.csv")
+        self.my_printer.print_array_to_csv(ranks, "authorRankbyreplies.csv")
 
     def print_author_rank_by_no_of_threads(self):
         ranks = self.caculate_author_rank_by_no_of_threads()
-        self.myAnalyser.print_array_to_csv(ranks, "authorRankbythreads.csv")
+        self.my_printer.print_array_to_csv(ranks, "authorRankbythreads.csv")
 
     def print_author_total_views(self):
-        self.myAnalyser.print_dict_to_csv(self.get_author_total_views(),
+        self.my_printer.print_dict_to_csv(self.get_author_total_views(),
             'alltime_author_views_total.csv')
 
     def print_author_total_replies(self):
-        self.myAnalyser.print_dict_to_csv(self.get_author_total_replies(),
+        self.my_printer.print_dict_to_csv(self.get_author_total_replies(),
             'alltime_author_replies_total.csv')
 
     def print_author_replies_averages(self):
-        self.myAnalyser.print_dict_to_csv(self.caculate_author_replies_averages(),
+        self.my_printer.print_dict_to_csv(self.caculate_author_replies_averages(),
             "alltime_author_replies_averages.csv")
 
     def print_author_posts_all_years(self):
@@ -365,11 +367,11 @@ class warezbb_data_analyser():
             self.print_author_total_replies_in_year(year)
 
     def print_author_posts_in_year(self, year):
-        self.myAnalyser.print_dict_to_csv(self.get_author_posts_in_year(year),
+        self.my_printer.print_dict_to_csv(self.get_author_posts_in_year(year),
             year + '_author_count.csv')
 
     def print_author_total_replies_in_year(self, year):
-        self.myAnalyser.print_dict_to_csv(self.get_author_total_replies_in_year(year),
+        self.my_printer.print_dict_to_csv(self.get_author_total_replies_in_year(year),
             year + "_author_replies_total.csv")
 
     def print_author_rank(self):
@@ -377,7 +379,7 @@ class warezbb_data_analyser():
         'total_views', 'total_replies', 'average_replies'
         , 'average_views', "hd", "web", "dvd", "cam", "vhs", "not given"]
         myArray = self.caculate_author_rank()
-        self.myAnalyser.print_array_to_csv_with_header(myArray,
+        self.my_printer.print_array_to_csv_with_header(myArray,
             header, "author_rank.csv")
 
 if "__main__" == __name__:
