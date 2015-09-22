@@ -336,8 +336,8 @@ class analyser():
         cam_dict = {"telesync": 0, "cam": 0, "hdts": 0, "iphone": 0}
         vhs_dict = {"vcd": 0, "vhs": 0, "vhsrip": 0}
         dvd_dict = {"dvd": 0, "dvdrip": 0, "telecine": 0, "workprint": 0,
-        "screener": 0, "dvdsrc": 0, "tc": 0, "ppv": 0, "480p": 0}
-        web_dict = {"web-dl": 0, "bdrip": 0, "webrip": 0, "vodrip": 0, "web dl": 0, "mp4": 0, "MPEG-4": 0}
+        "screener": 0, "dvdsrc": 0, "tc": 0, "ppv": 0, "480p": 0, "tvrip":0}
+        web_dict = {"web-dl": 0, "bdrip": 0, "webrip": 0, "vodrip": 0, "web dl": 0, "mp4": 0, "mpeg-4": 0}
         hd_dict = {"1080p": 0,"blu-ray": 0,"hdrip": 0,"720p": 0,"bdrip": 0, "brrip": 0, "hdtv": 0, 'x264': 0,"bluray":0}
         na_dict = {"":0, "n/a":0, "unknown":0}
 
@@ -353,6 +353,7 @@ class analyser():
             return "hd"
         if quality in na_dict:
             return "n/a"
+
 
 if __name__ == "__main__":
     my_analyser = analyser('allWarezbbBlockResults.csv')
