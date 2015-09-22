@@ -2,9 +2,8 @@ import csv
 import datetime
 import re
 
-
-#This script is used to post process the raw kickass.csv file
 class Processor:
+    """This script is used to post process the raw kickass.csv file"""
     def __init__(self, filename):
         self.filename = filename
 
@@ -50,7 +49,10 @@ class Processor:
         try:
             if downloads == "once.":
                 downloads = 1
+            else:
+                downloads = downloads.replace(',', '')
             return downloads
+
         except Exception as e:
             print e
             return None
@@ -66,12 +68,16 @@ class Processor:
             print e
             return None
 
-    def get_movie_title(self, title):
+    def get_movie_title(self, post_title):
         try:
             #regular expression that searches for a 4 digit number
             #most kickass post titles are in the format "[Movie title] [Year] [Other]""
-            m = re.search('\d{4}', title)
-            return title[:m.start()-1]
+            m = re.search('\d{4}', post_title)
+            movie_title = post_title[:m.start()-1]
+            if (movie_title is None):
+                return post_title
+            else:
+                return movie_title
         except Exception as e:
             print e
             return None
