@@ -26,13 +26,13 @@ Current spiders:
 * warez_thread_parser (warezbb_thread_link_parser_spider.py)  
 * top_100 (warez_bb_top_100_posters.py)  
 
-### analysing the data:
+### Analysing the collected data:
 -----
-Run the post processing scripts on the raw data that was collected using the web crawlers  
+The post processing scripts were run on the raw data that was collected using the web crawlers  
 * post_process_kickass_results.py  
 * post_process_warezbb_results.py  
 
-Perform analysis on the processed data using the two analyser scripts:  
+We perform analysis on the processed data using two analyser scripts:  
 * kickass_data_analyser.py  
 * warezbb_data_analyser.py  
 
