@@ -26,7 +26,7 @@ class Processor:
 
                             #convert the linux date to Y/M/D format
                             linux_date = int(row[5])
-                            row[5] = self.convert_linux_date_to_standard(linux_date)
+                            row[5] = self.convert_linux_date_to_standard(linux_date, year_only=True)
 
                             #Extract the movie title out of the post title
                             post_title = row[13]
@@ -61,7 +61,7 @@ class Processor:
         try:
             newdate = datetime.datetime.fromtimestamp(date).strftime('%Y-%m-%d')
             if year_only:
-                return newdate[0]
+                return newdate.split("-")[0]
             else:
                 return newdate
         except Exception as e:
@@ -71,12 +71,13 @@ class Processor:
     def get_movie_title(self, post_title):
         try:
             #regular expression that searches for a 4 digit number
-            #most kickass post titles are in the format "[Movie title] [Year] [Other]""
+            #most kickass post titles are in the format "[Movie title] [Year] [Other]"
             m = re.search('\d{4}', post_title)
-            movie_title = post_title[:m.start()-1]
-            if (movie_title is None):
+
+            if (m is None):
                 return post_title
             else:
+                movie_title = post_title[:m.start()-1]
                 return movie_title
         except Exception as e:
             print e
