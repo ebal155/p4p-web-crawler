@@ -1,11 +1,12 @@
 from analyser import analyser
 from my_printer import my_printer
 
+
 #This script is used to analyse the processed kickass metadata
 #Results of the queries in this class should be printed out to a .csv in the same directory
 class kickass_data_analyser():
-    def __init__(self):
-        self.filename = "kickass_movies_processed.csv"
+    def __init__(self, filename):
+        self.filename = filename
         self.kickass_analyser = analyser(self.filename)
         self.printer = my_printer()
 
@@ -36,7 +37,7 @@ class kickass_data_analyser():
         self.printer.print_dict_to_csv(downloads_dictionary, newfilename)
 
     def get_author_download_averages(self, newfilename):
-        """Get average number of downloads per author"""
+        """Get average number of downloads per author."""
         author_count = self.kickass_analyser.count_field('author', return_as_dict=True)
         author_downloads = self.kickass_analyser.count_two_fields('author', 'downloads')
 
@@ -55,7 +56,7 @@ class kickass_data_analyser():
         self.printer.print_dict_to_csv(author_average_downloads, newfilename)
 
     def get_year_download_averages(self, newfilename):
-        """Get the average download numbers per year"""
+        """Get the average download numbers per year."""
         year_count = self.kickass_analyser.count_field('post_date', return_as_dict=True)
         year_downloads = self.kickass_analyser.count_two_fields('post_date', 'downloads')
 
@@ -73,7 +74,7 @@ class kickass_data_analyser():
         self.printer.print_dict_to_csv(year_average_downloads, newfilename)
 
     def total_number_of_downloads_per_author(self, newfilename):
-        """Get the total number of downloads per author"""
+        """Get the total number of downloads per author."""
         author_view_dictionary = self.kickass_analyser.count_two_fields('author', 'downloads')
         for author in author_view_dictionary:
             sum = 0
@@ -86,13 +87,13 @@ class kickass_data_analyser():
         return author_view_dictionary
 
     def total_number_of_posts_per_author(self, newfilename):
-        """Get the total number of posts per author"""
+        """Get the total number of posts per author."""
         author_post_dictionary = self.kickass_analyser.count_field('author', return_as_dict=True)
 
         self.printer.print_dict_to_csv(author_post_dictionary, newfilename)
 
     def get_reputation_per_author(self, newfilename):
-        """Get the reputation value per author"""
+        """Get the reputation value per author."""
         author_reputation_dictionary = self.kickass_analyser.count_field_unique('author', 'author_reputation')
 
         for reputation in author_reputation_dictionary:
@@ -102,7 +103,7 @@ class kickass_data_analyser():
         self.printer.print_dict_to_csv(author_reputation_dictionary, newfilename)
 
     def count_unique_movies(self, newfilename):
-        """Get the number of unique movies per day/year (depending on post_date format)"""
+        """Get the number of unique movies per day/year (depending on post_date format)."""
         year_movie_dictionary = self.kickass_analyser.count_two_fields('post_date', 'title')
 
         movie_count_per_year_dictionary = {}
@@ -113,7 +114,7 @@ class kickass_data_analyser():
         self.printer.print_dict_to_csv(movie_count_per_year_dictionary, newfilename)
 
     def count_unique_content(self, newfilename):
-        """Get the number of unique versions of movies per day/year (depending on post_date format)"""
+        """Get the number of unique versions of movies per day/year (depending on post_date format)."""
         year_movie_dictionary = self.kickass_analyser.count_two_fields('post_date', 'title')
 
         for year in year_movie_dictionary:
@@ -185,4 +186,4 @@ class kickass_data_analyser():
         self.printer.print_dict_to_csv(dvd_movie, "dvd_movies.csv")
 
 if "__main__" == __name__:
-    kickass_analyser = kickass_data_analyser()
+    kickass_analyser = kickass_data_analyser("kickass_movies_processed.csv")

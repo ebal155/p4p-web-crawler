@@ -2,8 +2,9 @@ import csv
 import datetime
 import re
 
+
 class Processor:
-    """This script is used to post process the raw kickass.csv file"""
+    """This script is used to post process the raw kickass.csv file."""
     def __init__(self, filename):
         self.filename = filename
 
