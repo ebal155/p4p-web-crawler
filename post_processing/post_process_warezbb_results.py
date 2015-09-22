@@ -3,7 +3,8 @@ import operator
 import sys
 import re
 
-class analyser():
+class WarezbbProcessor():
+    """This script is used to post process the raw warezbb csv file."""
     def __init__(self, filename):
         self.filename = filename
 
@@ -28,23 +29,23 @@ class analyser():
                     wr.writerow(header)
                 else:
                     # full source names
-                     row = row[:10]
-                     allSources = self.clean_code_fields(row)
-                     if allSources is not None:
-                       row.append(','.join(allSources))
-                       row.append(','.join(set(allSources)))
-                     else:
+                    row = row[:10]
+                    allSources = self.clean_code_fields(row)
+                    if allSources is not None:
+                        row.append(','.join(allSources))
+                        row.append(','.join(set(allSources)))
+                    else:
                         row.append("")
                         row.append("")
-                     # format date for easier reading
-                     row.append(self.get_year(row))
-                     row.append(self.get_month(row))
-                     row.append(self.get_day(row))
-                     row.append(self.get_hour(row))
-                     row.append(self.get_week_day(row))
-                     # get movie Title
-                     row.append(self.get_movie_title(row))
-                     wr.writerow(row)
+                    # format date for easier reading
+                    row.append(self.get_year(row))
+                    row.append(self.get_month(row))
+                    row.append(self.get_day(row))
+                    row.append(self.get_hour(row))
+                    row.append(self.get_week_day(row))
+                    # get movie Title
+                    row.append(self.get_movie_title(row))
+                    wr.writerow(row)
 
                 rownum += 1
 
@@ -84,7 +85,7 @@ class analyser():
             if ']' in title:
                 title = title[title.index("]")+1:].strip()
             if re.search('\d{4}', title):
-                m =  re.search('\d{4}', title)
+                m = re.search('\d{4}', title)
                 if m:
                     title = title[:m.start()]
                 if "(" in title:
@@ -136,5 +137,5 @@ class analyser():
             return None
 
 if __name__ == "__main__":
-    my_analyser = analyser('warezbbMoviesResults.csv')
+    my_analyser = WarezbbProcessor('warezbbMoviesResults.csv')
     my_analyser.post_process()

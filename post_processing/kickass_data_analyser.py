@@ -1,14 +1,13 @@
-from analyser import analyser
-from my_printer import my_printer
+from analyser import Analyser
+from my_printer import MyPrinter
 
-
-#This script is used to analyse the processed kickass metadata
-#Results of the queries in this class should be printed out to a .csv in the same directory
-class kickass_data_analyser():
+class KickassDataAnalyser():
+    """ This script is used to analyse the processed kickass metadata
+    Results of the queries in this class should be printed out to a .csv in the same directory """
     def __init__(self, filename):
         self.filename = filename
-        self.kickass_analyser = analyser(self.filename)
-        self.printer = my_printer()
+        self.kickass_analyser = Analyser(self.filename)
+        self.printer = MyPrinter()
 
     def get_number_of_authors(self, newfilename):
         """Gets number of authors that posted for every day/year (depending on post_date format)."""
@@ -186,4 +185,4 @@ class kickass_data_analyser():
         self.printer.print_dict_to_csv(dvd_movie, "dvd_movies.csv")
 
 if "__main__" == __name__:
-    kickass_analyser = kickass_data_analyser("kickass_movies_processed.csv")
+    kickass_analyser = KickassDataAnalyser("kickass_movies_processed.csv")
