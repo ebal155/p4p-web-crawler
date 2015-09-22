@@ -1,53 +1,59 @@
-"""Makes blocks from the dumpfile"""
 import os
 
-def separate_blocks(block_size, index, num_file):
 
-	count = index
+class block_creator():
+    """This script is used to separate the kickass data dump file into smaller blocks"""
+    def __init__(self, directory, block_size, current_index, current_num_file):
+        self.directory = directory
+        self.block_size = block_size
+        self.current_index = current_index
+        self.current_num_file = current_num_file
 
-	with open('dumps-TOBEBLOCKED/TVdump.txt') as f:
-		lines = f.readlines()
+    def start(self):
+        if not os.path.exists(directory):
+            os.mkdir(directory)
 
-	n = open('./TVdumpblocks/test' + str(num_file) + '.txt','a')
+        filename = 'moviedump.txt'
+        num_lines = file_len(filename)
 
-	for i in range (index, index+block_size):
-		if not i > len(lines):
-			if (count > len(lines)):
-				break
-			count = count + 1
-			if not (i >= len(lines)):
-				n.write(lines[i])
+        print('Number of lines: ' + str(num_lines))
 
-	print(count)
-	n.close()
+        while(num_lines > self.current_index):  # Keep making blocks until there are no lines left in the main file.
+            print("Current Index: " + str(self.current_index))
+            print("Current number of files: " + str(self.current_num_file))
 
-def main():
-	directory = 'TVdumpblocks'
+            self.separate_blocks(filename)
+            self.current_index = self.current_index + self.block_size
+            self.current_num_file = self.current_num_file + 1
 
-	if not os.path.exists(directory):
-		os.mkdir(directory)
+    def separate_blocks(self, filename):
+        """Makes blocks from the dumpfile"""
+        count = self.current_index
+        newfilename = filename.split(".")[0]  # Name the new block files the same as the current file but with a number added to the end.
 
-	block_size = 250000
-	current_index = 0
-	current_num_file = 1
-	num_lines = file_len('dumps-TOBEBLOCKED/TVdump.txt')
+        with open(filename) as f:
+            lines = f.readlines()
 
-	print('Number of lines: ' + str(num_lines))
+        n = open("./" + self.directory + "/" + newfilename + str(self.current_num_file) + '.txt', 'a')
 
-	while (num_lines > current_index):
-
-		print("Current Index: " + str(current_index))
-		print("Current number of files: " + str(current_num_file))
-
-		separate_blocks(block_size, current_index, current_num_file)
-		current_index = current_index + block_size
-		current_num_file = current_num_file + 1
+        for i in range(self.current_index, self.current_index+self.block_size):
+            if not i > len(lines):
+                if (count > len(lines)):
+                    break
+                count = count + 1
+                if not (i >= len(lines)):
+                    n.write(lines[i])
+        n.close()
 
 
 def file_len(fname):
-	with open(fname) as f:
-		for i, l in enumerate(f):
-			pass
-	return i + 1
+    """Utility method to count number of lines in a file"""
+    with open(fname) as f:
+        for i, l in enumerate(f):
+            pass
+    return i + 1
 
-if __name__ == "__main__": main()
+if "__main__" == __name__:
+    directory = 'moviedumpblocks'
+    block_creator = block_creator(directory, 250000, 0, 1)
+    block_creator.start()
