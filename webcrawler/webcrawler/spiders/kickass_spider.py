@@ -14,7 +14,7 @@ class KickassSpider(scrapy.Spider):
     def parse(self, response):
 
         list_links = []
-        #The kickass data dump can be separated into smaller files using dumpseparator.py
+        #The kickass data dump can be separated into smaller files using blockcreator.py
         filename = "moviedumpblocks/test6.txt"  # list of links that will be read from
 
         with open(filename) as f:

@@ -1,30 +1,17 @@
-"""This file seperates the movie torrents out of the full kickass torrent file
-list"""
-import sys
+class dump_separator():
+    """This script extracts all the torrents of a given category out of the full kickass data dump"""
+    def __init__(self, filename):
+        self.filename = filename
 
-dump = "dailydump.txt"
+    def separate_dump(self, newfile, category):
+        with open(self.filename) as f:
+            for line in f:
+                list_line = line.split("|")
 
-#TV
-#Applications
-#Movies
-
-def get_movies(newfile):
-	with open(dump) as f:
-		for line in f:
-			list_line = line.split("|")
-
-			if len(list_line) == 11:
-				if 'Movies' in list_line[2]:
-					with open(newfile, "a") as myfile:
-						myfile.write(line)
-
-def main():
-
-	# kickass_dump_filename
-	# movie_dump_filename
-
-	get_movies("moviedump.txt")
-	print(file_len("moviedump.txt"))
+                if len(list_line) == 11:
+                    if category in list_line[2]:
+                        with open(newfile, "a") as myfile:
+                            myfile.write(line)
 
 
 def file_len(fname):
@@ -33,4 +20,7 @@ def file_len(fname):
             pass
     return i + 1
 
-if __name__ == "__main__": main()
+if "__main__" == __name__:
+    filename = "dailydump.txt"  # This file should be the full data damp taken from the kickass API
+    dump_separator = dump_separator(filename)
+    dump_separator.separate_dump("moviedump.txt", 'Movies')
