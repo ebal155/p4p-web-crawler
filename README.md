@@ -41,3 +41,12 @@ The methods in these analyser scripts use the utility methods from analyser.py, 
 The data we collected is available with our supervisor. Contact details are listed below
 
     a.mahanti@auckland.ac.nz
+
+### Results
+-----
+The following items can be found under data.rar (separated for kickass and warezbb):  
+* Raw metadata that was collected can be found under the 'data' folder (run the post-processing scripts to process this data)  
+* The links that were traversed by both web crawlers are inside the 'links' folder  
+* Various csv tables that were made using the analysis library are inside the 'tables' folder  
+* Graphs that were made using R are located inside the 'R graphs' folder  
+
